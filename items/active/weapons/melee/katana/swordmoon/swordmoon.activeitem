@@ -1,0 +1,37 @@
+{
+  "itemName" : "starknight_swordmoon",
+  "price" : 1500,
+  "level" : 7,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "SwordMoon",
+  "shortdescription" : "SwordMoon",
+  "tooltipKind" : "sword",
+  "category" : "Katana",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "melee", "broadsword"],
+
+  "inventoryIcon" : "SwordMoon.png",
+
+  "animation" : "/items/active/weapons/melee/katana/swordmoon/swordmoon.animation",
+  "animationParts" : {
+    "handle": "handle.png",
+	"swordfullbright" : "fullbright.png",
+    "blade" : "blade.png"
+  },
+   "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/energymeleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+ "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.8,
+    "baseDps" : 10
+  },
+  
+  "altAbilityType" : "bladecharge",
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}
