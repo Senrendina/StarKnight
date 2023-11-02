@@ -1,0 +1,21 @@
+{
+  "materialId" : 3172,
+  "materialName" : "Celureus_Block",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "Celureus_Block",
+  "description" : "A machinery block with bronze",
+  "shortdescription" : "Celureus Block",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "Celureus_Block.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 146
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "Celureus_WallSupport",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "Celureus_WallSupportico.png",
+  "description" : "A Metal Support for Wall",
+  "shortdescription" : "Celureus Wall Support",
+
+  "materialId" : 3178
+}

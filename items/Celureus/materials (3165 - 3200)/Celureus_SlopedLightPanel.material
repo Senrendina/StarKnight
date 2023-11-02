@@ -1,0 +1,23 @@
+{
+  "materialId" : 3173,
+  "materialName" : "Celureus_SlopedLightPanel",
+  "particleColor" : [237, 254, 255, 255],
+  "itemDrop" : "Celureus_SlopedLightPanel",
+  
+  "shortdescription" : "Celureus Sloped Panel",
+  "description" : "Blue Light Metal Plate used to build Spaceship or Ship",
+  
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "Celureus_SlopedLightPanel.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 470
+  }
+}

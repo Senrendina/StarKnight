@@ -1,0 +1,11 @@
+{
+  "itemName" : "starknight_DarkHull",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "starknight_DarkHullico.png",
+  "shortdescription" : "Dark Sloped Hull",
+  "description" : "Dark Metal Plate used to build Spaceship or Ship",
+
+  "materialId" : 3176
+}

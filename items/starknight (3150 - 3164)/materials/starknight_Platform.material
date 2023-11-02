@@ -1,0 +1,23 @@
+{
+  "materialId" : 3154,
+  "materialName" : "starknight_Platform",
+  "collisionKind" : "platform",
+  "transparent" : true,
+  "itemDrop" : "starknight_Platform",
+  
+  "shortdescription" : "Platform",
+  "description" : "A well-constructed metal platform.",
+ 
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "category" : "Supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "starknight_Platform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

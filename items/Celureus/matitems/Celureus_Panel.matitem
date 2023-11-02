@@ -1,0 +1,11 @@
+{
+  "itemName" : "Celureus_Panel",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "Celureus_Panelico.png",
+  "shortdescription" : "Celureus Panel",
+  "description" : "Cerulean Metal Plate used to build Wall",
+
+  "materialId" : 3171
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "Celureus_Platform",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "Celureus_Platformico.png",
+  "description" : "A well-constructed metal platform.",
+  "shortdescription" : "Platform",
+
+  "materialId" : 3168
+}

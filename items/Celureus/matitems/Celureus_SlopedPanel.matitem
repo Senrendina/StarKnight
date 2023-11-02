@@ -1,0 +1,11 @@
+{
+  "itemName" : "Celureus_SlopedPanel",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "Celureus_SlopedPanelico.png",
+  "shortdescription" : "Celureus Sloped Panel",
+  "description" : "Blue Metal Plate used to build Spaceship or Ship",
+
+  "materialId" : 3174
+}

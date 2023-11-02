@@ -1,0 +1,11 @@
+{
+  "itemName" : "Celureus_Block",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "Celureus_Blockico.png",
+  "description" : "A machinery block with bronze",
+  "shortdescription" : "Celureus Block",
+
+  "materialId" : 3172
+}

@@ -1,0 +1,23 @@
+{
+  "materialId" : 3176,
+  "materialName" : "starknight_DarkHull",
+  "particleColor" : [237, 254, 255, 255],
+  "itemDrop" : "starknight_DarkHull",
+  
+  "shortdescription" : "Dark Sloped Hull",
+  "description" : "Dark Metal Plate used to build Spaceship or Ship",
+  
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "starknight_DarkHull.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 470
+  }
+}

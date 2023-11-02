@@ -1,0 +1,23 @@
+{
+  "materialId" : 3160,
+  "materialName" : "starknight_SlopedPanel",
+  "particleColor" : [237, 254, 255, 255],
+  "itemDrop" : "starknight_SlopedPanel",
+  
+  "shortdescription" : "Cyan Sloped Hull",
+  "description" : "Cyan Metal Plate used to build Spaceship or Ship",
+  
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "starknight_SlopedPanel.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 470
+  }
+}

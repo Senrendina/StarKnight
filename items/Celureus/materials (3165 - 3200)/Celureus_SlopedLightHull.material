@@ -1,0 +1,23 @@
+{
+  "materialId" : 3169,
+  "materialName" : "Celureus_SlopedLightHull",
+  "particleColor" : [237, 254, 255, 255],
+  "itemDrop" : "Celureus_SlopedLightHull",
+  
+  "shortdescription" : "Celurean Sloped L Hull",
+  "description" : "Celurean Light Metal Plate used to build Spaceship or Ship",
+  
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "Celureus_SlopedLightHull.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 470
+  }
+}

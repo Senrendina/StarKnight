@@ -1,0 +1,11 @@
+{
+  "itemName" : "Celureus_MetalPlatform",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "Celureus_MetalPlatformico.png",
+  "description" : "A Metal Flooring used to construct composite structure",
+  "shortdescription" : "Celureus_Metal Platform",
+
+  "materialId" : 3180
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "Celureus_SlopedHull",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "Celureus_SlopedHullico.png",
+  "shortdescription" : "Cerulean Sloped Hull",
+  "description" : "Cerulean Metal Plate used to build Spaceship or Ship",
+
+  "materialId" : 3167
+}

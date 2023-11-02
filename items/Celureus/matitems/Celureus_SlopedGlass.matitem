@@ -1,0 +1,11 @@
+{
+  "itemName" : "Celureus_SlopedGlass",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "Celureus_SlopedGlassico.png",
+  "shortdescription" : "Cerulean Sloped Glass",
+  "description" : "Cerulean Glass for windows",
+
+  "materialId" : 3177
+}

@@ -1,0 +1,5 @@
+[{
+	"op": "add",
+	"path": "/dragonburstshot",
+	"value": "/item/active/weapon/ranged/abilities/dragonburstshot/dragonburstshot.weaponability"
+}]

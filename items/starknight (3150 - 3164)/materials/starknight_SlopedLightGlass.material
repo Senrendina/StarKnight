@@ -1,0 +1,24 @@
+{
+  "materialId" : 3163,
+  "materialName" : "starknight_SlopedLightGlass",
+  "particleColor" : [237, 254, 255, 255],
+  "itemDrop" : "starknight_SlopedLightGlass",
+  
+  "shortdescription" : "L.Cyan Sloped Glass",
+  "description" : "Thick and strong glass-like plastic often used on board spaceships.",
+  
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "starknight_SlopedLightGlass.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 470,
+	"radiantLight" : [200, 200, 200]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "Celureus_WallPanel",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "Celureus_WallPanelico.png",
+  "description" : "A Metal Wall Panel",
+  "shortdescription" : "Celureus Wall Panel",
+
+  "materialId" : 3170
+}

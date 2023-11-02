@@ -1,0 +1,24 @@
+{
+  "materialId" : 3166,
+  "materialName" : "Celureus_Support",
+    "particleColor" : [55, 55, 55, 255],
+  "itemDrop" : "Celureus_Support",
+  "shortdescription" : "Celureus Support",
+  "description" : "For supporting the wall",
+  "glitchDescription" : "Neutral. A Celureus Support.",
+  "floranDescription" : "Celureus Support.",
+  "novakidDescription" : "Some Celureus Support.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 6,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "Celureus_Support.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 3380
+  }
+}

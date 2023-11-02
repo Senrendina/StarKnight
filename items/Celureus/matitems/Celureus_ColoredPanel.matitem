@@ -1,0 +1,11 @@
+{
+  "itemName" : "Celureus_ColoredPanel",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "Celureus_ColoredPanelico.png",
+  "description" : "A machinery block",
+  "shortdescription" : "Celureus Colored Panel",
+
+  "materialId" : 3181
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "starknight_MetalPlatform",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "starknight_MetalPlatformico.png",
+  "description" : "A Metal Railing",
+  "shortdescription" : "Starknight Railing",
+
+  "materialId" : 3150
+}

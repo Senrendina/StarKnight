@@ -1,0 +1,29 @@
+{
+  "materialId" : 3170,
+  "materialName" : "Celureus_WallPanel",
+  "particleColor" : [55, 55, 55, 255],
+  "itemDrop" : "Celureus_WallPanel",
+  
+  "description" : "A Metal Wall Panel",
+  "shortdescription" : "Celureus Wall Panel",
+  
+  "glitchDescription" : "Neutral. A metal Wall Panel.",
+  "floranDescription" : "Metal Wall Panel.",
+  "novakidDescription" : "Some metal Wall Panel.",
+  
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 6,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "Celureus_WallPanel.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : false,
+    "zLevel" : 50,
+	"radiantLight" : [0, 30, 56]
+  }
+}
+
