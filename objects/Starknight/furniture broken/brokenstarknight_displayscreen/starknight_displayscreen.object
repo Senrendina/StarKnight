@@ -1,0 +1,69 @@
+{
+	"objectName": "broken_starknight_displayscreen",
+	"colonyTags": ["starknight"],
+	"rarity": "Rare",
+	"description": "A long holographic console.",
+	"shortdescription": "Starknight displayscreen",
+	"race": "generic",
+	"category": "light",
+	"price": 120,
+    "lightColor": [0, 89, 89],	
+"flickerPeriod" : 0.01,
+  "flickerMinIntensity" : 0.25,
+  "flickerMaxIntensity" : 0.75,
+  "flickerPeriodVariance" : 0.8,
+  "flickerIntensityVariance" : 0.25,	
+	"apexDescription": "A console with a holographic projector screen.",
+	"avianDescription": "This console has an interactive projector screen.",
+	"floranDescription": "Floran wisshes sspear would fit insside ssscreen. Would look nice.",
+	"glitchDescription": "Interested. I've never seen such a console design before.",
+	"humanDescription": "Gotta love them touch screen interfaces.",
+	"hylotlDescription": "This console displays its screens through a projector.",
+	"novakidDescription": "Where the heck are the damn buttons?",
+	"inventoryIcon": "starknight_displayscreen.png:default.1",
+	"orientations": [{
+			"imageLayers": [{
+				"image": "starknight_displayscreen.png:<color>.on"
+			}, {
+				"image": "starknight_displayscreenlit.png:<color>.on",
+				"fullbright": true
+			}],
+			"flipImages": true,
+			"direction": "left",
+			"lightPosition": [0, 1],
+			"imagePosition": [-16, 0],
+			"frames": 11,
+			"animationCycle": 0.5,
+			"spaceScan": 0.1,
+			"anchors": ["bottom"]
+		},
+		{
+			"imageLayers": [{
+				"image": "starknight_displayscreen.png:<color>.on"
+			}, {
+				"image": "starknight_displayscreenlit.png:<color>.on",
+				"fullbright": true
+			}],
+			"direction": "right",
+			"lightPosition": [0, 1],
+			"imagePosition": [-16, 0],
+			"frames": 11,
+			"animationCycle": 0.5,
+			"spaceScan": 0.1,
+			"anchors": ["bottom"]
+		}
+  ],
+  "soundEffect" : "/sfx/objects/outpostmonitor_static.ogg",
+
+  "animation" : "starknight_displayscreen.animation",
+  "animationParts" : {
+    "bg" : "starknight_displayscreen.png",
+    "fg" : "starknight_displayscreenlit.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+}

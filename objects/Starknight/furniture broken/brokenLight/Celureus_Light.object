@@ -1,0 +1,33 @@
+ {
+  "objectName": "broken_Celureus_Light",
+  "colonyTags": ["light"],
+  "rarity": "Rare",
+  "description": "a Blue Light",
+  "shortdescription": "Celureus Light",
+  "race": "generic",
+  "apexDescription": "A functional blue wall light.",
+  "avianDescription": "It's a blue wall light.",
+  "floranDescription": "Shiny light!",
+  "glitchDescription": "Impressed. This blue wall mounted light is effective.",
+  "humanDescription": "A pretty standard blue wall light.",
+  "hylotlDescription": "A blue wall light. It is functional but unpleasant.",
+  "novakidDescription": "This light's okay, but it ain't as bright as me!",
+  "category": "light",
+  "price": 60,
+  "lightColor": [55, 135, 190],
+  "flickerPeriod" : 0.01,
+  "flickerMinIntensity" : 0.25,
+  "flickerMaxIntensity" : 0.75,
+  "flickerPeriodVariance" : 0.8,
+  "flickerIntensityVariance" : 0.25,
+  "inventoryIcon": "Celureus_Light.png",
+  "orientations": [
+     {
+      "imageLayers" : [ { "image" : "Celureus_Light.png"}, { "image" : "Celureus_Lightlit.png", "fullbright" : true  }  ],
+      "imagePosition": [0, 0],
+      "direction": "right",
+      "spaceScan": 0.1,
+      "anchors": ["background"]
+    }
+  ]
+}
