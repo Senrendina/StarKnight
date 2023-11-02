@@ -1,0 +1,41 @@
+{
+  "objectName" : "starknight_bottomthruster",
+  "colonyTags" : ["starknight"],
+  "rarity" : "Rare",
+  "description" : "A decorative ship booster.",
+  "shortdescription" : "Ship Booster bottom",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 600,
+  
+  "lightColor" : [0, 110, 110],
+
+  "inventoryIcon" : "starknight_bottomthruster.png:default.0",
+  "orientations" : [
+    {
+	  "imageLayers" : [ { "image" : "starknight_bottomthruster.png:<color>.<frame>", "fullbright" : true }, { "image" : "starknight_bottomthrusterlit.png:<color>.<frame>"} ],
+      "direction" : "left",
+	  "flipImages" : true,
+      "imagePosition" : [0, 0],
+	  "lightPosition" : [3, 0],
+      "frames" : 4,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["top"]
+
+    },
+	{
+	  "imageLayers" : [ { "image" : "starknight_bottomthruster.png:<color>.<frame>", "fullbright" : true }, { "image" : "starknight_bottomthrusterlit.png:<color>.<frame>"} ],
+      "direction" : "right",
+      "imagePosition" : [0, 0],
+	  "lightPosition" : [-3, 0],
+      "frames" : 4,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["top"]
+
+    }
+  ]
+}
