@@ -1,0 +1,11 @@
+{
+  "itemName" : "starknight_SlopedPanel",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "starknight_SlopedPanelico.png",
+  "shortdescription" : "D.Cyan Sloped Panel",
+  "description" : "Perfect for buildings walls with.",
+
+  "materialId" : 3160
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "starknight_SupportPanel",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "starknight_SupportPanelico.png",
+  "description" : "For support",
+  "shortdescription" : "Starknight Support",
+
+  "materialId" : 3156
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "starknight_Support",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "starknight_Supportico.png",
+  "description" : "For supporting the wall",
+  "shortdescription" : "Starknight Support",
+
+  "materialId" : 3151
+}

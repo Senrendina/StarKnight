@@ -1,0 +1,11 @@
+{
+  "itemName" : "starknight_SlopedHullFront",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "starknight_SlopedHullFrontico.png",
+  "shortdescription" : "D.Cyan Sloped Hull +",
+  "description" : "Cyan Metal Plate used to build Spaceship or Ship",
+
+  "materialId" : 3158
+}

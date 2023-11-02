@@ -1,0 +1,11 @@
+{
+  "itemName" : "starknight_SlopedLightPanel",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "starknight_SlopedLightPanelico.png",
+  "shortdescription" : "L.Cyan Sloped Panel",
+  "description" : "Cyan Light Metal Plate used to build Spaceship or Ship",
+
+  "materialId" : 3162
+}

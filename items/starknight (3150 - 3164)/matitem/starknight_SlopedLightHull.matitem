@@ -1,0 +1,11 @@
+{
+  "itemName" : "starknight_SlopedLightHull",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "starknight_SlopedLightHullico.png",
+  "shortdescription" : "L.Cyan Sloped Hull",
+  "description" : "Cyan Light Metal Plate used to build Spaceship or Ship",
+
+  "materialId" : 3152
+}

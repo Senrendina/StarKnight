@@ -1,0 +1,11 @@
+{
+  "itemName" : "starknight_RenforcedPanel",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "starknight_RenforcedPanelico.png",
+  "description" : "A Renforced Panel for wall.",
+  "shortdescription" : "Renforced Panel",
+
+  "materialId" : 3153
+}
