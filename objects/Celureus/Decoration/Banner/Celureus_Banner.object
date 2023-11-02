@@ -1,0 +1,26 @@
+{
+  "objectName" : "Celureus_Banner",
+  "colonyTags" : ["Celureus"],
+  "rarity" : "Rare",
+  "description" : "A decorative ship booster.",
+  "shortdescription" : "Celureus Banner",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 600,
+
+  "inventoryIcon" : "Celureus_Banner.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "Celureus_Banner.png"}, { "image" : "Celureus_Bannerlit.png:", "fullbright" : true  }  ],
+	  
+      "flipImages": true,
+      "direction": "left",
+      "imagePosition": [0, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    }
+  ]
+}
