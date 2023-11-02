@@ -1,0 +1,18 @@
+[
+{
+"op":"add",
+"path":"/ryuututo",
+"value":
+{
+    "primaryDungeon" : "ryuututo",
+    "threatLevel" : 1,
+    "gravity" : 80,
+    "worldSize" : [2000, 2000],
+    "dungeonBaseHeight" : 1000,
+    "dungeonSurfaceHeight" : 1000,
+    "ambientLightLevel" : [32, 32, 32],
+    "biome" : "barren",
+    "musicTrack" : "/sfx/music/Hearts.ogg"
+}
+}
+]
