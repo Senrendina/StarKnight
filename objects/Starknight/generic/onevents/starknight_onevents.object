@@ -1,0 +1,63 @@
+{
+  "objectName" : "starknight_onevents",
+  "colonyTags" : ["starknight"],
+  "rarity" : "Rare",
+  "description" : "A decorative Vents",
+  "shortdescription" : "1 Vents",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 600,
+
+  "inventoryIcon" : "starknight_onevents.png:default.0",
+  "orientations" : [
+    {
+	  "imageLayers" : [ { "image" : "starknight_onevents.png:<color>.<frame>", "fullbright" : true }, { "image" : "starknight_oneventslit.png:<color>.<frame>"} ],
+      "direction" : "left",
+	  "flipImages" : true,
+      "imagePosition" : [0, 0],
+	  "lightPosition" : [3, 0],
+      "frames" : 7,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+
+    },
+    {
+	  "imageLayers" : [ { "image" : "starknight_onevents.png:<color>.<frame>", "fullbright" : true }, { "image" : "starknight_oneventslit.png:<color>.<frame>"} ],
+      "direction" : "right",
+      "imagePosition" : [0, 0],
+	  "lightPosition" : [3, 0],
+      "frames" : 7,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+
+    },
+    {
+	  "imageLayers" : [ { "image" : "starknight_onevents.png:<color>.<frame>", "fullbright" : true }, { "image" : "starknight_oneventslit.png:<color>.<frame>"} ],
+      "direction" : "left",
+      "imagePosition" : [0, 0],
+	  "lightPosition" : [3, 0],
+      "frames" : 8,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["background"]
+
+    },	
+	{
+	  "imageLayers" : [ { "image" : "starknight_onevents.png:<color>.<frame>", "fullbright" : true }, { "image" : "starknight_oneventslit.png:<color>.<frame>"} ],
+      "direction" : "right",
+      "imagePosition" : [0, 0],
+	  "lightPosition" : [-3, 0],
+      "frames" : 7,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["background"]
+
+    }
+  ]
+}

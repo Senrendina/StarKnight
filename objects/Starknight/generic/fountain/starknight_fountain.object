@@ -1,0 +1,39 @@
+{
+  "objectName" : "starknight_fountain",
+  "colonyTags" : ["starknight"],
+  "rarity" : "Rare",
+  "description" : "A decorative ship booster.",
+  "shortdescription" : "starknight fountain",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 600,
+
+  "inventoryIcon" : "starknight_fountain.png:default.0",
+  "orientations" : [
+    {
+	  "imageLayers" : [ { "image" : "starknight_fountain.png:<color>.<frame>", "fullbright" : true }, { "image" : "starknight_fountainlit.png:<color>.<frame>"} ],
+      "direction" : "left",
+	  "flipImages" : true,
+      "imagePosition" : [0, 0],
+	  "lightPosition" : [3, 0],
+      "frames" : 4,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+
+    },
+	{
+	  "imageLayers" : [ { "image" : "starknight_fountain.png:<color>.<frame>", "fullbright" : true }, { "image" : "starknight_fountainlit.png:<color>.<frame>"} ],
+      "direction" : "right",
+      "imagePosition" : [0, 0],
+	  "lightPosition" : [-3, 0],
+      "frames" : 4,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+
+    }
+  ]
+}
