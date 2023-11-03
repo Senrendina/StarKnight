@@ -79,6 +79,7 @@
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "Starknight_Antennabottom" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "Starknight_Largeantenna" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "Starknight_fence" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "starknight_lowerteleporter" } },
 //WIRES
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "starknight_console" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "starknight_displayscreen" } },
@@ -93,6 +94,8 @@
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "starknight_ShieldGenerator" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "starknight_ShieldGenerator2" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "starknight_alarm" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "Starknight_Tram" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "Starknight_Tram2" } },
 //CELUREUS
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "Celureus_CraftingStation" } },
 //LIGHT
@@ -121,6 +124,5 @@
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "brokengenerator" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "brokenLight" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "brokenstarknight_console" } },
-{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "broken_silent_starknight_wallscreen2" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "broken_starknight_wallscreen2" } }
 ]
