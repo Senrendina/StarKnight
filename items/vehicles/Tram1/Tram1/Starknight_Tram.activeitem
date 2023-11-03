@@ -1,0 +1,23 @@
+{
+  "itemName" : "Starknight_Tram",
+  "level" : 1,
+  "price" : 1000,
+  "rarity" : "Rare",
+  "category" : "railPlatform",
+  "description" : "A Starknight Elevator",
+  "shortdescription" : "Starknight Tram",
+  "twoHanded" : true,
+  "maxStack" : 10,
+
+  "inventoryIcon" : "icon.png",
+
+  "scripts" : ["/items/active/unsorted/railplatform/railplatform.lua"],
+  "animationScripts" : ["/items/active/unsorted/railplatform/placementpreview.lua"],
+
+  "placementRange" : 15,
+  "placementBounds" : [-2.5, -0.25, 2.5, 3.75],
+  "placementPreviewImage" : "/items/vehicles/Tram1/Starknight_Tram.png",
+  "previewOffset" : [0, 2.0],
+
+  "platformType" : "Starknight_Tram"
+}
