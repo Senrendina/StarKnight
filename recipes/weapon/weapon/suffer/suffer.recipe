@@ -1,8 +1,0 @@
-{
-  "input" : [ 
-	{ "item" : "silverbar", "count" : 10 }
-  ],
-  "output" : { "item" : "starknight_suffer", "count" : 1},
-  "duration" : 0.5,
-  "groups" : [ "metalstartable", "all" ]
-}
