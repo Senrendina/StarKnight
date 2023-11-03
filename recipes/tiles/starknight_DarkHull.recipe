@@ -1,0 +1,8 @@
+{
+  "input" : [ 
+	{ "item" : "ironbar", "count" : 5 }
+  ],
+  "output" : { "item" : "starknight_DarkHull", "count" : 100},
+  "duration" : 0.5,
+  "groups" : [ "metalstarbench", "materials", "all" ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [ 
+	{ "item" : "refinedferozium", "count" : 1 }
+  ],
+  "output" : { "item" : "starknight_SlopedLightHull", "count" : 100},
+  "duration" : 0.5,
+  "groups" : [ "metalstarbench", "materials", "all" ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [ 
+	{ "item" : "ironbar", "count" : 10 }
+  ],
+  "output" : { "item" : "Celureus_SlopedLightPanel", "count" : 100},
+  "duration" : 0.5,
+  "groups" : [ "CelureusCraft", "materials", "all" ]
+}
