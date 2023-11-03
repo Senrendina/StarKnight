@@ -1,0 +1,12 @@
+{
+    "input": [
+	{"item": "silverbar", "count": 30}
+
+    ],
+    "output": {
+        "item": "Celureus_Chair",
+        "count": 1
+    },
+    "duration": 0.5,
+    "groups": ["CelureusCraft", "beds", "all"]
+}

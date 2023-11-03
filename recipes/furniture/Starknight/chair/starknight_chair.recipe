@@ -1,0 +1,14 @@
+{
+    "input": [{
+            "item": "silverbar",
+            "count": 2
+        }
+
+    ],
+    "output": {
+        "item": "starknight_chair",
+        "count": 1
+    },
+    "duration": 0.5,
+    "groups": ["metalstarbench", "beds", "all"]
+}

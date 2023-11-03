@@ -1,0 +1,14 @@
+{
+    "input": [{
+            "item": "silverbar",
+            "count": 2
+        }
+
+    ],
+    "output": {
+        "item": "Celureus_Table",
+        "count": 1
+    },
+    "duration": 0.5,
+    "groups": ["CelureusCraft", "decoration", "all"]
+}

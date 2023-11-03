@@ -1,0 +1,12 @@
+{
+    "input": [
+	{"item": "silverbar", "count": 15}
+
+    ],
+    "output": {
+        "item": "Celureus_Storage2",
+        "count": 1
+    },
+    "duration": 0.5,
+    "groups": ["CelureusCraft", "storage", "all"]
+}
