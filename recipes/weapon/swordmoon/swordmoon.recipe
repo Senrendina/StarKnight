@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 50 }  
+  ],
+  "output" : { "item" : "starknight_swordmoon", "count" : 1},
+  "duration" : 0.5,
+  "groups" : [ "metalstartable", "all" ]
+}
