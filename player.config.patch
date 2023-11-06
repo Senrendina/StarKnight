@@ -120,6 +120,8 @@
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "Celureus_Door" } },
 //WIRES
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "Celureus_Wallscreen" } },
+//SIGN
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "star_exit" } },
 //BROKEN_FURNITURE
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "brokengenerator" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "brokenLight" } },
