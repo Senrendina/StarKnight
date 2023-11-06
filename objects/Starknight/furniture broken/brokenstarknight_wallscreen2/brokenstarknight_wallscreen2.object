@@ -2,7 +2,7 @@
 	"objectName": "broken_starknight_wallscreen2",
 	"colonyTags": ["starknight"],
 	"rarity": "Rare",
-	"description": "A long holographic console.",
+	"description": "A broken wallscreen emitting an alert.",
 	"shortdescription": "starknight wallscreen",
 	"race": "generic",
 	"category": "wire",
