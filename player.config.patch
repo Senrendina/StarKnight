@@ -47,6 +47,7 @@
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "starknight_Support" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "starknight_SupportPanel" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "starknight_SupportLight" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "starknight_PressurisedBeam" } },
 //OTHER
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "starknight_bed" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "starknight_couch" } },
