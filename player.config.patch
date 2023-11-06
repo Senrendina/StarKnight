@@ -19,6 +19,7 @@
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "starknight_crate" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "starknight_largecrate" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "starknight_locker" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "starknight_locker1" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "starknight_shiplocker" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "starknight_refrigerator" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "starknight_box" } },
