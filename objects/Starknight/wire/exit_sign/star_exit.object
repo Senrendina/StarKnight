@@ -1,0 +1,28 @@
+{
+  "objectName": "star_exit",
+  "colonyTags": ["wire"],
+  "rarity": "Rare",
+  "description": "A exit sign.",
+  "shortdescription": "Exit Sign",
+  "race": "generic",
+  "apexDescription": "A functional blue exit sign.",
+  "avianDescription": "It's a blue exit sign.",
+  "floranDescription": "Shiny light!",
+  "glitchDescription": "Impressed. This blue wall mounted exit sign is effective.",
+  "humanDescription": "A pretty standard blue exit sign.",
+  "hylotlDescription": "A blue exit sign. It is functional but unpleasant.",
+  "novakidDescription": "This sign okay, but it ain't as bright as me!",
+  "category": "wire",
+  "price": 30,
+  "lightColor": [55, 135, 190],
+  "inventoryIcon": "star_exit.png",
+  "orientations": [
+     {
+      "imageLayers" : [ { "image" : "star_exit.png"}, { "image" : "star_exitlit.png", "fullbright" : true  }  ],
+      "imagePosition": [0, 0],
+      "direction": "right",
+      "spaceScan": 0.1,
+      "anchors": ["top"]
+    }
+  ]
+}
