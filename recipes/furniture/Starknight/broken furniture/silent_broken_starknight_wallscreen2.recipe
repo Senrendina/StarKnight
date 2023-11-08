@@ -1,0 +1,14 @@
+{
+    "input": [{
+            "item": "money",
+            "count": 5
+        }
+
+    ],
+    "output": {
+        "item": "silent_broken_starknight_wallscreen2",
+        "count": 1
+    },
+    "duration": 0.5,
+    "groups": ["metalstarbench", "broken", "all"]
+}
