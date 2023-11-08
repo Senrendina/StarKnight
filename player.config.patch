@@ -105,7 +105,7 @@
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "Starknight_Antennaleft" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "Starknight_Antennatop" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "Starknight_Antennabottom" } },
-{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "Starknight_Largeantenna" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "Starknight_Large_antenna" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "Starknight_fence" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "starknight_lowerteleporter" } },
 //WIRES
