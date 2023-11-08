@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 4 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "Combat_Helmet", "count" : 1 },
+  "groups" : [ "metalstartable", "all" ]
+}
