@@ -2,7 +2,7 @@
   "objectName" : "starknight_generator",
   "colonyTags" : ["starknight"],
   "rarity" : "Rare",
-  "description" : "A decorative ship booster.",
+  "description" : "Used to give energy.",
   "shortdescription" : "starknight generator",
   "race" : "generic",
   "category" : "decorative",
