@@ -1,0 +1,26 @@
+{
+  "materialId" : 3186,
+  "materialName" : "starknight_PressurisedBeam",
+    "particleColor" : [55, 55, 55, 255],
+  "itemDrop" : "starknight_PressurisedBeam",
+  "shortdescription" : "Renforced Panel",
+  "description" : "A Renforced Panel for wall.",
+  "glitchDescription" : "Neutral. A Renforced Panel.",
+  "floranDescription" : "Renforced Panel.",
+  "novakidDescription" : "Some Renforced Panel.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "starknight_PressurisedBeam.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : false,
+    "zLevel" : 50,
+	"radiantLight" : [0, 30, 56]
+  }
+}
+
