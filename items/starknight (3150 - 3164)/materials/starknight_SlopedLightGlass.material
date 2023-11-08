@@ -5,7 +5,7 @@
   "itemDrop" : "starknight_SlopedLightGlass",
   
   "shortdescription" : "L.Cyan Sloped Glass",
-  "description" : "Thick and strong glass-like plastic often used on board spaceships.",
+  "description" : "Thick and strong glass-like plastic often used on board spaceships for Engine.",
   
   "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
   "health" : 8,
@@ -19,6 +19,6 @@
     "occludesBelow" : false,
     "multiColored" : false,
     "zLevel" : 470,
-	"radiantLight" : [0, 89, 89]
+	"radiantLight" : [0, 140, 140]
   }
 }
