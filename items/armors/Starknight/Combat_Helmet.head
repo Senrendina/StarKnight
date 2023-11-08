@@ -1,0 +1,21 @@
+{
+  "itemName" : "Combat_Helmet",
+  "price" : 20,
+  "inventoryIcon" : "icon.png",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "headwear",
+  "description" : "A Starknight Helmet",
+  "shortdescription" : "Combat Helmet",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "level": 2,
+  "statusEffects": [  ],
+
+
+  "itemTags" : [ "tier1armour" ]
+}
