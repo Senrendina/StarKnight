@@ -1,0 +1,29 @@
+{
+  "materialId" : 3183,
+  "materialName" : "starknight_Flooring3",
+  "particleColor" : [55, 55, 55, 255],
+  "itemDrop" : "starknight_Flooring3",
+  
+  "description" : "A Metal Flooring used to construct composite structure",
+  "shortdescription" : "Starknight Flooring",
+  
+  "glitchDescription" : "Neutral. A metal platform.",
+  "floranDescription" : "Metal platform.",
+  "novakidDescription" : "Some metal platform.",
+  
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 6,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "starknight_Flooring3.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : false,
+    "zLevel" : 50,
+	"radiantLight" : [0, 30, 56]
+  }
+}
+
