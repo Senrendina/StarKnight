@@ -50,6 +50,7 @@
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "starknight_PressurisedBeam" } },
 //OTHER
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "starknight_bed" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "flagryuu" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "starknight_couch" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "starknight_chair" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "starknight_chair2" } },
