@@ -1,0 +1,62 @@
+{
+	"objectName": "silent_broken_starknight_wallscreen2",
+	"colonyTags": ["starknight"],
+	"rarity": "Rare",
+	"description": "A faulty wallscreen.",
+	"shortdescription": "A faulty wallscreen",
+	"race": "generic",
+	"category": "wire",
+	"price": 120,		
+	"apexDescription": "A faulty monitor.",
+	"avianDescription": "This monitor is equipped with a faulty interactive projection screen.",
+	"floranDescription": "Floran wisshes sspear would fit insside ssscreen. Would look nice.",
+	"glitchDescription": "Worried. What could be causing this error?.",
+	"humanDescription": "The screen is faulty and the interface is unresponsive.",
+	"hylotlDescription": "This monitor displays its information via projectors, but the information is illegible.",
+	"novakidDescription": "Where the heck are the damn buttons?",
+	"inventoryIcon": "silent_broken_starknight_wallscreen2.png:default.off",
+		
+	"lightColor": [0, 89, 89],
+	"flickerPeriod" : 0.01,
+  "flickerMinIntensity" : 0.25,
+  "flickerMaxIntensity" : 0.75,
+  "flickerPeriodVariance" : 0.8,
+  "flickerIntensityVariance" : 0.25,
+	
+  "orientations": [
+    {
+      "image": "silent_broken_starknight_wallscreen2.png:<color>.on",
+      "flipImages": true,
+      "direction": "left",
+      "lightPosition": [0, 1],
+      "imagePosition": [-16, 0],
+      "frames": 4,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["background"]
+    },
+    {
+      "image": "silent_broken_starknight_wallscreen2.png:<color>.on",
+      "direction": "right",
+      "lightPosition": [0, 1],
+      "imagePosition": [-16, 0],
+      "frames": 4,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["background"]
+    }
+  ],
+  "soundEffect" : "/sfx/objects/outpostmonitor_static.ogg",
+
+  "animation" : "silent_broken_starknight_wallscreen2.animation",
+  "animationParts" : {
+    "bg" : "silent_broken_starknight_wallscreen2.png",
+    "fg" : "silent_broken_starknight_wallscreen2lit.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+}

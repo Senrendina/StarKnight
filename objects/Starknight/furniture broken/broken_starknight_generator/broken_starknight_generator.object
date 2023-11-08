@@ -1,0 +1,65 @@
+{
+  "objectName" : "broken_starknight_generator",
+  "colonyTags" : ["starknight"],
+  "rarity" : "Rare",
+  "description" : "A faulty generator.",
+  "shortdescription" : "starknight broken generator",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 600,
+  "lightColor": [55, 135, 190],
+"flickerPeriod" : 0.01,
+  "flickerMinIntensity" : 0.25,
+  "flickerMaxIntensity" : 0.75,
+  "flickerPeriodVariance" : 0.8,
+  "flickerIntensityVariance" : 0.25,
+
+  "inventoryIcon" : "broken_starknight_generatoricon.png",
+  "orientations": [
+    {
+      "image": "broken_starknight_generator.png:<color>.off",
+      "flipImages": true,
+      "direction": "left",
+      "lightPosition": [0, 1],
+      "imagePosition": [-16, 0],
+      "frames": 5,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
+    },
+    {
+      "image": "broken_starknight_generator.png:<color>.off",
+      "direction": "right",
+      "lightPosition": [0, 1],
+      "imagePosition": [-16, 0],
+      "frames": 5,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
+    }
+  ],
+  "scripts": ["/objects/wired/switch/switchwithinput.lua", "/scripts/npcToyObject.lua"],
+  "scriptDelta": 5,
+  "animation": "broken_starknight_generator.animation",
+  "animationCustom": {
+    "sounds": {
+      "on": ["/sfx/objects/console_button.ogg"],
+      "off": ["/sfx/objects/console_button.ogg"]
+    }
+  },
+  "animationParts": {
+    "bg": "broken_starknight_generator.png",
+    "fg": "broken_starknight_generatorlit.png"
+  },
+  "animationPosition": [-16, 0],
+  "outputNodes": [[2, 0]],
+  "inputNodes": [[0, 2]],  
+  "npcToy": {
+	"ownerOnly" : true,
+    "influence": ["console"],
+    "defaultReactions": {},
+    "preciseStandPositionLeft": [-0.5, 0],
+    "preciseStandPositionRight": [0, 0],
+    "maxNpcs": 1
+  }
+}

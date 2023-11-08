@@ -1,0 +1,70 @@
+{
+  "objectName": "broken_starknight_led",
+  "colonyTags": ["light"],
+  "rarity": "Rare",
+  "description": "A faulty blue wall light.",
+  "shortdescription": "Broken Cyan Led",
+  "race": "generic",
+  "category": "light",
+  "price": 60,
+  "lightColor": [0, 191, 191],
+  	"flickerPeriod" : 0.01,
+  "flickerMinIntensity" : 0.25,
+  "flickerMaxIntensity" : 0.75,
+  "flickerPeriodVariance" : 0.8,
+  "flickerIntensityVariance" : 0.25,
+  "inventoryIcon": "broken_starknight_ledicon.png",
+  "orientations": [
+    {
+      "image": "broken_starknight_led_left.png:<color>.<frame>",
+      "imagePosition": [0, 0],
+      "animationParts": {
+        "bg": "broken_starknight_led_left.png",
+        "fg": "broken_starknight_led_leftlit.png"
+      },
+      "direction": "right",
+      "spaceScan": 0.1,
+      "anchors": ["left"]
+    },
+    {
+      "image": "broken_starknight_led_right.png:<color>.<frame>",
+      "imagePosition": [0, 0],
+      "animationParts": {
+        "bg": "broken_starknight_led_right.png",
+        "fg": "broken_starknight_led_rightlit.png"
+      },
+      "direction": "right",
+      "spaceScan": 0.1,
+      "anchors": ["right"]
+    },
+    {
+      "image": "broken_starknight_led.png:<color>.<frame>",
+      "imagePosition": [0, 0],
+      "animationParts": {
+        "bg": "broken_starknight_led.png",
+        "fg": "broken_starknight_ledlit.png"
+      },
+      "direction": "right",
+      "spaceScan": 0.1,
+      "anchors": ["background"]
+    }
+  ],
+  "soundEffect": "/sfx/objects/fluorescent_light_quiet.ogg",
+  "soundEffectRangeMultiplier": 0.5,
+  "animation": "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationCustom": {
+    "sounds": {
+      "on": ["/sfx/objects/tinywallswitch.ogg"],
+      "off": ["/sfx/objects/tinywallswitch.ogg"]
+    }
+  },
+  "animationParts": {
+    "bg": "broken_starknight_led.png",
+    "fg": "broken_starknight_ledlit.png"
+  },
+  "animationPosition": [0, 0],
+  "scripts": ["/objects/wired/light/light.lua"],
+  "scriptDelta": 60,
+  "interactive": false,
+  "inputNodes": [[0, 0]]
+}

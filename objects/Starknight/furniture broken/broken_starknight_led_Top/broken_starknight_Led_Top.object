@@ -1,0 +1,70 @@
+{
+  "objectName": "broken_starknight_Led_Top",
+  "colonyTags": ["light"],
+  "rarity": "Rare",
+  "description": "A faulty blue wall light.",
+  "shortdescription": "Broken Cyan Led Top",
+  "race": "generic",
+  "category": "light",
+  "price": 60,
+  "lightColor": [0, 191, 191],
+  	"flickerPeriod" : 0.01,
+  "flickerMinIntensity" : 0.25,
+  "flickerMaxIntensity" : 0.75,
+  "flickerPeriodVariance" : 0.8,
+  "flickerIntensityVariance" : 0.25,
+  "inventoryIcon": "broken_starknight_Led_Topicon.png",
+  "orientations": [
+    {
+      "image": "broken_starknight_Led_Top.png:<color>.<frame>",
+      "imagePosition": [0, 0],
+      "animationParts": {
+        "bg": "broken_starknight_Led_Top.png",
+        "fg": "broken_starknight_Led_Toplit.png"
+      },
+      "direction": "right",
+      "spaceScan": 0.1,
+      "anchors": ["top"]
+    },
+    {
+      "image": "broken_starknight_Led_Bottom:<color>.<frame>",
+      "imagePosition": [0, 0],
+      "animationParts": {
+        "bg": "broken_starknight_Led_Bottom.png",
+        "fg": "broken_starknight_Led_Bottomlit.png"
+      },
+      "direction": "right",
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
+    },
+    {
+       "image": "broken_starknight_Led_Top.png:<color>.<frame>",
+      "imagePosition": [0, 0],
+      "animationParts": {
+        "bg": "broken_starknight_Led_Top.png",
+        "fg": "broken_starknight_Led_Toplit.png"
+      },
+      "direction": "right",
+      "spaceScan": 0.1,
+      "anchors": ["background"]
+    }
+  ],
+  "soundEffect": "/sfx/objects/fluorescent_light_quiet.ogg",
+  "soundEffectRangeMultiplier": 0.5,
+  "animation": "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationCustom": {
+    "sounds": {
+      "on": ["/sfx/objects/tinywallswitch.ogg"],
+      "off": ["/sfx/objects/tinywallswitch.ogg"]
+    }
+  },
+  "animationParts": {
+    "bg": "broken_starknight_Led_Top.png",
+    "fg": "broken_starknight_Led_Toplit.png"
+  },
+  "animationPosition": [0, 0],
+  "scripts": ["/objects/wired/light/light.lua"],
+  "scriptDelta": 60,
+  "interactive": false,
+  "inputNodes": [[0, 0]]
+}
