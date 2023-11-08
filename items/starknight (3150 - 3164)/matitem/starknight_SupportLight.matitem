@@ -1,0 +1,11 @@
+{
+  "itemName" : "starknight_SupportLight",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "starknight_SupportLightico.png",
+  "description" : "For support 2",
+  "shortdescription" : "Starknight Support",
+
+  "materialId" : 3185
+}

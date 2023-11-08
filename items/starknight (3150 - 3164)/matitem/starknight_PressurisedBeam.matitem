@@ -1,0 +1,11 @@
+{
+  "itemName" : "starknight_PressurisedBeam",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "starknight_PressurisedBeamico.png",
+  "description" : "A Renforced Panel for wall.",
+  "shortdescription" : "Pressurised Beam",
+
+  "materialId" : 3186
+}

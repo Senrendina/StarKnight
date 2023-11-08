@@ -1,0 +1,11 @@
+{
+  "itemName" : "starknight_Flooring3",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "starknight_Flooring3ico.png",
+  "description" : "A Metal Flooring used to construct composite structure",
+  "shortdescription" : "Starknight Flooring",
+
+  "materialId" : 3183
+}
