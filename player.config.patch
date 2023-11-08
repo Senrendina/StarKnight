@@ -165,8 +165,11 @@
 //SIGN
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "star_exit" } },
 //BROKEN_FURNITURE
-{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "brokengenerator" } },
-{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "brokenLight" } },
-{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "brokenstarknight_console" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "broken_starknight_generator" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "broken_starknight_console" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "silent_broken_starknight_wallscreen2" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "broken_celureus_generator" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "broken_starknight_Led_Top" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "broken_starknight_led" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "broken_starknight_wallscreen2" } }
 ]
