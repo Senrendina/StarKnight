@@ -1,0 +1,22 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "maxFuel" : 1000,
+      "crewSize" : 8
+    }
+  },
+  "backgroundOverlays" : [
+    {
+      "image" : "ryuuT6.png",
+      "position" : [8.39, 3.125],
+      "fullbright" : true
+    },
+    {
+      "image" : "ryuuT6lit.png",
+      "position" : [8.39, 3.125]
+    }
+  ],
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "ryuuT6blocks.png"
+}
