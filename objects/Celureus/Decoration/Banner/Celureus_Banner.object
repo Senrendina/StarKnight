@@ -2,7 +2,7 @@
   "objectName" : "Celureus_Banner",
   "colonyTags" : ["Celureus"],
   "rarity" : "Rare",
-  "description" : "A decorative ship booster.",
+  "description" : "The Celureus Banner",
   "shortdescription" : "Celureus Banner",
   "race" : "generic",
   "category" : "decorative",
@@ -19,7 +19,7 @@
       "frames": 1,
       "animationCycle": 1,
       "spaceScan": 0.1,
-      "anchors": ["bottom"],
+      "anchors": ["background"],
       "collision": "platform"
     }
   ]
