@@ -4,7 +4,7 @@
   "particleColor" : [110, 110, 110, 255],
   "itemDrop" : "Celureus_ColoredPanel",
   "description" : "A machinery block",
-  "shortdescription" : "Celureus Colored Panel",
+  "shortdescription" : "Celu Colored Panel",
   "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
   "health" : 10,
   "category" : "materials",
