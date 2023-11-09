@@ -4,7 +4,7 @@
   "particleColor" : [237, 254, 255, 255],
   "itemDrop" : "Celureus_SlopedLightPanel",
   
-  "shortdescription" : "Celureus Sloped Panel",
+  "shortdescription" : "L.Celureus Sloped Panel",
   "description" : "Blue Light Metal Plate used to build Spaceship or Ship",
   
   "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
