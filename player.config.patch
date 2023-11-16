@@ -129,6 +129,11 @@
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "Celureus_CraftingStation" } },
 //LIGHT
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "Celureus_Light" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "Celureus_LightBot" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "Celureus_LightTop" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "Celureus_LightLeft" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "Celureus_LightRight" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "Celureus_LargeLight" } },
 //STORAGE
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "Celureus_Shiplocker" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "Celureus_Storage1" } },
@@ -165,6 +170,8 @@
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "Celureus_Door" } },
 //WIRES
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "Celureus_Wallscreen" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "Celureus_Monitor" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "Celureus_Monitor2" } },
 //SIGN
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "star_exit" } },
 //BROKEN_FURNITURE
