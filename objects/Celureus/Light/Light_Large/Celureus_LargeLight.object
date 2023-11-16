@@ -1,9 +1,9 @@
 {
-  "objectName": "Celureus_Light",
+  "objectName": "Celureus_LargeLight",
   "colonyTags": ["light"],
   "rarity": "Rare",
   "description": "A blue wall light.",
-  "shortdescription": "Light Blue Lamp",
+  "shortdescription": "Large Light Blue Lamp",
   "race": "generic",
   "apexDescription": "A functional Cyan wall light.",
   "avianDescription": "It's a Cyan wall light.",
@@ -15,14 +15,14 @@
   "category": "light",
   "price": 60,
   "lightColor": [0, 99, 165],
-  "inventoryIcon": "Celureus_Lighticon.png",
+  "inventoryIcon": "Celureus_LargeLighticon.png",
   "orientations": [
     {
-      "image": "Celureus_Light.png:<color>.<frame>",
+      "image": "Celureus_LargeLight.png:<color>.<frame>",
       "imagePosition": [0, 0],
       "animationParts": {
-        "bg": "Celureus_Light.png",
-        "fg": "Celureus_Lightlit.png"
+        "bg": "Celureus_LargeLight.png",
+        "fg": "Celureus_LargeLightlit.png"
       },
       "direction": "right",
       "spaceScan": 0.1,
@@ -39,8 +39,8 @@
     }
   },
   "animationParts": {
-    "bg": "Celureus_Light.png",
-    "fg": "Celureus_Lightlit.png"
+    "bg": "Celureus_LargeLight.png",
+    "fg": "Celureus_LargeLightlit.png"
   },
   "animationPosition": [0, 0],
   "scripts": ["/objects/wired/light/light.lua"],

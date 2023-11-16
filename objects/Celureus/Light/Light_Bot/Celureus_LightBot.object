@@ -1,5 +1,5 @@
 {
-  "objectName": "Celureus_Light",
+  "objectName": "Celureus_LightBot",
   "colonyTags": ["light"],
   "rarity": "Rare",
   "description": "A blue wall light.",
@@ -15,18 +15,18 @@
   "category": "light",
   "price": 60,
   "lightColor": [0, 99, 165],
-  "inventoryIcon": "Celureus_Lighticon.png",
+  "inventoryIcon": "Celureus_LightBoticon.png",
   "orientations": [
     {
-      "image": "Celureus_Light.png:<color>.<frame>",
+      "image": "Celureus_LightBot.png:<color>.<frame>",
       "imagePosition": [0, 0],
       "animationParts": {
-        "bg": "Celureus_Light.png",
-        "fg": "Celureus_Lightlit.png"
+        "bg": "Celureus_LightBot.png",
+        "fg": "Celureus_LightBotlit.png"
       },
       "direction": "right",
       "spaceScan": 0.1,
-      "anchors": ["background"]
+      "anchors": ["bottom"]
     }
   ],
   "soundEffect": "/sfx/objects/fluorescent_light_quiet.ogg",
@@ -39,8 +39,8 @@
     }
   },
   "animationParts": {
-    "bg": "Celureus_Light.png",
-    "fg": "Celureus_Lightlit.png"
+    "bg": "Celureus_LightBot.png",
+    "fg": "Celureus_LightBotlit.png"
   },
   "animationPosition": [0, 0],
   "scripts": ["/objects/wired/light/light.lua"],
