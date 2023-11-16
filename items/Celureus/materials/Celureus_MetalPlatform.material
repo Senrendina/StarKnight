@@ -1,0 +1,29 @@
+{
+  "materialId" : 60255,
+  "materialName" : "Celureus_MetalPlatform",
+  "particleColor" : [55, 55, 55, 255],
+  "itemDrop" : "Celureus_MetalPlatform",
+  
+  "description" : "A Metal Flooring used to construct composite structure",
+  "shortdescription" : "Celureus MetalPlatform",
+  
+  "glitchDescription" : "Neutral. A metal platform.",
+  "floranDescription" : "Metal platform.",
+  "novakidDescription" : "Some metal platform.",
+  
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 6,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "Celureus_MetalPlatform.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : false,
+    "zLevel" : 50,
+	"radiantLight" : [0, 30, 56]
+  }
+}
+

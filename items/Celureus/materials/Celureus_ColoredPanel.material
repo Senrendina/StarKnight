@@ -1,0 +1,21 @@
+{
+  "materialId" : 60252,
+  "materialName" : "Celureus_ColoredPanel",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "Celureus_ColoredPanel",
+  "description" : "A machinery block",
+  "shortdescription" : "Celu Colored Panel",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "Celureus_ColoredPanel.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 146
+  }
+}

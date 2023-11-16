@@ -1,0 +1,23 @@
+{
+  "materialId" : 60256,
+  "materialName" : "Celureus_Panel",
+  "particleColor" : [237, 254, 255, 255],
+  "itemDrop" : "Celureus_Panel",
+  
+  "shortdescription" : "Celurean Panel",
+  "description" : "Celurean Metal Plate used to build Wall",
+  
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "Celureus_Panel.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 400
+  }
+}

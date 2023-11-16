@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "inventoryIcon" : "Celureus_Flooring2ico.png",
   "description" : "A Metal Flooring used to construct composite structure",
-  "shortdescription" : "Celureus Flooring",
+  "shortdescription" : "Celureus Flooring 2",
 
-  "materialId" : 3179
+  "materialId" : 60254
 }

@@ -1,0 +1,23 @@
+{
+  "materialId" : 60257,
+  "materialName" : "Celureus_Platform",
+  "collisionKind" : "platform",
+  "transparent" : true,
+  "itemDrop" : "Celureus_Platform",
+  
+  "shortdescription" : "Celureus Platform",
+  "description" : "A well-constructed metal platform.",
+ 
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "category" : "Supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "Celureus_Platform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}
