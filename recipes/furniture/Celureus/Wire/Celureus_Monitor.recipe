@@ -1,0 +1,12 @@
+{
+    "input": [
+	{"item": "silverbar", "count": 20}
+
+    ],
+    "output": {
+        "item": "Celureus_Monitor",
+        "count": 1
+    },
+    "duration": 0.5,
+    "groups": ["CelureusCraft", "sensors", "all"]
+}
