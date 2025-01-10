@@ -1,0 +1,17 @@
+[
+	{
+		"op": "add",
+		"path": "/initialquests/ryuu",
+		"value": [
+			"protectorate"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/pronounGenders/ryuu",
+		"value": {
+			"male": "neutral",
+			"female": "neutral"
+		}
+	}
+]

@@ -1,0 +1,63 @@
+{
+  "StarknightIntro" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "The data alert we recieved should be nearby. Don't forget to take the Gun inside of this crate. Who know what you will found inside."
+  },	
+
+  "StarknightEmpty" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "Empty ? Hmmm.... Maybe they have a part that you can remove with matter manipulator ?"
+  },	
+
+  "StarknightWarning" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "Watch out ! Enemy incoming !"
+  },	
+
+  "StarknightFirePower" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "Looks like you need more fire power. i have send out another crate with an assault rifle inside."
+  },	
+
+  "StarknightQuestion" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "Why is there some Erchius Horror here ? That don't make sense... Let's continue."
+  },	
+	
+  "AbandonnedReview" : {
+    "important" : true,
+    "type" : "mission",
+    "text" : "It looks like this camp is abandonned. We should check further to see if they no clue for us."
+  },
+
+  "StarknightDebris" : {
+    "type" : "mission",
+    "text" : "It appears they have some debris in front of the door. The Matter Manipulator can be used to clear this."
+  },
+
+  "StarknightDebris2" : {
+    "type" : "mission",
+    "text" : "Debris again ? Clear those so we can go inside of the camp."
+  },
+
+  "StarknightBanished" : {
+    "type" : "mission",
+    "text" : "Watch out. My sensors detect something hostile behind the next door."
+  },
+
+  "StarknightEnd" : {
+    "type" : "mission",
+    "text" : "Looks like there no further clue. But why is banished here ? Again... We have no clue at all."
+  },
+  
+  "StarknightSurprise" : {
+	"important" : true,
+    "type" : "mission",
+    "text" : "Wait a minute... Why is civilians building here ? Somethings is off..."
+  }  
+}
