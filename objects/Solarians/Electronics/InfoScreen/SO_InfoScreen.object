@@ -1,0 +1,48 @@
+{
+	"objectName": "SO_InfoScreen",
+	"colonyTags": ["Solarian"],
+	"rarity": "Rare",
+	"description": "A little infomration holographic Screen.",
+	"shortdescription": "Solarian Info Screen",
+	"race": "generic",
+	"category": "decorative",
+	"price": 120,
+    "lightColor": [0, 99, 165],
+	"inventoryIcon": "SO_InfoScreen.png:default.off",
+  "orientations": [
+    {
+      "image": "SO_InfoScreen.png:<color>.on",
+      "flipImages": true,
+      "direction": "left",
+      "lightPosition": [0, 1],
+      "imagePosition": [0, 0],
+      "frames": 4,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["background"]
+    },
+    {
+      "image": "SO_InfoScreen.png:<color>.on",
+      "direction": "right",
+      "lightPosition": [0, 1],
+      "imagePosition": [0, 0],
+      "frames": 4,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["background"]
+    }
+  ],
+  "soundEffect" : "/sfx/objects/outpostmonitor_static.ogg",
+
+  "animation" : "SO_InfoScreen.animation",
+  "animationParts" : {
+    "bg" : "SO_InfoScreen.png",
+    "fg" : "SO_InfoScreenlit.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+}

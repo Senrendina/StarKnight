@@ -1,0 +1,48 @@
+{
+	"objectName": "SO_LittleScreen",
+	"colonyTags": ["Solarian"],
+	"rarity": "Rare",
+	"description": "A small holographic Screen.",
+	"shortdescription": "Solarian Little Screen",
+	"race": "generic",
+	"category": "decorative",
+	"price": 120,
+    "lightColor": [0, 99, 165],
+	"inventoryIcon": "SO_LittleScreen.png:default.off",
+  "orientations": [
+    {
+      "image": "SO_LittleScreen.png:<color>.on",
+      "flipImages": true,
+      "direction": "left",
+      "lightPosition": [0, 1],
+      "imagePosition": [0, 0],
+      "frames": 4,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["background"]
+    },
+    {
+      "image": "SO_LittleScreen.png:<color>.on",
+      "direction": "right",
+      "lightPosition": [0, 1],
+      "imagePosition": [0, 0],
+      "frames": 4,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["background"]
+    }
+  ],
+  "soundEffect" : "/sfx/objects/outpostmonitor_static.ogg",
+
+  "animation" : "SO_LittleScreen.animation",
+  "animationParts" : {
+    "bg" : "SO_LittleScreen.png",
+    "fg" : "SO_LittleScreenlit.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+}

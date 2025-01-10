@@ -1,0 +1,35 @@
+{
+  "objectName": "SO_ShipTeleporter",
+  "colonyTags": ["Solarians"],
+  "printable": false,
+  "rarity": "Legendary",
+  "description": "Trusty teleporter, what would we do without you?",
+  "shortdescription": "Ship Teleporter",
+  "category": "teleporter",
+  "interactAction": "OpenTeleportDialog",
+  "interactData": "/interface/warping/shipteleporter.config",
+  "soundEffect": "/sfx/objects/shipengine.ogg",
+  "soundEffectRangeMultiplier": 1.5,
+  "inventoryIcon": "SO_ShipTeleporter.png",
+  "orientations": [
+    {
+      "imageLayers" : [ { "image" : "SO_ShipTeleporter.png"}, { "image" : "SO_ShipTeleporterlit.png:", "fullbright" : true  }  ],
+      "imagePosition": [-32, 0],
+      "frames": 1,
+      "animationCycle": 0.5,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "solid",
+      "collisionSpaces": [
+        [-2, 0],
+        [-1, 0],
+        [0, 0],
+        [1, 0],
+        [-2, 9],
+        [-1, 9],
+        [0, 9],
+        [1, 9]
+      ]
+    }
+  ]
+}
