@@ -1,0 +1,184 @@
+{
+  "name" : "bd_eldora_biome",
+  "friendlyName" : "Banished Biome",
+
+  "hueShiftOptions" : [0],
+
+  "statusEffects" : [ "biomeheat" ],
+
+  "mainBlock" : "BD_8",
+  "subBlocks" : [ "BD_6", "BD_1", "BD_2", "BD_4", "metallic" ],
+  "ores" : "sk_ore_surface",
+
+  "parallax" : "/parallax/surface/scorchedcity.parallax",
+
+  "ambientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/forest_day.ogg", "/sfx/environmental/forest_day2.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/forest_night.ogg", "/sfx/environmental/forest_night2.ogg" ]
+    }
+  },
+
+  "musicTrack" : {
+    "day" : {
+      "tracks" : [ 
+	  "/music/hearts.ogg",
+	  "/music/Nostalgy.ogg",
+	  "/music/Arsenal.ogg",
+	  "/music/CalmDawn.ogg"
+	  
+	  ]
+    },
+    "night" : {
+      "tracks" : [ 
+	  "/music/Path.ogg",
+	  "/music/Home.ogg",
+	  "/music/Chase.ogg"
+	  ]
+    }
+  },
+
+  "surfacePlaceables" : {
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "sk_tube",
+            "baseHueShiftMax" : 50,
+            "modHueShiftMax" : 150
+          }
+        ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 0.5,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:mainBiomeEncounterDungeon",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "BanishedMicroDungeon" ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 0.5,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "rockyshapes" ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 0.5,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "rockclimb" ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 0.5,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "BanishedArmory" ]
+      },	  
+      {
+        "mode" : "floor",
+        "priority" : 2.5,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseLarge",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 180,
+        "treeStemHueShiftMax" : 15,
+        "treeStemList" : [ "sk_metallic" ],
+        "treeFoliageList" : [ "" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "wildcocoaseed" ] ],
+            "parameters" : {
+              "startingStage" : 4
+            }
+          }
+        ]
+      }
+    ]
+  },
+
+  "undergroundPlaceables" : {
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "basicChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundtechChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "techChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundweaponChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "weaponChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "ceiling",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 180,
+        "treeStemHueShiftMax" : 10,
+        "treeStemList" : [ "sk_metallic" ],
+        "treeFoliageList" : [ "" ]
+      }
+    ]
+  }
+}
