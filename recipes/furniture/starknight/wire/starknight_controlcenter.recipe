@@ -1,0 +1,12 @@
+{
+    "input": [
+	{"item": "CSK_SolidIngot","count": 5},
+	{"item": "CSK_TechUSB","count": 2}
+    ],
+    "output": {
+        "item": "SK_controlcenter",
+        "count": 1
+    },
+    "duration": 0.5,
+    "groups": ["metalstarbench", "sensors", "all"]
+}

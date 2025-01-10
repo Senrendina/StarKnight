@@ -1,0 +1,13 @@
+{
+    "input": [
+	{"item": "silverbar","count": 1},
+	{"item": "refinedferozium", "count": 5}
+
+    ],
+    "output": {
+        "item": "SK_ShieldGenerator2",
+        "count": 1
+    },
+    "duration": 0.5,
+    "groups": ["metalstarbench", "sensors", "all"]
+}

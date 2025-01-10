@@ -1,0 +1,14 @@
+{
+    "input": [{
+            "item": "silverbar",
+            "count": 4
+        }
+
+    ],
+    "output": {
+        "item": "SK_largeconsole",
+        "count": 1
+    },
+    "duration": 0.5,
+    "groups": ["metalstarbench", "sensors", "all"]
+}
