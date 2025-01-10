@@ -1,0 +1,11 @@
+{
+  "author" : "Luyia",
+  "description" : "[h1][b]Feature[/b][/h1]\n[h2][i]Custom SAIL[/i][/h2]\nMeet the mascot of the ryuu race \" Camille \". Supporting you though your journey.\nMultiple faction can be found in this mod. Let your idea ravish your building\n[h3][b]List of Faction:[/b][/h3]\n• StarKnight\n• Celureus\n• Solarian\n• Banished (This one, you need to search for it)\n[h2][b]New planet[/b][/h2]\nYou will be able to visiting the home of Ryuu planet \"Eldora \"\nBe careful, this planet is dangerous, a fall can happen quickly!\n[h2][b]New microdungeon[/b][/h2]\n2 of each faction microdungeon is available to explore in this new planet\n[h2][b]New ore[/b][/h2]\nSardonyx ore has been added to this new planet. These ore is needed if you want to craft some Starknight furniture and weapon!\n[h2][b]New liquid[/b][/h2]\nEldora liquid feature also on this new planet as the heart of Eldora.\n[h2][b]Compatibility[/b][/h2]\n• More Planet info\n• Futara Dragon Fullbright\n[h2][b]Contributor[/b][/h2]\nDr.Nightmares 2.0: For helping several things",
+  "friendlyName" : "StarKnight",
+  "includes" : ["XRC_BETA_STARBOUND", "XRC_BETA_STARBOUND:RADIO", "FrackinUniverse"],
+  "link" : "steam://url/CommunityFilePage/3020476911",
+  "name" : "StarKnight",
+  "steamContentId" : "3020476911",
+  "tags" : "Crafting and Building|Weapons|Ships|Species",
+  "version" : "0.8"
+}

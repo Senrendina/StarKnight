@@ -1,0 +1,103 @@
+[
+  {
+    "op": "add",
+    "path": "/planetTypes/eldora",
+    "value": {
+      "threatRange" : [5, 6],
+      "layers": {
+        "surface": {
+          "primaryRegion" : ["sk_eldora_biome"],
+          "secondaryRegions" : ["forest", "bd_eldora_biome"],
+          "dungeons" : [
+			[4.0, "StarknightOutpost"], [4.0, "SolarianOutpost"], [4.0, "BanishedArmyCamp"],
+			[1.0, "dungeoncrawler"], [1.0, "evilfortress"], [1.0, "glitchcastle"], [1.0, "glitchvillage"], [1.0, "humancamp"],
+			[2.0, "hylotlcity"] 
+          ]
+        },
+		
+        "subsurface" : {
+          "primaryRegion" : [ "bd_eldora_biome" ],
+          "secondaryRegions" : [ "sk_underground" ]
+        },
+        "underground1" : {
+          "primaryRegion" : [ "sk_underground" ],
+          "secondaryRegions" : [ "bd_eldora_underground" ]
+        },
+        "underground2" : {
+          "primaryRegion" : [ "sk_underground" ],
+          "secondaryRegions" : [ "sk_underground" ]
+        },
+        "underground3" : {
+          "primaryRegion" : [ "bd_eldora_biome" ],
+          "secondaryRegions" : [ "bd_eldora_underground" ]
+        },
+        "core" : {
+          "primaryRegion" : [ "sk_eldora_core" ]		  
+        }
+      }
+    }
+  },
+  
+  {
+    "op": "add",
+    "path": "/regionTypes/sk_eldora_biome",
+    "value": {
+      "caveLiquid": ["sk_eldoliquid"],
+      "blockSelector": ["remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0,["sk_eldora_biome"]]],
+      "subRegion" : []
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/bd_eldora_biome",
+    "value": {
+      "caveLiquid": ["sk_eldoliquid"],
+      "blockSelector": ["remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0,["bd_eldora_biome"]]],
+      "subRegion" : []
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/bd_eldora_underground",
+    "value": {
+      "caveLiquid": ["sk_eldoliquid"],
+      "blockSelector": ["remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0,["bd_eldora_underground"]]],
+      "subRegion" : []	  
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/sk_eldora_core",
+    "value" : {
+      "caveLiquid" : ["sk_eldoliquid"],
+      "oceanLiquid" : ["sk_eldoliquid"],
+      "fgCaveSelector" : [ "coreCaves" ],
+      "bgCaveSelector" : [ "coreBackgroundCaves" ],
+      "oceanLevelOffset" : -20,
+      "caveLiquidSeedDensityRange" : [4.0, 4.0],
+	  "biome": [[0,["sk_eldora_core"]]],
+	  "subRegion" : []
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/sk_underground",
+    "value": {
+      "caveLiquid": ["sk_eldoliquid"],
+      "blockSelector": ["remixedMildSurface"],
+      "fgCaveSelector": ["surfaceCaves"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0,["sk_underground"]]],
+      "subRegion" : []
+    }	
+  } 
+]

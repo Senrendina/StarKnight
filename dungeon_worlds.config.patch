@@ -1,0 +1,18 @@
+[
+{
+"op":"add",
+"path":"/AbandonnedCamp",
+"value":
+{
+    "primaryDungeon" : "AbandonnedCamp",
+    "threatLevel" : 1,
+    "gravity" : 80,
+    "worldSize" : [2000, 2000],
+    "dungeonBaseHeight" : 1000,
+    "dungeonSurfaceHeight" : 1000,
+    "ambientLightLevel" : [32, 32, 32],
+    "biome" : "sk_underground",
+    "musicTrack" : "/music/CalmDawn.ogg"
+}
+}
+]
