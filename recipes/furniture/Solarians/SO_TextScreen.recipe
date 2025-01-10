@@ -1,0 +1,13 @@
+{
+    "input": [
+	{"item": "CSK_SolidIngot","count": 20},
+	{"item": "CSK_TechUSB","count": 1}	
+
+    ],
+    "output": {
+        "item": "SO_TextScreen",
+        "count": 1
+    },
+    "duration": 0.5,
+    "groups": ["SO_Crafting", "server", "all"]
+}
