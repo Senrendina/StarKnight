@@ -1,0 +1,176 @@
+{
+    "itemName": "BD_FireFlash",
+    "price": 500,
+    "maxStack": 1,
+    "level": 4,
+    "rarity": "legendary",
+    "description": "An fast sword that almost can slash instant after the last slash",
+    "shortdescription": "Fire Flash",
+    "tooltipKind": "sword",
+    "category": "broadsword",
+    "twoHanded": true,
+    "itemTags": [
+        "weapon",
+        "melee",
+        "broadsword"
+    ],
+    "inventoryIcon": "BD_FireFlash.png",
+    "animation": "/items/active/banished/weapons/melee/Sword/BD_FireFlash/BD_FireFlash.animation",
+    "animationParts": {
+		"handle": "BD_FireFlashHandle.png",
+		"blade": "BD_FireFlashlit.png"
+	},
+	"animationCustom" : {
+	"sounds" : {
+      "fire" : [ "/sfx/melee/swing_broadsword_fire1.ogg", "/sfx/melee/swing_broadsword_fire2.ogg", "/sfx/melee/swing_broadsword_fire3.ogg" ],
+      "fire2" : [ "/sfx/melee/swing_broadsword_fire1.ogg", "/sfx/melee/swing_broadsword_fire2.ogg", "/sfx/melee/swing_broadsword_fire3.ogg" ],
+      "fire3" : [ "/sfx/melee/swing_broadsword_fire1.ogg", "/sfx/melee/swing_broadsword_fire2.ogg", "/sfx/melee/swing_broadsword_fire3.ogg" ]
+},
+		"animatedParts": { 
+			"parts": { 
+				"blade": {
+					"properties": {
+						"centered": true,
+						"image" : "<partImage><paletteSwaps>",
+						"offset": [0.0, 2.0],
+						"zLevel": 1,
+						"transformationGroups": ["weapon"],
+						"fullbright": true
+					}
+				}	
+			}
+		}
+},
+        "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
+        "elementalType": "fire",
+        "primaryAbilityType": "broadswordcombo",
+		"primaryAbility": {
+        "fireTime": 0.5,
+        "baseDps": 20,
+    "stances" : {
+      "idle" : {
+        "armRotation" : -60,
+        "weaponRotation" : -200,
+        "allowRotate" : true,
+        "allowFlip" : true,
+		"twoHanded" : false
+      },
+      "windup1" : {
+        "duration" : 0.1,
+        "armRotation" : 90,
+        "weaponRotation" : -10,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "preslash1" : {
+        "duration" : 0.025,
+        "armRotation" : 55,
+        "weaponRotation" : -45,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : false
+      },
+      "fire1" : {
+        "duration" : 0.2,
+        "armRotation" : -45,
+        "weaponRotation" : -55,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : false
+      },
+      "wait1" : {
+        "duration" : 0.2,
+        "armRotation" : -60,
+        "weaponRotation" : -200,
+        "allowRotate" : true,
+        "allowFlip" : true,
+        "twoHanded" : true
+      },
+      "windup2" : {
+        "duration" : 0.1,
+		"armRotation": -100,
+		"weaponRotation": -160,
+        "weaponOffset" : [0, 0],
+        "twoHanded" : true,
+        "allowFlip" : true,
+        "allowRotate" : true
+      },
+      "fire2" : {
+        "duration" : 0.2,
+		"armRotation": 70,
+		"weaponRotation": -150,
+        "weaponOffset" : [0, 0],
+        "twoHanded" : true,
+        "allowFlip" : true,
+        "allowRotate" : true
+      },
+      "wait2" : {
+        "duration" : 0.3,
+        "armRotation" : -60,
+        "weaponRotation" : -200,
+        "weaponOffset" : [0, 0],
+        "allowRotate" : true,
+        "allowFlip" : true,
+        "twoHanded" : true
+      },
+      "windup3" : {
+        "duration" : 0.1,
+        "armRotation" : 90,
+        "weaponRotation" : -10,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire3" : {
+        "duration" : 0.2,
+        "armRotation" : -45,
+        "weaponRotation" : -55,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "wait3" : {
+        "duration" : 0.2,
+        "armRotation" : -45,
+        "weaponRotation" : -55,
+        "allowRotate" : true,
+        "allowFlip" : true,
+        "twoHanded" : true
+	  },
+      "windup4" : {
+        "duration" : 0.1,
+        "armRotation" : 90,
+        "weaponRotation" : -10,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire4" : {
+        "duration" : 0.2,
+        "armRotation" : -45,
+        "weaponRotation" : -55,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "wait4" : {
+        "duration" : 0.2,
+        "armRotation" : -45,
+        "weaponRotation" : -55,
+        "allowRotate" : true,
+        "allowFlip" : true,
+        "twoHanded" : true
+            }
+        }
+    },
+        "altAbilityType": "Risingfire",	
+        "builder": "/items/buildscripts/buildunrandweapon.lua"
+}

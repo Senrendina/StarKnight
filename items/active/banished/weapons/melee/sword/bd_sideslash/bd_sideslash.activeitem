@@ -1,0 +1,46 @@
+{
+    "itemName": "BD_SideSlash",
+    "price": 500,
+    "maxStack": 1,
+    "level": 2,
+    "rarity": "Common",
+    "description": "The Common sword of the Banished.",
+    "shortdescription": "Side Slash",
+    "tooltipKind": "sword",
+    "category": "broadsword",
+    "twoHanded": true,
+    "itemTags": [
+        "weapon",
+        "melee",
+        "broadsword"
+    ],
+    "inventoryIcon": "BD_SideSlash.png",
+    "animation": "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+    "animationParts": {
+		"handle": "BD_SideSlashHandle.png",
+		"blade": "BD_SideSlashBlade.png"
+},	
+	 "animationCustom" : {
+		"animatedParts": { 
+			"parts": { 
+				"blade": {
+					"properties": {
+						"centered": true,
+						"image" : "<partImage><paletteSwaps>",
+						"offset": [0.0, 1.5],
+						"zLevel": 1,
+						"transformationGroups": ["weapon"],
+						"fullbright": true
+					}
+				}	
+			}
+		}
+},
+        "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
+        "elementalType": "fire",
+        "primaryAbilityType": "broadswordcombo",
+        "primaryAbility": {"fireTime": 1, "baseDps": 15
+        },
+        "altAbilityType": "giantsword",
+        "builder": "/items/buildscripts/buildunrandweapon.lua"
+}

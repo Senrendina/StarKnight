@@ -1,0 +1,92 @@
+{
+  "itemName" : "BD_Dragonair",
+  "level" : 4,
+  "price" : 1500,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Powerfully strong to cover long distances.",
+  "shortdescription" : "Banished Dragonair",
+  "tooltipKind" : "gun",
+  "category" : "shotgun",
+  "twoHanded" : true,
+  "itemTags" : ["weapon"],
+
+  "inventoryIcon" : [
+    { "image" : "BD_Dragonair.png:idle.1" }
+  ],
+
+  "animation" : "BD_Dragonair.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "BD_Dragonair.png",
+    "middlefullbright" : "BD_Dragonairlit.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/active/banished/weapons/ranged/BD_muzzleflash.png"
+  },
+  "animationCustom" : {
+    "lights" : { "glow" : {
+      "active" : false,
+      "position" : [0.75, 0.5],
+      "color" : [214, 28, 28]
+    }},
+    "sounds" : {
+      "fire" : [ "/sfx/gun/mech_heatrifle_fire1.ogg" ]
+    }
+  },
+  "baseOffset" : [0.9, 0.35],
+  "muzzleOffset" : [2.375, 0.125],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "electric",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 1.0,
+    "baseDps" : 20.0,
+    "energyUsage" : 60,
+    "inaccuracy" : 0.1,
+    "fireType" : "auto",
+
+    "projectileType" : "BD_Laser",
+    "projectileParameters" : {
+      "knockback" : 0,
+      "speed" : 100,
+      "statusEffects" : [ "electrified" ]
+    },
+    "projectileCount" : 8,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.11,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}
