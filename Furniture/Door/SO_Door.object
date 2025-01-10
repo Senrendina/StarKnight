@@ -1,0 +1,56 @@
+{
+	"objectName": "SO_Door1",
+	"colonyTags": ["door"],
+	"rarity": "Rare",
+	
+	"category": "door",
+	"price": 135,
+	"description": "A door commonly used for ship",
+	"shortdescription": "Door",
+	"race": "generic",
+	
+	"apexDescription": "This door looks strong enough to keep anything out... or everyone in.",
+	"avianDescription": "A strong door. Not even the breeze could slip through.",
+	"floranDescription": "A normal door to keep people out! Or in...",
+	"glitchDescription": "Jealous. Such strong materials.",
+	"humanDescription": "A huge, heavy security door.",
+	"hylotlDescription": "This looks strong enough to hold back the ocean.",
+	"novakidDescription": "A very thick door.",
+	
+	"inventoryIcon": "Door1.png:default",
+    "orientations" : [
+    {
+      "dualImage" : "Door1.png:default",
+      "imagePosition" : [0, 0],
+      "renderLayer" : "Object+5",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+	"scripts": ["/objects/wired/door/door.lua"],
+	"scriptDelta": 5,
+ 
+    "animation" : "/objects/Solarians/furniture/Door/SO_Door.animation",
+
+    "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "bg" : "Door1.png",
+    "fg" : "Door1lit.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "inputNodes" : [ [-1, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}

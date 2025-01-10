@@ -1,0 +1,46 @@
+{
+  "objectName" : "SO_Couch",
+  "colonyTags" : ["Solarians"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 150,
+  "description" : "Comfy couch",
+  "shortdescription" : "Solarians Couch",
+  "race" : "generic",
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+
+  "inventoryIcon" : "SO_Couch.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "SO_Couch.png"}, { "image" : "SO_Couchlit.png:", "fullbright" : true  }  ],
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPositions" : [
+        // Positions from front to back.
+        [-10, 22], // Right
+        [3, 22] // Left
+      ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "SO_Couch.png"}, { "image" : "SO_Couchlit.png:", "fullbright" : true  }  ],
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "sitPositions" : [
+        // Positions from front to back.
+        [-2, 22], // Left
+        [11, 22] // Right
+      ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+
+}
