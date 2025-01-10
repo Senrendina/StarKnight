@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 5 },  
+	{ "item" : "silverbar", "count" : 20 }
+  ],
+  "output" : { "item" : "starknight_endtime", "count" : 1},
+  "duration" : 0.5,
+  "groups" : [ "metalstartable", "weapon", "all" ]
+}

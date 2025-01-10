@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "CSK_SolidIngot", "count" : 25 }
+  ],
+  "output" : { "item" : "CS_StarLight", "count" : 1},
+  "duration" : 0.5,
+  "groups" : [ "metalstartable", "weapon", "all" ]
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [ 
+	{ "item" : "CSK_SolidIngot", "count" : 5 },
+	{ "item" : "CSK_CrystalCore", "count" : 1 }
+  ],
+  "output" : { "item" : "CSK_SynergicTransmitter", "count" : 5},
+  "duration" : 0.5,
+  "groups" : [ "metalstartable", "reagent", "all" ]
+}

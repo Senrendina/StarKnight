@@ -1,0 +1,9 @@
+{
+  "input" : [ 
+	{ "item" : "coalore", "count" : 1 },
+	{ "item" : "sk_sardonyx_ore", "count" : 1 }
+  ],
+  "output" : { "item" : "CSK_SolidIngot", "count" : 5},
+  "duration" : 0.2,
+  "groups" : [ "metalstartable", "reagent", "all" ]
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "CSK_SolidIngot", "count" : 15 },  
+	{ "item" : "CSK_SynergicTransmitter", "count" : 1 }
+  ],
+  "output" : { "item" : "SK_DragonClash", "count" : 1},
+  "duration" : 0.5,
+  "groups" : [ "metalstartable", "weapon", "all" ]
+}

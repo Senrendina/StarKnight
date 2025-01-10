@@ -1,0 +1,8 @@
+{
+  "input" : [ 
+	{ "item" : "sk_sardonyx_ore", "count" : 5 }
+  ],
+  "output" : { "item" : "BD_SmallBlackPlate", "count" : 1},
+  "duration" : 0.5,
+  "groups" : [ "BD_Fabricator", "reagent", "all" ]
+}

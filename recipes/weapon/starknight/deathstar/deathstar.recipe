@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 10 }  
+  ],
+  "output" : { "item" : "starknight_deathstar", "count" : 1},
+  "duration" : 0.5,
+  "groups" : [ "metalstartable", "weapon", "all" ]
+}

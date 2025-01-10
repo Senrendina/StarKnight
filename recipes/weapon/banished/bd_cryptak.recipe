@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "CSK_SolidIngot", "count" : 5 },  
+	{ "item" : "CSK_SynergicTransmitter", "count" : 2 }
+  ],
+  "output" : { "item" : "BD_Cryptak", "count" : 1},
+  "duration" : 0.5,
+  "groups" : [ "BD_Fabricator", "Ranged", "all" ]
+}
