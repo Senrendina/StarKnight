@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "CSK_SolidIngot", "count" : 10 }, 
+	{ "item" : "CSK_SynergicTransmitter", "count" : 1 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "SK_Lightarmorhead1", "count" : 1 },
+  "groups" : [ "metalstartable", "weapon", "all" ]
+}
