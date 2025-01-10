@@ -1,0 +1,36 @@
+{
+  "objectName": "SK_SolarPanel",
+  "colonyTags": ["starknight", "furniture"],
+  "rarity": "Rare",
+  "description": "Taking the Sun as Energy Source",
+  "shortdescription": "Solar Panel",
+  "race": "generic",
+  "category": "decorative",
+  "price": 110,
+  "inventoryIcon": "SK_SolarPanel.png",
+  "orientations": [
+    {
+      "imageLayers" : [ { "image" : "SK_SolarPanel.png"}, { "image" : "SK_SolarPanellit.png:", "fullbright" : true  }  ],
+	  
+      "flipImages": true,
+      "direction": "left",
+      "imagePosition": [0, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "SK_SolarPanel.png"}, { "image" : "SK_SolarPanellit.png:", "fullbright" : true  }  ],
+	  
+      "direction": "right",
+      "imagePosition": [0, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    }
+  ]
+}

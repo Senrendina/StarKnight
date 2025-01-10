@@ -1,0 +1,59 @@
+{
+  "objectName" : "SK_generator",
+  "colonyTags" : ["starknight"],
+  "rarity" : "Rare",
+  "description" : "Used to give energy.",
+  "shortdescription" : "starknight generator",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 600,
+
+  "inventoryIcon" : "SK_generatoricon.png",
+  "orientations": [
+    {
+      "image": "SK_generator.png:<color>.off",
+      "flipImages": true,
+      "direction": "left",
+      "lightPosition": [0, 1],
+      "imagePosition": [-16, 0],
+      "frames": 5,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
+    },
+    {
+      "image": "SK_generator.png:<color>.off",
+      "direction": "right",
+      "lightPosition": [0, 1],
+      "imagePosition": [-16, 0],
+      "frames": 5,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
+    }
+  ],
+  "scripts": ["/objects/wired/switch/switchwithinput.lua", "/scripts/npcToyObject.lua"],
+  "scriptDelta": 5,
+  "animation": "SK_generator.animation",
+  "animationCustom": {
+    "sounds": {
+      "on": ["/sfx/objects/console_button.ogg"],
+      "off": ["/sfx/objects/console_button.ogg"]
+    }
+  },
+  "animationParts": {
+    "bg": "SK_generator.png",
+    "fg": "SK_generatorlit.png"
+  },
+  "animationPosition": [-16, 0],
+  "outputNodes": [[2, 0]],
+  "inputNodes": [[0, 2]],  
+  "npcToy": {
+	"ownerOnly" : true,
+    "influence": ["console"],
+    "defaultReactions": {},
+    "preciseStandPositionLeft": [-0.5, 0],
+    "preciseStandPositionRight": [0, 0],
+    "maxNpcs": 1
+  }
+}

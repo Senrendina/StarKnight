@@ -1,0 +1,37 @@
+{
+  "objectName" : "SK_JetThunder",
+  "colonyTags" : ["misc"],
+  "rarity" : "Rare",
+  "description" : "The Main Jet Fighter of Starknight",
+  "shortdescription" : "Jet Thunder",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 100,
+
+  "inventoryIcon" : "SK_JetThunder.png",
+  "orientations" : [
+    {
+	  "imageLayers" : [ { "image" : "SK_JetThunder.png"}, { "image" : "SK_JetThunderlit.png:", "fullbright" : true  }  ],
+      "direction" : "left",
+	  "flipImages" : true,
+      "imagePosition" : [-30, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+	{
+	  "imageLayers" : [ { "image" : "SK_JetThunder.png"}, { "image" : "SK_JetThunderlit.png:", "fullbright" : true  }  ],
+      "direction" : "right",
+      "imagePosition" : [-30, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}
