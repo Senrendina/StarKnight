@@ -1,0 +1,11 @@
+{
+  "itemName" : "SO_Blocks23",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "Blocks23icon.png",
+  "shortdescription" : "Cover Metal Panel",
+  "description" : "Cover Metal Panel",
+
+  "materialId" : 60243
+}

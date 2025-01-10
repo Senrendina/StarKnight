@@ -1,0 +1,11 @@
+{
+  "itemName" : "SO_Blocks9",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "Blocks9icon.png",
+  "shortdescription" : "Solarian Sloped",
+  "description" : "Solarian Sloped",
+
+  "materialId" : 60229
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "SO_Blocks5",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "Blocks5icon.png",
+  "shortdescription" : "Solarian Attach",
+  "description" : "Solarian Attach",
+
+  "materialId" : 60225
+}

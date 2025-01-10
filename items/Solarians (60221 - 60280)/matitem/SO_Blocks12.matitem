@@ -1,0 +1,11 @@
+{
+  "itemName" : "SO_Blocks12",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "Blocks12icon.png",
+  "shortdescription" : "Storage Panel",
+  "description" : "A Storage Panel",
+
+  "materialId" : 60232
+}

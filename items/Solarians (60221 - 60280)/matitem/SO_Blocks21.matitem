@@ -1,0 +1,11 @@
+{
+  "itemName" : "SO_Blocks21",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "Blocks21icon.png",
+  "shortdescription" : "Platform",
+  "description" : "A well-constructed metal platform.",
+
+  "materialId" : 60241
+}

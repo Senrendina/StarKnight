@@ -1,0 +1,11 @@
+{
+  "itemName" : "SO_Blocks2",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "Blocks2icon.png",
+  "shortdescription" : "Solarian Flooring",
+  "description" : "Solarian Gold Flooring",
+
+  "materialId" : 60222
+}

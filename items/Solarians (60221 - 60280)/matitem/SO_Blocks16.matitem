@@ -1,0 +1,11 @@
+{
+  "itemName" : "SO_Blocks16",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "Blocks16icon.png",
+  "shortdescription" : "Solarian Hazard Sloped",
+  "description" : "Gold Solarian Hazard Sloped",
+
+  "materialId" : 60236
+}

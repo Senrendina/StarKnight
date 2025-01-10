@@ -1,0 +1,11 @@
+{
+  "itemName" : "SO_Blocks14",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "Blocks14icon.png",
+  "shortdescription" : "Hazard Flooring",
+  "description" : "Hazard Flooring",
+
+  "materialId" : 60234
+}

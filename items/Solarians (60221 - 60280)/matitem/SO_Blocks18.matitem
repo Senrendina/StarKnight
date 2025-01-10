@@ -1,0 +1,11 @@
+{
+  "itemName" : "SO_Blocks18",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "Blocks18icon.png",
+  "description" : "Solarian Glass Sloped",
+  "shortdescription" : "Glasses Solarian Sloped",
+
+  "materialId" : 60238
+}

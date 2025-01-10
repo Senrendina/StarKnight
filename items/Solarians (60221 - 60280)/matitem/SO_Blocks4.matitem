@@ -1,0 +1,11 @@
+{
+  "itemName" : "SO_Blocks4",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "Blocks4icon.png",
+  "shortdescription" : "Solarian Flooring",
+  "description" : "Solarian Flooring",
+
+  "materialId" : 60224
+}

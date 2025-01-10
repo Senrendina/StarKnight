@@ -1,0 +1,11 @@
+{
+  "itemName" : "SO_Blocks6",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "Blocks6icon.png",
+  "shortdescription" : "Solarian Pylone",
+  "description" : "Solarian Pylone",
+
+  "materialId" : 60226
+}
