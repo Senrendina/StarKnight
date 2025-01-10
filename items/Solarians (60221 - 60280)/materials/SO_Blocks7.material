@@ -1,19 +1,19 @@
 {
-  "materialId" : 60221,
-  "materialName" : "SO_Blocks1",
+  "materialId" : 60227,
+  "materialName" : "SO_Blocks7",
   "particleColor" : [55, 55, 55, 255],
-  "itemDrop" : "SO_Blocks1",
+  "itemDrop" : "SO_Blocks7",
   
   "description" : "Builded attach with the floor",
-  "shortdescription" : "Solarians Dark Panel",
+  "shortdescription" : "Solarians Sloped",
   
   "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
   "health" : 6,
   "category" : "materials",
 
-  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "Blocks1.png",
+    "texture" : "Blocks7.png",
     "variants" : 1,
     "lightTransparent" : false,
     "multiColored" : false,

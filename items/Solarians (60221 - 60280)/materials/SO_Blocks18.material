@@ -1,24 +1,24 @@
 {
-  "materialId" : 60221,
-  "materialName" : "SO_Blocks1",
+  "materialId" : 60238,
+  "materialName" : "SO_Blocks18",
   "particleColor" : [55, 55, 55, 255],
-  "itemDrop" : "SO_Blocks1",
+  "itemDrop" : "SO_Blocks18",
   
-  "description" : "Builded attach with the floor",
-  "shortdescription" : "Solarians Dark Panel",
+  "description" : "Solarian Glass Sloped",
+  "shortdescription" : "Glasses Solarian Sloped",
   
   "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
   "health" : 6,
   "category" : "materials",
 
-  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "Blocks1.png",
+    "texture" : "Blocks18.png",
     "variants" : 1,
     "lightTransparent" : false,
     "multiColored" : false,
     "occludesBelow" : false,
-    "zLevel" : 100,
+    "zLevel" : 50,
 	"radiantLight" : [0, 30, 56]
   }
 }

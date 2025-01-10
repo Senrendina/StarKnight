@@ -1,0 +1,21 @@
+{
+  "materialId" : 60245,
+  "materialName" : "SO_Blocks25",
+    "particleColor" : [55, 55, 55, 255],
+  "itemDrop" : "SO_Blocks25",
+  "shortdescription" : "Cover Metal Panel",
+  "description" : "Cover Metal Panel",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "Blocks25.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 50
+  }
+}

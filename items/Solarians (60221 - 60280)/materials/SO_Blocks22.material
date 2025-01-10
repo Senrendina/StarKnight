@@ -1,0 +1,20 @@
+{
+  "materialId" : 60242,
+  "materialName" : "SO_Blocks22",
+  "collisionKind" : "platform",
+  "itemDrop" : "SO_Blocks22",
+  "shortdescription" : "Stairs",
+  "description" : "Stairs",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "category" : "Supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "Blocks22.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

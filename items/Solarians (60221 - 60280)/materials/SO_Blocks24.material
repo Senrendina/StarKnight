@@ -1,0 +1,21 @@
+{
+  "materialId" : 60244,
+  "materialName" : "SO_Blocks24",
+    "particleColor" : [55, 55, 55, 255],
+  "itemDrop" : "SO_Blocks24",
+  "shortdescription" : "Flooring Light",
+  "description" : "Some Flooring Light",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/rowtemplate.config",
+  "renderParameters" : {
+    "texture" : "Blocks24.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 100
+  }
+}

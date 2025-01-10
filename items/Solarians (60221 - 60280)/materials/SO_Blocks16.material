@@ -1,19 +1,19 @@
 {
-  "materialId" : 60221,
-  "materialName" : "SO_Blocks1",
+  "materialId" : 60236,
+  "materialName" : "SO_Blocks16",
   "particleColor" : [55, 55, 55, 255],
-  "itemDrop" : "SO_Blocks1",
+  "itemDrop" : "SO_Blocks16",
   
-  "description" : "Builded attach with the floor",
-  "shortdescription" : "Solarians Dark Panel",
+  "description" : "Solarian Hazard Slopped",
+  "shortdescription" : "Gold Solarian Hazard Slopped",
   
   "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
   "health" : 6,
   "category" : "materials",
 
-  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "Blocks1.png",
+    "texture" : "Blocks16.png",
     "variants" : 1,
     "lightTransparent" : false,
     "multiColored" : false,

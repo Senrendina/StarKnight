@@ -1,0 +1,22 @@
+{
+  "materialId" : 60246,
+  "materialName" : "SO_Blocks26",
+    "particleColor" : [55, 55, 55, 255],
+  "itemDrop" : "SO_Blocks26",
+  "shortdescription" : "Light LED Block",
+  "description" : "Some Light Block",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/rowtemplate.config",
+  "renderParameters" : {
+    "texture" : "Blocks26.png",
+    "variants" : 2,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 600,
+	"radiantLight" : [53, 128, 178]
+  }
+}
