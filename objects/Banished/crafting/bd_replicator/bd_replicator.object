@@ -1,32 +1,32 @@
 {
-  "objectName" : "BD_Fabricator",
+  "objectName" : "BD_Replicator",
   "colonyTags" : ["crafting"],
   "rarity" : "Rare",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
-    "config" : "/interface/windowconfig/BD_Fabricator.config",
+    "config" : "/interface/windowconfig/BDcraftingfurniture.config",
     "paneLayoutOverride" : {
       "windowtitle" : {
-        "title" : "Banished Fabricator",
+        "title" : "Banished Replicator",
         "subtitle" : " Crafting...",
         "icon" : {
-          "file" : "/objects/Banished/Crafting/BD_Fabricator/BD_Fabricatoricon.png"
+          "file" : "/objects/Banished/Crafting/BD_Replicator/BD_Replicatoricon.png"
         }
       }
     },
-    "filter" : [ "BD_Fabricator" ]
+    "filter" : [ "BD_Replicator" ]
   },
   "printable" : false,
-  "description" : "This crafting station is where you can craft Banished Weapon",
+  "description" : "This crafting station is where you can craft Banished Furniture",
   "shortdescription" : "Banished Replicator",
   "race" : "generic",
   "category" : "crafting",
   "price" : 30,
    
-  "inventoryIcon" : "BD_Fabricatoricon.png",
+  "inventoryIcon" : "BD_Replicatoricon.png",
     "orientations" : [
     {
-       "imageLayers" : [ { "image" : "BD_Fabricator.png"}, { "image" : "BD_Fabricatorlit.png", "fullbright" : true  }  ],
+       "imageLayers" : [ { "image" : "BD_Replicator.png:<color>.<frame>"}, { "image" : "BD_Replicatorlit.png:<color>.<frame>", "fullbright" : true  }  ],
 
       "imagePosition" : [0, 0],
       "frames" : 38,
@@ -40,9 +40,9 @@
 
     },
         {
-       "imageLayers" : [ { "image" : "BD_Fabricator.png"}, { "image" : "BD_Fabricatorlit.png", "fullbright" : true  }  ],
+       "imageLayers" : [ { "image" : "BD_Replicator.png:<color>.<frame>"}, { "image" : "BD_Replicatorlit.png:<color>.<frame>", "fullbright" : true  }  ],
 
-      "imagePosition" : [0, 0],
+      "imagePosition" : [-16, 0],
       "frames" : 38,
       "animationCycle" : 5.0,
 
