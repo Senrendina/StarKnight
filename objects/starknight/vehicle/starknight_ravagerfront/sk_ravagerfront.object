@@ -1,0 +1,43 @@
+{
+  "objectName": "SK_ravagerfront",
+  "colonyTags": ["starknight", "furniture"],
+  "rarity": "Rare",
+  "description": "Main Battle Tank. Out of fuel though...",
+  "shortdescription": "Starknight Ravager Front",
+  "race": "generic",
+  "category": "decorative",
+  "price": 110,
+  "apexDescription": "starknight Main Battle Tank.",
+  "avianDescription": "starknight Main Battle Tank.",
+  "floranDescription": "sssssstarknight Main Battle Tank.",
+  "glitchDescription": "starknight Main Battle Tank.",
+  "humanDescription": "starknight Main Battle Tank.",
+  "hylotlDescription": "An Battle Tank.",
+  "novakidDescription": "Just Battle Tank.",
+  "inventoryIcon": "SK_ravagerfront.png",
+  "orientations": [
+    {
+      "imageLayers" : [ { "image" : "SK_ravagerfront.png"}, { "image" : "SK_ravagerfrontlit.png:", "fullbright" : true  }  ],
+	  
+      "flipImages": true,
+      "direction": "left",
+      "imagePosition": [-24, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "SK_ravagerfront.png"}, { "image" : "SK_ravagerfrontlit.png:", "fullbright" : true  }  ],
+	  
+      "direction": "right",
+      "imagePosition": [-24, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "objectName": "SK_machineturret",
+  "colonyTags": ["starknight", "furniture"],
+  "rarity": "Rare",
+  "description": "For Self-defense",
+  "shortdescription": "Plasma Ship Turret",
+  "race": "generic",
+  "category": "decorative",
+  "price": 110,
+  "apexDescription": "A machine turret.",
+  "avianDescription": "A machine turret.",
+  "floranDescription": "Floran dislikess machine turret.",
+  "glitchDescription": "Indifferent. A machine turret.",
+  "humanDescription": "A machine turret.",
+  "hylotlDescription": "A machine turret.",
+  "novakidDescription": "Just a machine turret.",
+  "inventoryIcon": "SK_machineturret.png",
+  "orientations": [
+    {
+      "imageLayers" : [ { "image" : "SK_machineturret.png"}, { "image" : "SK_machineturretlit.png", "fullbright" : true  }  ],
+	  
+      "flipImages": true,
+      "direction": "left",
+      "imagePosition": [-24, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "SK_machineturret.png"}, { "image" : "SK_machineturretlit.png:", "fullbright" : true  }  ],
+	  
+      "direction": "right",
+      "imagePosition": [-24, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    }
+  ]
+}

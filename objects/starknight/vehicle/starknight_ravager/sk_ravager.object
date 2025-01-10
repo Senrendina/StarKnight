@@ -1,0 +1,43 @@
+{
+  "objectName": "SK_ravager",
+  "colonyTags": ["starknight", "furniture"],
+  "rarity": "Rare",
+  "description": "Main Battle Tank. Out of fuel though...",
+  "shortdescription": "Starknight Ravager",
+  "race": "generic",
+  "category": "decorative",
+  "price": 110,
+  "apexDescription": "A small turret.",
+  "avianDescription": "A small turret.",
+  "floranDescription": "Floran dilikess small turret.",
+  "glitchDescription": "Indifferent. A small turret.",
+  "humanDescription": "A small turret.",
+  "hylotlDescription": "An unattractive small turret.",
+  "novakidDescription": "Just a small turret.",
+  "inventoryIcon": "SK_ravager.png",
+  "orientations": [
+    {
+      "imageLayers" : [ { "image" : "SK_ravager.png"}, { "image" : "SK_ravagerlit.png:", "fullbright" : true  }  ],
+	  
+      "flipImages": true,
+      "direction": "left",
+      "imagePosition": [-24, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "SK_ravager.png"}, { "image" : "SK_ravagerlit.png:", "fullbright" : true  }  ],
+	  
+      "direction": "right",
+      "imagePosition": [-24, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    }
+  ]
+}
