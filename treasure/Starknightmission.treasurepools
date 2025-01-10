@@ -1,0 +1,21 @@
+{
+	"Starknight_Intro_Weapon" : [
+		[1, 
+			{
+				"fill" : [
+					{ "item" : [ "starknight_suffer", 1 ] }
+				]
+			}
+		]
+	],
+	
+	"Starknight_Intro_Weapon2" : [
+		[1, 
+			{
+				"fill" : [
+					{ "item" : [ "starknight_overammo", 1 ] }
+				]
+			}
+		]
+	]	
+}

@@ -1,0 +1,13 @@
+{
+  "name" : "heavyArmor",
+  "effectConfig" : {},
+  "defaultDuration" : 1.5,
+
+  "scripts" : [
+    "heavyArmor.lua"
+  ],
+
+  "animationConfig" : "heavyArmor.animation",
+
+  "label" : "H.Armor"
+}

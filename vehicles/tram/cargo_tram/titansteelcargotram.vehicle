@@ -1,0 +1,55 @@
+{
+  "name" : "titansteelcargotram",
+  "boundBox" : [-7.5, -0.25, 7.5, 4.75],
+  "slaveControlTimeout" : 2.0,
+  "slaveControlHeartbeat" : 1.0,
+  "canBeHit" : false,
+
+  "persistent" : true,
+
+  "script" : "/vehicles/railtram/railtram.lua",
+  "animation" : "titansteelcargotram.animation",
+
+  "animationPartTags" : {
+    "gate" : {
+      "partImage" : "/vehicles/tram/Cargo_Tram/titansteelcargotramGate.png"
+    },
+    "tram" : {
+      "partImage" : "/vehicles/tram/Cargo_Tram/titansteelcargotram.png"
+    },
+    "tramfullbright" : {
+      "partImage" : "/vehicles/tram/Cargo_Tram/titansteelcargotramlit.png"
+    },
+    "tramControls" : {
+      "partImage" : "/vehicles/railtram/stationtram_arrows.png"
+    }
+  },
+
+  "movementSettings" : {
+    "collisionPoly" : [ [-7.5, 4.75], [7.5, 4.75], [7.5, 0.5], [1.5, -0.25], [-1.5, -0.25], [-7.5, 0.5] ],
+    "mass" : 2.0,
+    "ignorePlatformCollision" : true,
+    "physicsEffectCategories" : []
+  },
+
+  "loungePositions" : {
+    "seat" : {
+      "part" : "gate",
+      "partAnchor" : "standPosition",
+      "orientation" : "stand"
+    }
+  },
+
+  "physicsCollisions" : {
+    "platform" : {
+      "collision" : [ [-7.5, 0], [7.5, 0] ],
+      "collisionKind" : "platform"
+    }
+  },
+
+  "railConfig" : {
+    "speed" : 10
+  },
+
+  "popItem" : "titansteelcargotram"
+}

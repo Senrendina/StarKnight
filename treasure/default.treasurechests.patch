@@ -1,0 +1,13 @@
+[
+	{
+		"op" : "add",
+		"path" : "/Celureus_Cache",
+		"value" : [
+			{
+				"containers" : [ "Celureus_Cache" ],
+				"treasurePool" : "Celureus_Cache",
+				"minimumLevel" : 0
+			}
+		]
+	}
+]
