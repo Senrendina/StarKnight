@@ -1,0 +1,31 @@
+{
+  "objectName": "SK_energypillar9",
+  "colonyTags": ["starknight", "furniture"],
+  "rarity": "Rare",
+  "description": "An pure Energy Source",
+  "shortdescription": "Energy Pillar 9",
+  "race": "generic",
+  "category": "decorative",
+  "price": 110,
+  "lightColor": [0, 170, 170],
+  "apexDescription": "A Energy Pillar.",
+  "avianDescription": "A Energy Pillar.",
+  "floranDescription": "Floran likess Energy Pillar.",
+  "glitchDescription": "Indifferent. Energy Pillar.",
+  "humanDescription": "A Energy Pillar.",
+  "hylotlDescription": "An unattractive Energy Pillar.",
+  "novakidDescription": "Just a Energy Pillar",
+  "inventoryIcon": "SK_energypillar9.png",
+  "orientations": [
+    {
+      "imageLayers" : [ { "image" : "SK_energypillar9.png"}, { "image" : "SK_energypillar9lit.png:", "fullbright" : true  }  ],
+	  
+      "direction": "left",
+      "imagePosition": [0, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["background"]
+    }
+  ]
+}

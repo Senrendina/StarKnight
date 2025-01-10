@@ -1,0 +1,37 @@
+{
+  "objectName" : "SK_energytube1",
+  "colonyTags" : ["misc"],
+  "rarity" : "Rare",
+  "description" : "A Starknight Energy Tube",
+  "shortdescription" : "Starknight Energy Tube",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 100,
+
+  "inventoryIcon" : "SK_energytube1.png",
+  "orientations" : [
+    {
+	  "imageLayers" : [ { "image" : "SK_energytube1.png"}, { "image" : "SK_energytube1lit.png:", "fullbright" : true  }  ],
+      "direction" : "left",
+	  "flipImages" : true,
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    },
+	{
+	  "imageLayers" : [ { "image" : "SK_energytube1.png"}, { "image" : "SK_energytube1lit.png:", "fullbright" : true  }  ],
+      "direction" : "right",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}
