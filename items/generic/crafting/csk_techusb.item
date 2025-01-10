@@ -1,0 +1,10 @@
+{
+  "itemName" : "CSK_TechUSB",
+  "price" : 100,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "CSK_TechUSB.png",
+  "description" : "Tech USB used on most of the electronic stuff",
+  "shortdescription" : "Tech USB",
+  "itemTags" : [ "reagent" ]
+}

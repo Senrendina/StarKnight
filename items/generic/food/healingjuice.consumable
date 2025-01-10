@@ -1,0 +1,19 @@
+{
+  "itemName" : "healingjuice",
+  "rarity" : "rare",
+  "price" : 60,
+  "category" : "drink",
+  "inventoryIcon" : "healingjuice.png",
+  "description" : "A common drink made by Elka'thar, a former Ryuu bartender. This will make your life much easier.",
+  "shortdescription" : "Ceelerun Juice",
+  "effects" : [ [
+      {
+        "effect" : "healingjuice"
+      }
+    ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],	
+  "emote" : "",
+  "emitters" : [ "drinking" ]
+}

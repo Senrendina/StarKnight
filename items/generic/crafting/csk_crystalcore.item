@@ -1,0 +1,10 @@
+{
+  "itemName" : "CSK_CrystalCore",
+  "price" : 100,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "CSK_CrystalCore.png",
+  "description" : "An Crystal Core used on most of the furniture that requiert light",
+  "shortdescription" : "Crystal Core",
+  "itemTags" : [ "reagent" ]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "CSK_SolidIngot",
+  "price" : 25,
+  "rarity" : "Essential",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "CSK_SolidIngot.png",
+  "description" : "Solid Ingot used on all furniture.",
+  "shortdescription" : "Solid Ingot",
+  "itemTags" : [ "reagent" ]
+}
