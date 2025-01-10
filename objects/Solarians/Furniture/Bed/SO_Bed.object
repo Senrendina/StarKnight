@@ -1,0 +1,58 @@
+{
+  "objectName" : "SO_Bed",
+  "colonyTags" : ["misc"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A comfy bed.",
+  "shortdescription" : "Bed",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 45,
+
+  "apexDescription" : "A simple wooden bed, nice and comfortable.",
+  "avianDescription" : "A wooden frame and a comfortable mattress. What more could you need?",
+  "floranDescription" : "Floran rarely ssleep in ssuch nice bed.",
+  "glitchDescription" : "Drowsy. My power levels are low. This bed looks inviting.",
+  "humanDescription" : "Your basic, comfy bed.",
+  "hylotlDescription" : "A good place to close one's eyes.",
+  "novakidDescription" : "A decent place to get some shut-eye.",
+
+  "inventoryIcon" : "SO_Bed.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "SO_Bed.png"}, { "image" : "SO_Bedlit.png:", "fullbright" : true  }  ],
+      "imagePosition" : [-16, 0],
+      
+	  "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left",
+      "flipImages" : true
+    },
+        {
+      "imageLayers" : [ { "image" : "SO_Bed.png"}, { "image" : "SO_Bedlit.png:", "fullbright" : true  }  ],
+      "imagePosition" : [-32, 0],
+	  
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right"      
+    }    
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-4, 12],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/Solarians/Furniture/Bed/SO_Bedcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed1"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ]
+}
