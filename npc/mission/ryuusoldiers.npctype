@@ -1,0 +1,63 @@
+{
+  "type" : "ryuusoldiers",
+  "baseType" : "base",
+
+  "persistent" : true,
+
+  "dropPools" : [ ],
+
+  "damageTeamType" : "friendly",
+
+  "scriptConfig" : {
+    "behavior" : "villageguard",
+
+    "behaviorConfig" : {
+      "greetingChance" : 0.67,
+
+      "hostileDamageTeam" : { "type" : "enemy", "team" : 1 }
+    },
+
+    "personalities" : [
+        [1.0, { "personality" : "normal", "reactions" : {} }]
+    ],
+
+    "dialog" : {
+      "greeting" : "/dialog/converse.config:greeting",
+      "converse" : "/dialog/converse.config:converse",
+
+      "attack" : "/dialog/combat.config:attack",
+      "reattack" : "/dialog/combat.config:reattack",
+      "killedTarget" : "/dialog/combat.config:killedTarget",
+      "lostTarget" : "/dialog/combat.config:lostTarget",
+      "outOfSight" : "/dialog/combat.config:outOfSight",
+      "cheerOn" : "/dialog/combat.config:cheerOn",
+      "cantReach" : "/dialog/combat.config:cantReach",
+
+      "hail" : "/dialog/guard.config:hail",
+
+      "accuse" : "/dialog/thief.config:accuse"
+    }
+  },
+
+  "matchColorIndices" : true,
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "SK_Heavyarmorhead" } ],
+            "chest" : [ { "name" : "SK_Lightarmorchest1" } ],
+            "legs" : [ { "name" : "SK_Lightarmorlegs1" } ],
+            "primary" : [
+              "starknight_swordmoon",
+			  "SK_RailStar",
+			  "starknight_deathshot"
+            ],
+			"alt" : [
+              "starknight_swordmoon",
+			  "starknight_suffer"
+            ]
+          }
+        ] ]
+    ]
+  }
+}
