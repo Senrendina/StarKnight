@@ -1,0 +1,43 @@
+{
+  "objectName": "BD_BLights",
+  "colonyTags": ["light"],
+  "rarity": "Rare",
+  "description": "A Red wall light.",
+  "shortdescription": "Red Led",
+  "race": "generic",
+  "category": "light",
+  "price": 60,
+  "lightColor": [148, 21, 40],
+  "inventoryIcon": "BD_BLights.png:default.on",
+  "orientations": [
+    {
+      "image": "BD_BLights.png:<color>.<frame>",
+      "imagePosition": [0, 0],
+      "animationParts": {
+        "bg": "BD_BLights.png",
+        "fg": "BD_BLightslit.png"
+      },
+      "direction": "right",
+      "spaceScan": 0.1,
+      "anchors": ["background"]
+    }
+  ],
+  "soundEffect": "/sfx/objects/fluorescent_light_quiet.ogg",
+  "soundEffectRangeMultiplier": 0.5,
+  "animation": "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationCustom": {
+    "sounds": {
+      "on": ["/sfx/objects/tinywallswitch.ogg"],
+      "off": ["/sfx/objects/tinywallswitch.ogg"]
+    }
+  },
+  "animationParts": {
+    "bg": "BD_BLights.png",
+    "fg": "BD_BLightslit.png"
+  },
+  "animationPosition": [0, 0],
+  "scripts": ["/objects/wired/light/light.lua"],
+  "scriptDelta": 60,
+  "interactive": false,
+  "inputNodes": [[0, 0]]
+}

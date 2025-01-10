@@ -1,0 +1,87 @@
+{
+  "objectName": "BD_Spotlight",
+  "colonyTags": ["light"],
+  "rarity": "Rare",
+  "description": "A Red wall light.",
+  "shortdescription": "Red Spotlight",
+  "race": "generic",
+  "category": "light",
+  "price": 60,
+  "lightColor": [254, 104, 78],
+  "pointLight": true,
+  "pointBeam": 15,
+  "beamAmbience": 0.15,
+  "inventoryIcon": "BD_Spotlight.png:default.on",
+  "orientations": [
+    {
+      "image": "BD_Spotlight.png:<color>.<frame>",
+      "imagePosition": [0, 0],
+      "animationParts": {
+        "bg": "BD_Spotlight.png",
+        "fg": "BD_Spotlightlit.png"
+      },
+      "direction": "right",
+      "spaceScan": 0.01,
+      "anchors": ["top"],
+      "lightPosition": [0, 0],
+      "beamAngle": 270
+    },
+	{
+      "image": "BD_SpotlightL.png:<color>.<frame>",
+      "imagePosition": [0, 0],
+      "animationParts": {
+        "bg": "BD_SpotlightL.png",
+        "fg": "BD_SpotlightLlit.png"
+      },
+      "direction": "right",
+      "spaceScan": 0.01,
+      "anchors": ["left"],
+      "lightPosition": [0, 0],
+      "beamAngle": 0
+    },
+	{
+      "image": "BD_SpotlightB.png:<color>.<frame>",
+      "imagePosition": [0, 0],
+      "animationParts": {
+        "bg": "BD_SpotlightB.png",
+        "fg": "BD_SpotlightBlit.png"
+      },
+      "direction": "right",
+      "spaceScan": 0.01,
+      "anchors": ["bottom"],
+      "lightPosition": [0, 0],
+      "beamAngle": 90
+    },
+	{
+      "image": "BD_SpotlightR.png:<color>.<frame>",
+      "imagePosition": [0, 0],
+      "animationParts": {
+        "bg": "BD_SpotlightR.png",
+        "fg": "BD_SpotlightRlit.png"
+      },
+      "direction": "right",
+      "spaceScan": 0.01,
+      "anchors": ["right"],
+      "lightPosition": [0, 0],
+      "beamAngle": 180
+    }
+  ],
+  "soundEffect": "/sfx/objects/fluorescent_light_quiet.ogg",
+  "soundEffectRangeMultiplier": 0.5,
+  "animation": "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationCustom": {
+    "sounds": {
+      "on": ["/sfx/objects/tinywallswitch.ogg"],
+      "off": ["/sfx/objects/tinywallswitch.ogg"]
+    }
+  },
+  "animationParts": {
+    "bg": "BD_Spotlight.png",
+    "fg": "BD_Spotlightlit.png"
+  },
+  "animationPosition": [0, 0],
+  "scripts": ["/objects/wired/light/light.lua"],
+  "scriptDelta": 60,
+  "interactive": false,
+  "inputNodes": [[0, 0]]
+}

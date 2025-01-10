@@ -1,0 +1,48 @@
+{
+	"objectName": "BD_Ceiling2",
+	"colonyTags": ["Banished"],
+	"rarity": "Rare",
+	"description": "Some Ceiling screen displaying information",
+	"shortdescription": "Ceiling 2",
+	"race": "generic",
+	"category": "decorative",
+	"price": 120,
+    "lightColor": [84, 19, 39],	
+	"inventoryIcon": "BD_Ceiling2.png:default.off",
+  "orientations": [
+    {
+      "image": "BD_Ceiling2.png:<color>.on",
+      "flipImages": true,
+      "direction": "left",
+      "lightPosition": [0, 1],
+      "imagePosition": [-16, 0],
+      "frames": 4,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["top"]
+    },
+    {
+      "image": "BD_Ceiling2.png:<color>.on",
+      "direction": "right",
+      "lightPosition": [0, 1],
+      "imagePosition": [-16, 0],
+      "frames": 4,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["top"]
+    }
+  ],
+  "soundEffect" : "/sfx/objects/outpostmonitor_static.ogg",
+
+  "animation" : "BD_Ceiling2.animation",
+  "animationParts" : {
+    "bg" : "BD_Ceiling2.png",
+    "fg" : "BD_Ceiling2lit.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+}
