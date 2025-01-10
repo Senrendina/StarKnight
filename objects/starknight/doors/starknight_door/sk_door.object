@@ -1,0 +1,48 @@
+{
+	"objectName": "SK_door",
+	"colonyTags": ["door"],
+	"rarity": "Rare",
+	
+	"category": "door",
+	"price": 135,
+	"description": "A door commonly used for ship",
+	"shortdescription": "Door",
+	"race": "generic",
+
+	"inventoryIcon": "SK_door.png:default",
+    "orientations" : [
+    {
+      "dualImage" : "SK_door.png:default",
+      "imagePosition" : [0, 0],
+      "renderLayer" : "Object+5",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+	"scripts": ["/objects/wired/door/door.lua"],
+	"scriptDelta": 5,
+ 
+    "animation" : "/objects/Starknight/doors/starknight_door/SK_door.animation",
+
+    "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "bg" : "SK_door.png",
+    "fg" : "SK_doorlit.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "inputNodes" : [ [-1, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}

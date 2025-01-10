@@ -1,0 +1,37 @@
+{
+  "objectName" : "SK_Large_Antenna",
+  "colonyTags" : ["starknight"],
+  "rarity" : "Rare",
+  "description" : "An Large Antenna",
+  "shortdescription" : "Large Antenna",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 100,
+
+  "inventoryIcon" : "Large_Antenna.png",
+  "orientations" : [
+    {
+	  "imageLayers" : [ { "image" : "Large_Antenna.png"}, { "image" : "Large_Antennalit.png", "fullbright" : true  }  ],
+      "direction" : "left",
+	  "flipImages" : true,
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+	{
+	  "imageLayers" : [ { "image" : "Large_Antenna.png"}, { "image" : "Large_Antennalit.png:", "fullbright" : true  }  ],
+      "direction" : "right",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}
