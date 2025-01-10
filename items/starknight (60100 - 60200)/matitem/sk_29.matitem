@@ -1,0 +1,11 @@
+{
+  "itemName" : "SK_29",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "legendary",
+  "inventoryIcon" : "SK_29ico.png",
+  "description" : "This looks Sardonyx!",
+  "shortdescription" : "Hi-tech Sardonyx Block",
+
+  "materialId" : 60128
+}

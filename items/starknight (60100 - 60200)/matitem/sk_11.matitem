@@ -1,0 +1,12 @@
+{
+  "itemName" : "SK_11",
+  "price" : 10,
+  "category" : "platform",
+  "rarity" : "Rare",
+  "inventoryIcon" : "SK_11ico.png",
+  "description" : "Builded attach with the floor",
+  "shortdescription" : "Flooring Lined Light",
+  
+  "materialId" : 60110
+
+}

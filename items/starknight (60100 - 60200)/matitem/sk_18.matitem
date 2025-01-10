@@ -1,0 +1,11 @@
+{
+  "itemName" : "SK_18",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "SK_18ico.png",
+  "shortdescription" : "Support",
+  "description" : "Support stuff",
+
+  "materialId" : 60117
+}

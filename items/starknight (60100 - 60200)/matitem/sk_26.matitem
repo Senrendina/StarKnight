@@ -1,0 +1,11 @@
+{
+  "itemName" : "SK_26",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "legendary",
+  "inventoryIcon" : "SK_26ico.png",
+  "shortdescription" : "Wall Panel",
+  "description" : "A Random Wall Panel",
+
+  "materialId" : 60125
+}

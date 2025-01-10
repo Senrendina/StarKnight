@@ -1,0 +1,11 @@
+{
+  "itemName" : "SK_4",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "SK_4ico.png",
+  "description" : "A solid platform.",
+  "shortdescription" : "Platform",
+
+  "materialId" : 60103
+}

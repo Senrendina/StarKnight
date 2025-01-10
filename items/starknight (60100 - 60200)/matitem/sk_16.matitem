@@ -1,0 +1,11 @@
+{
+  "itemName" : "SK_16",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "SK_16ico.png",
+  "shortdescription" : "Plate Panel",
+  "description" : "An Plate Panel for covering surface",
+
+  "materialId" : 60115
+}

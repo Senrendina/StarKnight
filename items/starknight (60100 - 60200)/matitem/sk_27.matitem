@@ -1,0 +1,11 @@
+{
+  "itemName" : "SK_27",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "legendary",
+  "inventoryIcon" : "SK_27ico.png",
+  "shortdescription" : "Wall Light Panel",
+  "description" : "A Light Panel",
+
+  "materialId" : 60126
+}

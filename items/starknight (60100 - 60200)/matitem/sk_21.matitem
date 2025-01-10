@@ -1,0 +1,11 @@
+{
+  "itemName" : "SK_21",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "SK_21ico.png",
+  "shortdescription" : "Dark Sloped Hull Front",
+  "description" : "Dark Metal Plate used to build Spaceship or Ship",
+
+  "materialId" : 60120
+}

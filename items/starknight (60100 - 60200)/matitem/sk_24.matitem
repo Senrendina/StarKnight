@@ -1,0 +1,11 @@
+{
+  "itemName" : "SK_24",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "SK_24ico.png",
+  "shortdescription" : "Hyero Language Panel",
+  "description" : "A Ryuu language native panel",
+
+  "materialId" : 60123
+}

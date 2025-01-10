@@ -1,0 +1,12 @@
+{
+  "itemName" : "SK_12",
+  "price" : 10,
+  "category" : "platform",
+  "rarity" : "Rare",
+  "inventoryIcon" : "SK_12ico.png",
+  "shortdescription" : "Sloped Glass",
+  "description" : "Glass Windows",
+  
+  "materialId" : 60111
+
+}

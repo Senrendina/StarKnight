@@ -1,0 +1,11 @@
+{
+  "itemName" : "SK_19",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "SK_19ico.png",
+  "shortdescription" : "Plate Panel",
+  "description" : "An Plate Panel for covering surface",
+
+  "materialId" : 60118
+}

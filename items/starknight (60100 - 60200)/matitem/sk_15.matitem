@@ -1,0 +1,11 @@
+{
+  "itemName" : "SK_15",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "SK_15ico.png",
+  "shortdescription" : "Crate Panel",
+  "description" : "Some background Crate",
+
+  "materialId" : 60114
+}
