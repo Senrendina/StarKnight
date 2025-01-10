@@ -1,0 +1,91 @@
+{
+  "itemName" : "CS_StarScope",
+  "level" : 6,
+  "price" : 1500,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Star Scope",
+  "shortdescription" : "Star Scope",
+  "tooltipKind" : "gun",
+  "category" : "sniper",
+  "twoHanded" : true,
+  "itemTags" : ["weapon"],
+
+  "inventoryIcon" : [
+    { "image" : "CS_StarScope.png:idle.1" }
+  ],
+
+  "animation" : "CS_StarScope.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "CS_StarScope.png",
+    "middlefullbright" : "CS_StarScopelit.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/active/celureus/weapons/ranged/CS_muzzleflash.png"
+  },
+  "animationCustom" : {
+    "lights" : { "glow" : {
+      "active" : true,
+      "position" : [0.75, 0.5],
+      "color" : [0, 99, 165]
+    }},
+    "sounds" : {
+      "fire" : [ "/sfx/gun/plasma_sniper1.ogg" ]
+    }
+  },
+  "baseOffset" : [0.9, 0.35],
+  "muzzleOffset" : [2.375, 0.125],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "fire",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.50,
+    "baseDps" : 40,
+    "energyUsage" : 10,
+    "inaccuracy" : 0.00,
+	"projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "bluelaser",
+    "projectileParameters" : {
+      "knockback" : 0,
+      "speed" : 50
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.11,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}
