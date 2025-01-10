@@ -1,0 +1,46 @@
+{
+  "objectName": "SO_MediKitBox",
+  "colonyTags": ["Solarians", "storage"],
+  "rarity": "Rare",
+  "objectType": "container",
+  "tooltipKind": "container",
+  "category": "storage",
+  "price": 85,
+  "description": "Solarians Medikit Box",
+  "shortdescription": "Solarians Box",
+  "race": "generic",
+  "health": 1.5,
+  "inventoryIcon": "MediKitBox.png",
+
+   "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "MediKitBox.png"}, { "image" : "MediKitBoxlit.png", "fullbright" : true  }  ],
+      "imagePosition" : [0, 0],
+      
+	  "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision": "platform",
+      "direction" : "left",
+      "flipImages" : true
+    },
+        {
+      "imageLayers" : [ { "image" : "MediKitBox.png"}, { "image" : "MediKitBoxlit.png", "fullbright" : true  }  ],
+      "imagePosition" : [0, 0],
+	  
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision": "platform",
+      "direction" : "right"      
+    }    
+  ],
+  "slotCount": 9,
+    "uiConfig": "/interface/chests/chest<slots>.config",
+    "frameCooldown": 5,
+    "autoCloseCooldown": 3600
+}

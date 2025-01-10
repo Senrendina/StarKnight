@@ -1,0 +1,31 @@
+{
+  "objectName": "SO_AidKitLocker",
+  "colonyTags": ["Solarians","Starknight", "storage"],
+  "rarity": "Rare",
+  "category": "storage",
+  "price": 200,
+  "objectType": "container",
+  "tooltipKind": "container",
+  "description": "A nice, spacious, wall-mounted storage solution.",
+  "shortdescription": "Medikit Locker",
+  "race": "generic",
+  "health": 1.5,
+  "inventoryIcon": "SO_AidKitLockericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "SO_AidKitLocker.png:<color>.<key>"}, { "image" : "SO_AidKitLockerlit.png:<color>.<key>", "fullbright" : true } ],
+      "imagePosition" : [0, 0],
+      "frames" : 5,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  "openSounds": ["/sfx/objects/gunchest_open.ogg"],
+  "closeSounds": ["/sfx/objects/gunchest_close.ogg"],
+  "slotCount": 9,
+  "uiConfig": "/interface/chests/chest<slots>.config",
+  "frameCooldown": 5,
+  "openFrameIndex": 4,
+  "autoCloseCooldown": 3600
+}

@@ -1,0 +1,55 @@
+{
+  "objectName": "SO_GroundLight",
+  "colonyTags": ["light"],
+  "rarity": "Rare",
+  "description": "A Standard Red LED.",
+  "shortdescription": "Giant Red Led",
+  "race": "generic",
+  "category": "light",
+  "price": 60,
+  "lightColor": [76, 183, 255],
+  "inventoryIcon": "SO_Light.png:default.on",
+  "orientations": [
+    {
+      "image": "SO_Light.png:<color>.<frame>",
+      "imagePosition": [0, 0],
+      "animationParts": {
+        "bg": "SO_Light.png",
+        "fg": "SO_Lightlit.png"
+      },
+      "direction": "right",
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
+    },
+    {
+      "image": "SO_Light.png:<color>.<frame>",
+      "imagePosition": [0, 0],
+      "animationParts": {
+        "bg": "SO_Light.png",
+        "fg": "SO_Lightlit.png"
+      },
+      "direction": "left",
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+	  "flipImages" : true
+    }
+  ],
+  "soundEffect": "/sfx/objects/fluorescent_light_quiet.ogg",
+  "soundEffectRangeMultiplier": 0.5,
+  "animation": "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationCustom": {
+    "sounds": {
+      "on": ["/sfx/objects/tinywallswitch.ogg"],
+      "off": ["/sfx/objects/tinywallswitch.ogg"]
+    }
+  },
+  "animationParts": {
+    "bg": "SO_Light.png",
+    "fg": "SO_Lightlit.png"
+  },
+  "animationPosition": [0, 0],
+  "scripts": ["/objects/wired/light/light.lua"],
+  "scriptDelta": 60,
+  "interactive": false,
+  "inputNodes": [[0, 0]]
+}
