@@ -1,0 +1,11 @@
+{
+  "itemName" : "CS_7",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "CS_7ico.png",
+  "description" : "Some flooring",
+  "shortdescription" : "CS Flooring",
+
+  "materialId" : 60257
+}

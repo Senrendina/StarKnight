@@ -1,0 +1,23 @@
+{
+  "materialId" : 60267,
+  "materialName" : "CS_17",
+  "particleColor" : [237, 254, 255, 255],
+  "itemDrop" : "CS_17",
+  
+  "shortdescription" : "White Hull",
+  "description" : "White Metal Plate used to build Spaceship or Ship",
+  
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "CS_17.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 800
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "CS_20",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "CS_20ico.png",
+  "shortdescription" : "Glass Block",
+  "description" : "Glass Block used to build Spaceship or Ship",
+
+  "materialId" : 60270
+}

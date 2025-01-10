@@ -1,0 +1,25 @@
+{
+  "materialId" : 60262,
+  "materialName" : "CS_12",
+  "particleColor" : [55, 55, 55, 255],
+  "itemDrop" : "CS_12",
+  
+  "description" : "Some Grating Support",
+  "shortdescription" : "Grating Support",
+  
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 6,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "CS_12.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : false,
+    "zLevel" : 100,
+	"radiantLight" : [0, 30, 56]
+  }
+}
+

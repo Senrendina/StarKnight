@@ -1,0 +1,23 @@
+{
+  "materialId" : 60264,
+  "materialName" : "CS_14",
+  "collisionKind" : "platform",
+  "transparent" : true,
+  "itemDrop" : "CS_14",
+  
+  "shortdescription" : "Platform",
+  "description" : "A well-constructed metal platform.",
+ 
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "category" : "Supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "CS_14.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

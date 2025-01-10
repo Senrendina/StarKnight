@@ -1,0 +1,11 @@
+{
+  "itemName" : "CS_8",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "CS_8ico.png",  
+  "description" : "Builded attach with the floor",
+  "shortdescription" : "CS Attach",
+
+  "materialId" : 60258
+}

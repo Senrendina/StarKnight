@@ -1,0 +1,11 @@
+{
+  "itemName" : "CS_17",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "CS_17ico.png",
+  "shortdescription" : "White Sloped Hull",
+  "description" : "White Metal Plate used to build Spaceship or Ship",
+
+  "materialId" : 60267
+}

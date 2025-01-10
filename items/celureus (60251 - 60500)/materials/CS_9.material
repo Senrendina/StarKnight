@@ -1,0 +1,25 @@
+{
+  "materialId" : 60259,
+  "materialName" : "CS_9",
+  "particleColor" : [55, 55, 55, 255],
+  "itemDrop" : "CS_9",
+  
+  "description" : "Some Floor",
+  "shortdescription" : "Flooring 2",
+  
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 6,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "CS_9.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : false,
+    "zLevel" : 100,
+	"radiantLight" : [0, 30, 56]
+  }
+}
+

@@ -1,0 +1,11 @@
+{
+  "itemName" : "CS_4",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "CS_4ico.png",
+  "shortdescription" : "Colored Plate Armor",
+  "description" : "Plate Armor",
+
+  "materialId" : 60254
+}

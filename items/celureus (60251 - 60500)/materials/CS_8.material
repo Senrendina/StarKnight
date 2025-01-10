@@ -1,0 +1,25 @@
+{
+  "materialId" : 60258,
+  "materialName" : "CS_8",
+  "particleColor" : [55, 55, 55, 255],
+  "itemDrop" : "CS_8",
+  
+  "description" : "Builded attach with the floor",
+  "shortdescription" : "Attach",
+  
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 6,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "CS_8.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : false,
+    "zLevel" : 100,
+	"radiantLight" : [0, 30, 56]
+  }
+}
+

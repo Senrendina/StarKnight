@@ -1,0 +1,21 @@
+{
+  "materialId" : 60251,
+  "materialName" : "CS_1",
+    "particleColor" : [55, 55, 55, 255],
+  "itemDrop" : "CS_1",
+  "shortdescription" : "Some Energy Pipe",
+  "description" : "Energy Pipe.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "CS_1.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 300
+  }
+}

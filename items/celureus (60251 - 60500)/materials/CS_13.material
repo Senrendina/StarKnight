@@ -1,0 +1,25 @@
+{
+  "materialId" : 60263,
+  "materialName" : "CS_13",
+  "particleColor" : [55, 55, 55, 255],
+  "itemDrop" : "CS_13",
+  
+  "description" : "Some Light Column",
+  "shortdescription" : "Column",
+  
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 6,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/girdertemplate.config",
+  "renderParameters" : {
+    "texture" : "CS_13.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : false,
+    "zLevel" : 100,
+	"radiantLight" : [0, 30, 56]
+  }
+}
+

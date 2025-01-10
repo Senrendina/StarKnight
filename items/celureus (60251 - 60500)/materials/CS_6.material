@@ -1,0 +1,21 @@
+{
+  "materialId" : 60256,
+  "materialName" : "CS_6",
+    "particleColor" : [55, 55, 55, 255],
+  "itemDrop" : "CS_5",
+  "shortdescription" : "Locker Wall",
+  "description" : "Locker Wall",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "CS_6.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 300
+  }
+}
