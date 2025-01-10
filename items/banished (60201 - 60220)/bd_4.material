@@ -1,0 +1,23 @@
+{
+  "materialId" : 60204,
+  "materialName" : "BD_4",
+  "particleColor" : [237, 254, 255, 255],
+  "itemDrop" : "BD_4",
+  
+  "shortdescription" : "Red Hull",
+  "description" : "Dark Red Metal Plate used to build Spaceship or Ship",
+  
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "BD_4.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 200
+  }
+}

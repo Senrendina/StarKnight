@@ -1,0 +1,12 @@
+{
+  "itemName" : "BD_5",
+  "price" : 10,
+  "category" : "platform",
+  "rarity" : "Rare",
+  "inventoryIcon" : "BD_5ico.png",
+  "shortdescription" : "Support Beam Light",
+  "description" : "Support Beam with incrusted Light",
+  
+  "materialId" : 60205
+
+}

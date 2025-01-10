@@ -1,0 +1,11 @@
+{
+  "itemName" : "BD_4",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "BD_4ico.png",
+  "shortdescription" : "Purpled Hull",
+  "description" : "Dark Purple Metal Plate used to build Spaceship or Ship",
+
+  "materialId" : 60204
+}

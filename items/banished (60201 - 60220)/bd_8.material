@@ -1,0 +1,23 @@
+{
+  "materialId" : 60208,
+  "materialName" : "BD_8",
+  "particleColor" : [237, 254, 255, 255],
+  "itemDrop" : "BD_8",
+  
+  "shortdescription" : "Dark Plate",
+  "description" : "Dark Metal Plate used to build.",
+  
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "BD_8.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 300
+  }
+}

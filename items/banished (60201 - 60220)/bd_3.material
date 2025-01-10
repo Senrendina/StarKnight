@@ -1,0 +1,21 @@
+{
+  "materialId" : 60203,
+  "materialName" : "BD_3",
+    "particleColor" : [55, 55, 55, 255],
+  "itemDrop" : "BD_3",
+  "shortdescription" : "Red Flooring",
+  "description" : "Some Flooring with Energy Light incrusted",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/rowtemplate.config",
+  "renderParameters" : {
+    "texture" : "BD_3.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 3380
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "BD_7",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "BD_7ico.png",
+  "shortdescription" : "Platform",
+  "description" : "A well-constructed metal platform.",
+
+  "materialId" : 60207
+}

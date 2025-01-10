@@ -1,0 +1,11 @@
+{
+  "itemName" : "BD_9",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "BD_9ico.png",
+  "shortdescription" : "Grid Panel",
+  "description" : "An Plate Panel for covering surface",
+
+  "materialId" : 60209
+}
