@@ -1,0 +1,8 @@
+{
+  "input" : [  
+	{ "item" : "silverbar", "count" : 3 }
+  ],
+  "output" : { "item" : "SK_desk", "count" : 1},
+  "duration" : 0.5,
+  "groups" : [ "metalstarbench", "storage", "all" ]
+}

@@ -1,0 +1,11 @@
+{
+    "input": [
+	{"item": "CSK_SolidIngot", "count": 20}
+    ],
+    "output": {
+        "item": "SK_Bar",
+        "count": 1
+    },
+    "duration": 0.5,
+    "groups": ["metalstarbench", "decoration", "all"]
+}
