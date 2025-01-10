@@ -1,0 +1,12 @@
+{
+    "input": [	
+	{"item": "BD_CombinedPlate","count": 10},
+	{"item": "BD_MagneticDisk","count": 5}
+    ],
+    "output": {
+        "item": "BD_Teleporter",
+        "count": 1
+    },
+    "duration": 0.5,
+    "groups": ["BD_Replicator", "decoration", "all"]
+}

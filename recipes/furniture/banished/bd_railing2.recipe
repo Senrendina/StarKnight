@@ -1,0 +1,11 @@
+{
+    "input": [	
+	{"item": "CSK_SolidIngot","count": 1}
+    ],
+    "output": {
+        "item": "BD_Railing2",
+        "count": 1
+    },
+    "duration": 0.5,
+    "groups": ["BD_Replicator", "decoration", "all"]
+}

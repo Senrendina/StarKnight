@@ -3,9 +3,9 @@
 	{"item": "CSK_SolidIngot","count": 1}
     ],
     "output": {
-        "item": "BD_1",
-        "count": 100
+        "item": "CSR_LightFront",
+        "count": 1
     },
     "duration": 0.2,
-    "groups": ["BD_Replicator", "materials", "all"]
+    "groups": ["CelureusCraftRemake", "lights", "all"]
 }
