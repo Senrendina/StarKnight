@@ -1,0 +1,21 @@
+{
+  "materialId" : 60127,
+  "materialName" : "SK_28",
+  "particleColor" : [124, 124, 124, 255],
+  "itemDrop" : "SK_28",
+  "shortdescription" : "Sardonyx Block",
+  "description" : "A solid Sardonyx block.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 16,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "SK_28.png",
+    "variants" : 10,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 3000
+  }
+}

@@ -1,10 +1,10 @@
 {
-  "materialId" : 60100,
-  "materialName" : "SK_1",
+  "materialId" : 60120,
+  "materialName" : "SK_21",
   "particleColor" : [237, 254, 255, 255],
-  "itemDrop" : "SK_1",
+  "itemDrop" : "SK_21",
   
-  "shortdescription" : "Dark Sloped Hull",
+  "shortdescription" : "Dark Sloped Hull Front",
   "description" : "Dark Metal Plate used to build Spaceship or Ship",
   
   "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
@@ -18,6 +18,6 @@
     "lightTransparent" : true,
     "occludesBelow" : false,
     "multiColored" : false,
-    "zLevel" : 800
+    "zLevel" : 6000
   }
 }

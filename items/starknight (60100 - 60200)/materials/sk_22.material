@@ -1,0 +1,23 @@
+{
+  "materialId" : 60121,
+  "materialName" : "SK_22",
+  "particleColor" : [237, 254, 255, 255],
+  "itemDrop" : "SK_22",
+  
+  "shortdescription" : "Support Column",
+  "description" : "Dark Column Support",
+  
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/columntemplate.config",
+  "renderParameters" : {
+    "texture" : "SK_22.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 600
+  }
+}

@@ -1,11 +1,11 @@
 {
-  "materialId" : 60100,
-  "materialName" : "SK_1",
+  "materialId" : 60111,
+  "materialName" : "SK_12",
   "particleColor" : [237, 254, 255, 255],
-  "itemDrop" : "SK_1",
+  "itemDrop" : "SK_12",
   
-  "shortdescription" : "Dark Sloped Hull",
-  "description" : "Dark Metal Plate used to build Spaceship or Ship",
+  "shortdescription" : "Sloped Glass",
+  "description" : "Glass Windows",
   
   "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
   "health" : 8,
@@ -13,11 +13,11 @@
 
   "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "SK_1.png",
+    "texture" : "SK_12.png",
     "variants" : 1,
     "lightTransparent" : true,
     "occludesBelow" : false,
-    "multiColored" : false,
-    "zLevel" : 800
+    "multiColored" : true,
+    "zLevel" : 200
   }
 }

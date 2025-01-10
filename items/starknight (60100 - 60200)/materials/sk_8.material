@@ -1,0 +1,25 @@
+{
+  "materialId" : 60107,
+  "materialName" : "SK_8",
+  "particleColor" : [55, 55, 55, 255],
+  "itemDrop" : "SK_8",
+  
+  "description" : "Builded attach with the floor",
+  "shortdescription" : "Flooring Attach",
+  
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 6,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "SK_8.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : false,
+    "zLevel" : 50,
+	"radiantLight" : [0, 30, 56]
+  }
+}
+

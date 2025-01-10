@@ -1,0 +1,21 @@
+{
+  "materialId" : 60117,
+  "materialName" : "SK_18",
+    "particleColor" : [55, 55, 55, 255],
+  "itemDrop" : "SK_18",
+  "shortdescription" : "Support",
+  "description" : "Support stuff",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "SK_18.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 300
+  }
+}

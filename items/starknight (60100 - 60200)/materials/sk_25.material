@@ -1,0 +1,21 @@
+{
+  "materialId" : 60124,
+  "materialName" : "SK_25",
+    "particleColor" : [55, 55, 55, 255],
+  "itemDrop" : "SK_25",
+  "shortdescription" : "Wall Panel",
+  "description" : "A Random Wall Panel",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "SK_25.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 600
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "materialId" : 60119,
+  "materialName" : "SK_20",
+    "particleColor" : [55, 55, 55, 255],
+  "itemDrop" : "SK_20",
+  "shortdescription" : "Panel",
+  "description" : "An Plate Panel for covering surface",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "SK_20.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 600
+  }
+}
