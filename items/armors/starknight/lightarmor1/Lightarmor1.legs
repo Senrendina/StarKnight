@@ -1,0 +1,37 @@
+{
+  "itemName" : "SK_Lightarmorlegs1",
+  "price" : 320,
+  "inventoryIcon" : "icons.png:pants",
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "category" : "legarmour",
+  "description" : "The Crusade Armor legs",
+  "shortdescription" : "The Crusade Leggings",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "level" : 5,
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.5
+    },
+    {
+      "stat" : "protection",
+      "amount" : 20
+    },
+    {
+      "stat" : "maxEnergy",
+      "amount" : 50
+    },
+    {
+      "stat" : "maxHealth",
+      "amount" : 100
+    }
+
+  ],
+  "acceptsAugmentType" : "back",
+  "itemTags" : [ "tier5armour" ]
+}

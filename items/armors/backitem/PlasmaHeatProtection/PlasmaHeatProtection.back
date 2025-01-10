@@ -1,0 +1,25 @@
+{
+  "itemName" : "SK_PlasmaHeatProtection",
+  "price" : 1000,
+  "inventoryIcon" : "PlasmaHeatProtection.png",
+  "tooltipKind" : "baseaugment",
+  "rarity" : "Legendary",
+  "pickupQuestTemplates" : [ ],
+  "category" : "enviroProtectionPack",
+  "description" : "Special Starknight EPP's capabilities. Offers protection against planets bathed in ^red;plasmic heat^reset;.",
+  "shortdescription" : "Eldora Protection Pack",
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "maxStack" : 1,
+
+  "statusEffects" : [
+    {
+      "stat" : "SK_PlasmaHeatImmunity",
+      "amount" : 1.0
+    }	
+  ],
+
+  "acceptsAugmentType" : "back",
+  "radioMessagesOnPickup" : [ "pickupepp" ]
+}

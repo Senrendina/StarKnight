@@ -1,0 +1,39 @@
+{
+  "itemName" : "SK_Heavyarmorlegs",
+  "price" : 320,
+  "inventoryIcon" : "icons.png:pants",
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "category" : "legarmour",
+  "description" : "The Bastion armor give a good amount of health but slow you down (accept augment)",
+  "shortdescription" : "The Bastion Leggings",
+  "tooltipKind" : "SK_Armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "level" : 6,
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 2
+    },
+    {
+      "stat" : "protection",
+      "amount" : 10
+    },
+    {
+      "stat" : "maxEnergy",
+      "amount" : 50
+    },
+    {
+      "stat" : "maxHealth",
+      "amount" : 100
+        },
+        "heavyArmor"
+    ],
+    "acceptsAugmentType": "back",
+    "itemTags": [
+        "tier6armour"
+    ]
+}

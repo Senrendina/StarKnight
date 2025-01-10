@@ -1,0 +1,45 @@
+{
+  "itemName" : "CS_Civilianchest",
+  "price" : 800,
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "category" : "chestarmour",
+  "description" : "The Civilian",
+  "shortdescription" : "The Civilian",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "level" : 3,
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 2
+    },
+    {
+      "stat" : "protection",
+      "amount" : 10
+    },
+    {
+      "stat" : "maxEnergy",
+      "amount" : 25
+    },
+    {
+      "stat" : "maxHealth",
+      "amount" : 40
+    }
+  ],
+  "acceptsAugmentType" : "back",
+  "itemTags" : [ "tier5armour" ]
+}

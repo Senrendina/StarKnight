@@ -1,0 +1,25 @@
+{
+  "itemName" : "ryuuoutfit1chest",
+  "price" : 0,
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "chestwear",
+  "description" : "A simple Outfit",
+  "shortdescription" : "Casual Ryuu outfit",
+  "tooltipKind" : "armor",
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+  "colorOptions" : [
+    // BLACK
+    { "131216" : "131216", "212027" : "212027", "343540" : "343540", "606870" : "606870" }
+  ]
+}

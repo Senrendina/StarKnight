@@ -1,0 +1,21 @@
+{
+  "itemName" : "ExplorationHelmet",
+  "price" : 20,
+  "inventoryIcon" : "icon.png",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "headwear",
+  "description" : "A Starknight Helmet for exploration",
+  "shortdescription" : "Exploration Helmet",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "level": 2,
+  "statusEffects": [  ],
+
+
+  "itemTags" : [ "tier1armour" ]
+}
