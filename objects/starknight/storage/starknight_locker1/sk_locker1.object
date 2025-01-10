@@ -1,0 +1,53 @@
+{
+  "objectName": "SK_locker1",
+  "colonyTags": ["starknight", "storage"],
+  "rarity": "Rare",
+  "objectType": "container",
+  "tooltipKind": "container",
+  "category": "storage",
+  "price": 85,
+  "description": "A sealed metal locker.",
+  "shortdescription": "Starknight locker",
+  "race": "generic",
+  "health": 1.5,
+  "apexDescription": "This canister seems ideal for transporting volatile substances in.",
+  "avianDescription": "What a curious canister - I wonder what is inside?",
+  "floranDescription": "Black tube. Might have ssstuff inside.",
+  "glitchDescription": "Observant. A short analysis concludes that this canister is built to safely store valuable liquids.",
+  "humanDescription": "The sound this canister makes when opened is quite satisfying.",
+  "hylotlDescription": "What a curious looking storage container. Perhaps it is built to store fuel?",
+  "novakidDescription": "Is this a big ol' oil barrel? Mighty odd lookin' barrel if I say so myself.",
+  "inventoryIcon": "SK_locker1.png",
+
+   "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "SK_locker1.png"}, { "image" : "SK_locker1lit.png:", "fullbright" : true  }  ],
+      "imagePosition" : [-16, 0],
+      
+	  "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision": "platform",
+      "direction" : "left",
+      "flipImages" : true
+    },
+        {
+      "imageLayers" : [ { "image" : "SK_locker1.png"}, { "image" : "SK_locker1lit.png:", "fullbright" : true  }  ],
+      "imagePosition" : [-16, 0],
+	  
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision": "platform",
+      "direction" : "right"      
+    }    
+  ],
+  "slotCount": 16,
+    "uiConfig": "/interface/chests/chest<slots>.config",
+    "frameCooldown": 5,
+    "autoCloseCooldown": 3600
+}

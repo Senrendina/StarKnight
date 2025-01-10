@@ -1,0 +1,53 @@
+{
+  "objectName": "SK_locker",
+  "colonyTags": ["starknight", "storage"],
+  "rarity": "Rare",
+  "objectType": "container",
+  "tooltipKind": "container",
+  "category": "storage",
+  "price": 85,
+  "description": "A sealed metal locker",
+  "shortdescription": "Starknight locker",
+  "race": "generic",
+  "health": 1.5,
+  "apexDescription": "This locker can be useful",
+  "avianDescription": "What a curious locker - I wonder what is inside?",
+  "floranDescription": "locker. Might have ssstuff inside.",
+  "glitchDescription": "Observant. A short analysis concludes that this locker is built to safely store valuable stuff.",
+  "humanDescription": "The sound this locker makes when opened is quite satisfying.",
+  "hylotlDescription": "What a curious looking storage container. Perhaps it is built to store stuff?",
+  "novakidDescription": "A locker",
+  "inventoryIcon": "SK_locker.png",
+
+   "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "SK_locker.png"}, { "image" : "SK_lockerlit.png:", "fullbright" : true  }  ],
+      "imagePosition" : [-16, 0],
+      
+	  "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision": "platform",
+      "direction" : "left",
+      "flipImages" : true
+    },
+        {
+      "imageLayers" : [ { "image" : "SK_locker.png"}, { "image" : "SK_lockerlit.png:", "fullbright" : true  }  ],
+      "imagePosition" : [-16, 0],
+	  
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision": "platform",
+      "direction" : "right"      
+    }    
+  ],
+  "slotCount": 48,
+    "uiConfig": "/interface/chests/chest<slots>.config",
+    "frameCooldown": 5,
+    "autoCloseCooldown": 3600
+}
