@@ -1,0 +1,59 @@
+{
+  "objectName" : "CS_Door",
+  "colonyTags" : ["door","Celureus"],
+  "rarity" : "Rare",
+
+  "category" : "door",
+  "price" : 1025,
+  "description" : "A door suitable for a spaceship.",
+  "shortdescription" : "Celureus Door",
+  "race" : "generic",
+
+  "apexDescription" : "Doors like this are common on ships.",
+  "avianDescription" : "A spaceship door.",
+  "felinDescription" : "Celureus Door.",
+  "floranDescription" : "Ssspaceship door.",
+  "glitchDescription" : "Informed. A standard ship door.",
+  "humanDescription" : "A spaceship door.",
+  "hylotlDescription" : "A basic ship door.",
+  "novakidDescription" : "A door, the type you'd find on a ship.",
+
+  "inventoryIcon" : "CS_Door.png:default",
+  "orientations" : [
+    {
+      "dualImage" : "CS_Door.png:default",
+      "imagePosition" : [-20, 0],
+      "renderLayer" : "Object+5",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/Celureus/Door/Door/CS_Door.animation",
+
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "bg" : "CS_Door.png",
+    "fg" : "CS_Doorlit.png"
+  },
+  "animationPosition" : [-20, 0],
+
+  "inputNodes" : [ [-1, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}
+

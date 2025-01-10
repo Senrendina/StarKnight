@@ -1,0 +1,41 @@
+{
+  "objectName": "CS_BDoor",
+  "colonyTags": ["door"],
+  "rarity": "Rare",
+  "category": "door",
+  "price": 135,
+  "description": "This door is made of some sort of bulletproof material.",
+  "shortdescription": "Celureus BG Door",
+  "race": "generic",
+  "apexDescription": "This door looks strong enough to keep anything out... or everyone in.",
+  "avianDescription": "A strong door. Not even the breeze could slip through.",
+  "floranDescription": "Door of great ssstrength.",
+  "glitchDescription": "Jealous. Such strong materials.",
+  "humanDescription": "A huge, heavy security door.",
+  "hylotlDescription": "This looks strong enough to hold back the ocean.",
+  "novakidDescription": "A very thick door.",
+  "inventoryIcon": "CS_BDoor.png:default.off",
+  "orientations": [
+    {
+      "dualImage": "CS_BDoor.png:<color>.off",
+      "imagePosition": [-16, 0],
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
+    }
+  ],
+  "scripts": ["/objects/wired/switch/switch.lua"],
+  "scriptDelta": 5,
+  "animation": "CS_BDoor.animation",
+  "animationCustom": {
+    "sounds": {
+      "on": ["/sfx/objects/apexcooldoor_open.ogg"],
+      "off": ["/sfx/objects/apexcooldoor_close.ogg"]
+    }
+  },
+  "animationParts": {
+    "switch": "CS_BDoor.png",
+    "switchlit": "CS_BDoorlit.png"
+  },
+  "animationPosition": [-16, 0],
+  "outputNodes": [[-2, 2]]
+}

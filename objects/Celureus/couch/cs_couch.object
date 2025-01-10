@@ -1,0 +1,55 @@
+{
+  "objectName" : "CS_Couch",
+  "colonyTags" : ["Celureus"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 150,
+  "description" : "Comfy couch",
+  "shortdescription" : "Celureus Couch",
+  "race" : "generic",
+
+  "apexDescription" : "Another ugly piece of furniture forced on the innocent.",
+  "avianDescription" : "An abhorrent piece of fabric covers this chair.",
+  "floranDescription" : "Ssmells old.",
+  "glitchDescription" : "Appalled. Many design principles ignored.",
+  "humanDescription" : "This chair sucks the life out of the room.",
+  "hylotlDescription" : "A very unattractive piece of furniture.",
+  "novakidDescription" : "I guess it's for sitting on and not for lookin' at.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+
+  "inventoryIcon" : "CS_Couch.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "CS_Couch.png"}, { "image" : "CS_Couchlit.png:", "fullbright" : true  }  ],
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPositions" : [
+        
+        [-2, 22], // Right
+        [3, 22] // Left
+      ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "CS_Couch.png"}, { "image" : "CS_Couchlit.png:", "fullbright" : true  }  ],
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "sitPositions" : [
+        
+        [-2, 22], // Left
+        [4, 22] // Right
+      ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+
+}
