@@ -1,0 +1,54 @@
+{
+  "objectName": "CS_Container2",
+  "colonyTags": ["Celureus", "storage"],
+  "rarity": "Rare",
+  "category": "storage",
+  "price": 200,
+  "objectType": "container",
+  "tooltipKind": "container",
+  "description": "A nice, spacious, wall-mounted storage solution.",
+  "shortdescription": "Metal Storage Container",
+  "race": "generic",
+  "health": 1.5,
+  "apexDescription": "A storage container.",
+  "avianDescription": "A device that holds many items for safe keeping.",
+  "floranDescription": "Ssstorage on a wall! For my sship!",
+  "glitchDescription": "Pleased. This ship's storage system is indeed useful.",
+  "humanDescription": "A storage locker. That's handy!",
+  "hylotlDescription": "An elegant storage solution.",
+  "novakidDescription": "A locker, for puttin' things in.",
+  "inventoryIcon": "CS_Container2.png",
+ "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "CS_Container2.png"}, { "image" : "CS_Container2lit.png:", "fullbright" : true  }  ],
+      "imagePosition" : [0, 0],
+      
+	  "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision": "platform",
+      "direction" : "left",
+      "flipImages" : true
+    },
+        {
+      "imageLayers" : [ { "image" : "CS_Container2.png"}, { "image" : "CS_Container2lit.png:", "fullbright" : true  }  ],
+      "imagePosition" : [0, 0],
+	  
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision": "platform",
+      "direction" : "right"      
+    }    
+  ],
+    "openSounds": ["/sfx/objects/shippingcontainer_open.ogg"],
+  "closeSounds": ["/sfx/objects/shippingcontainer_close.ogg"],
+  "slotCount": 64,
+    "uiConfig": "/interface/chests/chest<slots>.config",
+    "frameCooldown": 5,
+    "autoCloseCooldown": 3600
+}

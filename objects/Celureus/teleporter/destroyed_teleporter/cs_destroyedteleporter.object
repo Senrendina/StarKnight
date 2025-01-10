@@ -1,0 +1,59 @@
+{
+  "objectName": "CS_DestroyedTeleporter",
+  "colonyTags": ["starknight", "misc"],
+  "objectType": "teleporter",
+  "rarity": "Legendary",
+  "description": "A personal teleporter, connects to bookmarked locations. \n^red;Destroyed when broken.",
+  "shortdescription": "Small Celureus Teleporter",
+  "price": 3000,
+  "printable": false,
+  "apexDescription": "A personal teleporter. A functional and space effective piece of equipment.",
+  "avianDescription": "I love the whoosh of my feathers when I teleport!",
+  "floranDescription": "Perssonal teleporter is ssmall and ssimple!",
+  "glitchDescription": "Enticed. A personal teleporter, with a custom and miniturized design.",
+  "humanDescription": "A personal teleporter! Now this is travelling in style.",
+  "hylotlDescription": "A personal teleporter, it sports a custom design.",
+  "novakidDescription": "As teleporters go, this sure is small lookin'!",
+  "category": "teleporter",
+  "interactAction": "OpenTeleportDialog",
+  "interactData": "/interface/warping/remoteteleporter.config",
+  "inventoryIcon": "CS_DestroyedTeleportericon.png",
+  "orientations": [
+    {
+      "imageLayers": [
+        {"image": "CS_DestroyedTeleporter.png", "fullbright": true},
+        {"image": "CS_DestroyedTeleporterlit.png"}
+      ],
+      "imagePosition": [-16, 0],
+      "frames": 1,
+      "animationCycle": 0.5,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "solid",
+       "collisionSpaces": [
+        [-2, 0],
+        [-1, 0],
+        [0, 0],
+        [1, 0],
+        [-2, 9],
+        [-1, 9],
+        [0, 9],
+        [1, 9]
+      ]
+    }
+  ],
+  "health": 20,
+  "breakDropPool": "remoteteleporter",
+  "teleporterFootPosition": [0, 1],
+  "scripts": ["/scripts/npcToyObject.lua"],
+  "npcToy": {
+    "influence": ["teleporter", "teleporterComplete"],
+    "defaultReactions": {
+      "teleporter": [[1, "beamaway"]],
+      "teleporterComplete": [[1, "vomit"], [1, "smile"]]
+    },
+    "preciseStandPositionLeft": [0, 0],
+    "preciseStandPositionRight": [0, 0],
+    "maxNpcs": 1
+  }
+}

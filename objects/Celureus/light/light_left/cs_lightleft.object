@@ -1,0 +1,50 @@
+{
+  "objectName": "CS_LightLeft",
+  "colonyTags": ["light"],
+  "rarity": "Rare",
+  "description": "A blue wall light.",
+  "shortdescription": "Blue Wall Lamp",
+  "race": "generic",
+  "apexDescription": "A functional Cyan wall light.",
+  "avianDescription": "It's a Cyan wall light.",
+  "floranDescription": "Shiny light!",
+  "glitchDescription": "Impressed. This blue wall mounted light is effective.",
+  "humanDescription": "A pretty standard blue wall light.",
+  "hylotlDescription": "A blue wall light. It is functional but unpleasant.",
+  "novakidDescription": "This light's okay, but it ain't as bright as me!",
+  "category": "light",
+  "price": 60,
+  "lightColor": [76, 183, 255],
+  "inventoryIcon": "CS_LightLefticon.png",
+  "orientations": [
+    {
+      "image": "CS_LightLeft.png:<color>.<frame>",
+      "imagePosition": [0, 0],
+      "animationParts": {
+        "bg": "CS_LightLeft.png",
+        "fg": "CS_LightLeftlit.png"
+      },
+      "direction": "right",
+      "spaceScan": 0.1,
+      "anchors": ["left"]
+    }
+  ],
+  "soundEffect": "/sfx/objects/fluorescent_light_quiet.ogg",
+  "soundEffectRangeMultiplier": 0.5,
+  "animation": "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationCustom": {
+    "sounds": {
+      "on": ["/sfx/objects/tinywallswitch.ogg"],
+      "off": ["/sfx/objects/tinywallswitch.ogg"]
+    }
+  },
+  "animationParts": {
+    "bg": "CS_LightLeft.png",
+    "fg": "CS_LightLeftlit.png"
+  },
+  "animationPosition": [0, 0],
+  "scripts": ["/objects/wired/light/light.lua"],
+  "scriptDelta": 60,
+  "interactive": false,
+  "inputNodes": [[0, 0]]
+}
