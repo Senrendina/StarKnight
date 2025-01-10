@@ -1,0 +1,25 @@
+{
+  "metadata" : {
+    "name" : "BanishedArmory",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "banished_armement" ], 
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "banished_armement",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "banished_armement.json" ]
+    }	
+  ]
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "op": "add",
+    "path": "/collectables/starknight-victory",
+    "value": {
+      "icon": "/sfx/music/Victory.ogg",
+      "title": "StarKnight - 01. Victory",
+      "description": "Luyia",
+      "special": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/collectables/starknight-racing",
+    "value": {
+      "icon": "/sfx/music/racing.ogg",
+      "title": "StarKnight - 02. Racing",
+      "description": "Luyia",
+      "special": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/collectables/starknight-planetarium",
+    "value": {
+      "icon": "/sfx/music/Planetarium.ogg",
+      "title": "StarKnight - 03. Planetarium",
+      "description": "Luyia",
+      "special": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/collectables/starknight-hearts",
+    "value": {
+      "icon": "/sfx/music/Hearts.ogg",
+      "title": "StarKnight - 04. Hearts",
+      "description": "Luyia",
+      "special": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/collectables/starknight-void",
+    "value": {
+      "icon": "/sfx/music/Void.ogg",
+      "title": "StarKnight - 05. Void",
+      "description": "Luyia",
+      "special": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/collectables/starknight-reflect",
+    "value": {
+      "icon": "/sfx/music/Reflect.ogg",
+      "title": "StarKnight - 06. Reflect",
+      "description": "Luyia",
+      "special": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/collectables/starknight-love",
+    "value": {
+      "icon": "/sfx/music/Love.ogg",
+      "title": "StarKnight - 07. Love",
+      "description": "Luyia",
+      "special": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/collectables/starknight-tragedy",
+    "value": {
+      "icon": "/sfx/music/Tragedy.ogg",
+      "title": "StarKnight - 08. Tragedy",
+      "description": "Luyia",
+      "special": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/collectables/starknight-fighting",
+    "value": {
+      "icon": "/sfx/music/fighting.ogg",
+      "title": "StarKnight - 09. Fighting",
+      "description": "Luyia",
+      "special": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/collectables/starknight-hope",
+    "value": {
+      "icon": "/sfx/music/Hope.ogg",
+      "title": "StarKnight - 10. Hope",
+      "description": "Luyia",
+      "special": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/collectables/starknight-senbon",
+    "value": {
+      "icon": "/sfx/music/Senbon.ogg",
+      "title": "StarKnight - 11. Senbon",
+      "description": "Luyia",
+      "special": false
+    }
+  }
+]

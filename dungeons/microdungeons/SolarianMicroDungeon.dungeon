@@ -1,0 +1,32 @@
+{
+  "metadata" : {
+    "name" : "SolarianMicroDungeon",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "Solarian_House", "Solarian_House2" ], 
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "Solarian_House",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "Solarian_House.json" ]
+    },
+    {
+      "name" : "Solarian_House2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "Solarian_House2.json" ]
+    }	
+  ]
+}

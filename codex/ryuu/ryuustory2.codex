@@ -1,0 +1,15 @@
+{
+  "id" : "RyuuStory2",
+  "title" : "Ryuu Story 2",
+  "description" : "Ryuu Story Part 2",
+  "icon" : "RyuCover1.png",
+  "contentPages" : [
+
+""
+
+  ],
+    "itemConfig" : {
+    "rarity" : "legendary",
+    "price" : 25
+  }
+}
