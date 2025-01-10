@@ -1,0 +1,62 @@
+{
+	"objectName": "SK_server",
+	"colonyTags": ["starknight"],
+	"rarity": "Rare",
+	"description": "A long holographic console.",
+	"shortdescription": "Starknight server",
+	"race": "generic",
+	"category": "wire",
+	"price": 120,
+    "lightColor": [0, 89, 89],
+	"apexDescription": "A console with a holographic projector screen.",
+	"avianDescription": "This console has an interactive projector screen.",
+	"floranDescription": "Floran wisshes sspear would fit insside ssscreen. Would look nice.",
+	"glitchDescription": "Interested. I've never seen such a console design before.",
+	"humanDescription": "Gotta love them touch screen interfaces.",
+	"hylotlDescription": "This console displays its screens through a projector.",
+	"novakidDescription": "Where the heck are the damn buttons?",
+	"inventoryIcon": "SK_server.png:default.1",
+	"orientations": [{
+			"imageLayers": [{
+				"image": "SK_server.png:<color>.on"
+			}, {
+				"image": "SK_serverlit.png:<color>.on",
+				"fullbright": true
+			}],
+			"flipImages": true,
+			"direction": "left",
+			"lightPosition": [0, 1],
+			"imagePosition": [0, 0],
+			"frames": 6,
+			"animationCycle": 0.5,
+			"spaceScan": 0.1,
+			"anchors": ["bottom"]
+		},
+		{
+			"imageLayers": [{
+				"image": "SK_server.png:<color>.on"
+			}, {
+				"image": "SK_serverlit.png:<color>.on",
+				"fullbright": true
+			}],
+			"direction": "right",
+			"lightPosition": [0, 1],
+			"imagePosition": [0, 0],
+			"frames": 6,
+			"animationCycle": 0.5,
+			"spaceScan": 0.1,
+			"anchors": ["bottom"]
+		}
+  ],
+  "animation" : "SK_server.animation",
+  "animationParts" : {
+    "bg" : "SK_server.png",
+    "fg" : "SK_serverlit.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+}

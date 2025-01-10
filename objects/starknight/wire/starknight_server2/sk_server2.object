@@ -1,0 +1,55 @@
+{
+	"objectName": "SK_server2",
+	"colonyTags": ["starknight"],
+	"rarity": "Rare",
+	"description": "A long holographic console.",
+	"shortdescription": "Starknight server",
+	"race": "generic",
+	"category": "wire",
+	"price": 120,
+    "lightColor": [0, 89, 89],
+	"inventoryIcon": "SK_server2.png:default.1",
+	"orientations": [{
+			"imageLayers": [{
+				"image": "SK_server2.png:<color>.on"
+			}, {
+				"image": "SK_server2lit.png:<color>.on",
+				"fullbright": true
+			}],
+			"flipImages": true,
+			"direction": "left",
+			"lightPosition": [0, 1],
+			"imagePosition": [-16, 0],
+			"frames": 6,
+			"animationCycle": 0.5,
+			"spaceScan": 0.1,
+			"anchors": ["bottom"]
+		},
+		{
+			"imageLayers": [{
+				"image": "SK_server2.png:<color>.on"
+			}, {
+				"image": "SK_server2lit.png:<color>.on",
+				"fullbright": true
+			}],
+			"direction": "right",
+			"lightPosition": [0, 1],
+			"imagePosition": [-16, 0],
+			"frames": 6,
+			"animationCycle": 0.5,
+			"spaceScan": 0.1,
+			"anchors": ["bottom"]
+		}
+  ],
+  "animation" : "SK_server2.animation",
+  "animationParts" : {
+    "bg" : "SK_server2.png",
+    "fg" : "SK_server2lit.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+}

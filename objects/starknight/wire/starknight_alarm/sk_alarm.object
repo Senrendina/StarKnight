@@ -1,0 +1,44 @@
+{
+  "objectName" : "SK_alarm",
+  "colonyTags" : ["wired","light"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 150,
+  "description" : "The flashing light is meant to signal that there's been some sort of emergency...",
+  "shortdescription" : "Starknight alarm",
+  "race" : "generic",
+
+  "apexDescription" : "A large alarm light, for security.",
+  "avianDescription" : "The alarm shines blue like the sky.",
+  "floranDescription" : "Ssswirling blue light.",
+  "glitchDescription" : "Alerted. An alarm light.",
+  "humanDescription" : "An alarm.",
+  "hylotlDescription" : "A blue light, flashing vibrantly.",
+  "novakidDescription" : "This 'ere alarm emite blue light",
+
+  "inventoryIcon" : "star_alarm_icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "SK_alarm.png:<color>.off",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "scripts" : [ "SK_alarm.lua" ],
+  "scriptDelta" : 3,
+
+  "animation" : "SK_alarm.animation",
+
+  "animationParts" : {
+    "alarm" : "SK_alarm.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "inputNodes" : [ [-1, 0] ],
+
+  "alarmSoundDuration" : 2
+}
