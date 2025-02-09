@@ -1,0 +1,11 @@
+{
+  "itemName" : "BD_11",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "BD_11ico.png",
+  "shortdescription" : "Colored Panel",
+  "description" : "An Plate Panel for covering surface",
+
+  "materialId" : 60211
+}

@@ -1,0 +1,84 @@
+{
+    "itemName": "Starknight_StarSword",
+    "price": 1500,
+    "level": 7,
+    "maxStack": 1,
+    "rarity": "Essential",
+    "description": "Some Heavy Sword",
+    "shortdescription": "StarSword",
+    "tooltipKind": "sword",
+    "category": "broadsword",
+    "twoHanded": true,
+    "itemTags": [
+        "weapon",
+        "melee",
+        "broadsword"
+    ],
+    "inventoryIcon": "Starknight_StarSword.png:inactive",
+    "animation": "/items/active/weapons/protectorate/protectoratebroadsword/protectoratebroadsword.animation",
+    "animationParts": {
+        "sword": "Starknight_StarSword.png",
+        "swordfullbright": "fullbright.png"
+    },
+    "animationCustom": {},
+    "scripts": [
+        "/items/active/weapons/protectorate/protectoratebroadsword/protectoratebroadsword.lua"
+    ],
+    "elementalType": "physical",
+    "primaryAbilityType": "broadswordcombo",
+    "primaryAbility": {
+        "fireTime": 0.8,
+        "baseDps": 30,
+        "animKeyPrefix": "inactive"
+    },
+    "inactiveBaseDps": 20,
+    "activeBaseDps": 30,
+    "altAbility": {
+        "name": "Blade Star",
+        "type": "empowerment",
+        "scripts": ["/items/active/weapons/protectorate/protectoratebroadsword/empowerment.lua"],
+		"class" : "Empowerment",
+   
+   "energyPerSecond" : 30,
+
+    "projectileOffset" : [1, 0],
+    "projectileType" : "SwordStar_1",
+    "baseDamage" : 24,
+
+    "cooldownTime" : 1.0,
+
+    "stances" : {
+      "empower" : {
+        "durationBefore" : 0.2,
+        "durationAfter" : 0.5,
+        "armRotation" : 90,
+        "weaponRotation" : -90,
+        "twoHanded" : true,
+
+        "weaponOffset" : [0.5, -0.1],
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "windup" : {
+        "duration" : 0.6,
+        "armRotation" : 70,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "fire" : {
+        "duration" : 0.4,
+        "armRotation" : -45,
+        "weaponRotation" : -55,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+        }
+    },
+    "builder": "/items/buildscripts/buildunrandweapon.lua"
+}

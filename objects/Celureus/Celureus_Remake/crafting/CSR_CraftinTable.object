@@ -1,0 +1,57 @@
+{
+  "objectName" : "CSR_CraftingTable",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Rare",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/Celureus_CraftingStation.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  Celureus Crafting Station",
+        "subtitle" : " Crafting...",
+        "icon" : {
+          "file" : "/objects/Celureus/crafting/Celureus_CraftingStation/CSR_CraftingTableicon.png"
+        }
+      }
+    },
+    "filter" : [ "CelureusCraftRemake" ]
+  },
+  "printable" : false,
+  "description" : "This crafting station is where you can craft Celureus Furniture",
+  "shortdescription" : "Celureus Crafting Station",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 30,
+   
+  "inventoryIcon" : "CSR_CraftingTableicon.png",
+    "orientations" : [
+    {
+       "imageLayers" : [ { "image" : "CSR_CraftingTable.png:<color>.<frame>"}, { "image" : "CSR_CraftingTablelit.png:<color>.<frame>", "fullbright" : true  }  ],
+
+      "imagePosition" : [0, 0],
+      "frames" : 10,
+      "animationCycle" : 2.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left",
+      "flipImages" : true
+
+
+    },
+        {
+       "imageLayers" : [ { "image" : "CSR_CraftingTable.png:<color>.<frame>"}, { "image" : "CSR_CraftingTablelit.png:<color>.<frame>", "fullbright" : true  }  ],
+
+      "imagePosition" : [0, 0],
+      "frames" : 10,
+      "animationCycle" : 2.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right"
+      
+
+
+    }    
+  ]
+}

@@ -1,0 +1,84 @@
+{
+    "itemName": "BD_BanishedFlame",
+    "price": 1500,
+    "level": 7,
+    "maxStack": 1,
+    "rarity": "Essential",
+    "description": "Some Katana that used to Banish poeple from the world",
+    "shortdescription": "Banished Flame",
+    "tooltipKind": "sword",
+    "category": "broadsword",
+    "twoHanded": true,
+    "itemTags": [
+        "weapon",
+        "melee",
+        "broadsword"
+    ],
+    "inventoryIcon": "BD_BanishedFlame.png:inactive",
+    "animation": "/items/active/banished/weapons/melee/Sword/BD_BanishedFlame/BD_BanishedFlame.animation",
+    "animationParts": {
+        "sword": "BD_BanishedFlame.png",
+        "swordfullbright": "BD_BanishedFlamelit.png"
+    },
+    "animationCustom": {},
+    "scripts": [
+        "/items/active/weapons/protectorate/protectoratebroadsword/protectoratebroadsword.lua"
+    ],
+    "elementalType": "physical",
+    "primaryAbilityType": "broadswordcombo",
+    "primaryAbility": {
+        "fireTime": 0.8,
+        "baseDps": 30,
+        "animKeyPrefix": "inactive"
+    },
+    "inactiveBaseDps": 20,
+    "activeBaseDps": 30,
+    "altAbility": {
+        "name": "Fire Banish",
+        "type": "empowerment",
+        "scripts": ["/items/active/weapons/protectorate/protectoratebroadsword/empowerment.lua"],
+		"class" : "Empowerment",
+   
+   "energyPerSecond" : 30,
+
+    "projectileOffset" : [1, 0],
+    "projectileType" : "BD_FireBanish",
+    "baseDamage" : 24,
+
+    "cooldownTime" : 1.0,
+
+    "stances" : {
+      "empower" : {
+        "durationBefore" : 0.2,
+        "durationAfter" : 0.5,
+        "armRotation" : -60,
+        "weaponRotation" : -200,
+        "twoHanded" : true,
+
+        "weaponOffset" : [0.5, -0.1],
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "windup" : {
+        "duration" : 0.6,
+        "armRotation" : -60,
+        "weaponRotation" : -200,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "fire" : {
+        "duration" : 0.4,
+        "armRotation" : 10,
+        "weaponRotation" : -55,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+        }
+    },
+    "builder": "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,55 @@
+{
+	"objectName": "SK_wallscreen2",
+	"colonyTags": ["starknight"],
+	"rarity": "Rare",
+	"description": "A long holographic console.",
+	"shortdescription": "starknight wallscreen",
+	"race": "generic",
+	"category": "wire",
+	"price": 120,
+    "lightColor": [0, 89, 89],		
+	"apexDescription": "A console with a holographic projector screen.",
+	"avianDescription": "This console has an interactive projector screen.",
+	"floranDescription": "Floran wisshes sspear would fit insside ssscreen. Would look nice.",
+	"glitchDescription": "Interested. I've never seen such a console design before.",
+	"humanDescription": "Gotta love them touch screen interfaces.",
+	"hylotlDescription": "This console displays its screens through a projector.",
+	"novakidDescription": "Where the heck are the damn buttons?",
+	"inventoryIcon": "SK_wallscreen2.png:default.off",
+  "orientations": [
+    {
+      "image": "SK_wallscreen2.png:<color>.on",
+      "flipImages": true,
+      "direction": "left",
+      "lightPosition": [0, 1],
+      "imagePosition": [-16, 0],
+      "frames": 4,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["background"]
+    },
+    {
+      "image": "SK_wallscreen2.png:<color>.on",
+      "direction": "right",
+      "lightPosition": [0, 1],
+      "imagePosition": [-16, 0],
+      "frames": 4,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["background"]
+    }
+  ],
+  "soundEffect" : "/sfx/objects/outpostmonitor_static.ogg",
+
+  "animation" : "SK_wallscreen2.animation",
+  "animationParts" : {
+    "bg" : "SK_wallscreen2.png",
+    "fg" : "SK_wallscreen2lit.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+}

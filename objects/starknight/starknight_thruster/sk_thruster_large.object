@@ -1,0 +1,41 @@
+{
+  "objectName" : "SK_thruster_large",
+  "colonyTags" : ["starknight"],
+  "rarity" : "Rare",
+  "description" : "A decorative ship booster.",
+  "shortdescription" : "Ship Booster",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 600,
+  
+  "lightColor" : [0, 110, 110],
+
+  "inventoryIcon" : "SK_thruster_large.png:default.0",
+  "orientations" : [
+    {
+	  "imageLayers" : [ { "image" : "SK_thruster_large.png:<color>.<frame>", "fullbright" : true }, { "image" : "SK_thruster_largelit.png:<color>.<frame>"} ],
+      "direction" : "left",
+	  "flipImages" : true,
+      "imagePosition" : [-24, 0],
+	  "lightPosition" : [3, 0],
+      "frames" : 4,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : []
+
+    },
+	{
+	  "imageLayers" : [ { "image" : "SK_thruster_large.png:<color>.<frame>", "fullbright" : true }, { "image" : "SK_thruster_largelit.png:<color>.<frame>"} ],
+      "direction" : "right",
+      "imagePosition" : [-24, 0],
+	  "lightPosition" : [-3, 0],
+      "frames" : 4,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : []
+
+    }
+  ]
+}

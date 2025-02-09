@@ -1,0 +1,11 @@
+{
+  "itemName" : "CS_15",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "CS_15ico.png",
+  "shortdescription" : "Dark Sloped Hull",
+  "description" : "Dark Metal Plate used to build Spaceship or Ship",
+
+  "materialId" : 60265
+}

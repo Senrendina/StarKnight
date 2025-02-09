@@ -1,0 +1,11 @@
+{
+  "itemName" : "CS_19",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "CS_19ico.png",
+  "shortdescription" : "Hull Front",
+  "description" : "Metal Plate used to build Spaceship or Ship",
+
+  "materialId" : 60269
+}

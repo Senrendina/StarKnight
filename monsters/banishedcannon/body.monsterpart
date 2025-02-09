@@ -1,0 +1,11 @@
+{
+  "name" : "banishedcannon",
+  "category" : "banisheddrone",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png",
+    "bodyfullbright" : "bodyfullbright.png",
+    "turret" : "turret.png"
+  }
+}

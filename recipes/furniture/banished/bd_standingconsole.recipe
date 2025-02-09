@@ -1,0 +1,12 @@
+{
+    "input": [	
+	{"item": "CSK_SolidIngot","count": 5},
+	{"item": "CSK_TechUSB","count": 1}
+    ],
+    "output": {
+        "item": "BD_StandingConsole",
+        "count": 1
+    },
+    "duration": 0.5,
+    "groups": ["BD_Replicator", "wired", "all"]
+}

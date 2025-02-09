@@ -1,0 +1,30 @@
+{
+  "objectName": "SK_fence",
+  "colonyTags": ["starknight", "furniture"],
+  "rarity": "Rare",
+  "description": "An pure Fence of Energy",
+  "shortdescription": "Starknight Fence",
+  "race": "generic",
+  "category": "decorative",
+  "price": 110,
+  "apexDescription": "A Fence",
+  "avianDescription": "A Energy Pillar.",
+  "floranDescription": "Floran likess Fence",
+  "glitchDescription": "Indifferent. A Fence",
+  "humanDescription": "A Fence",
+  "hylotlDescription": "An unattractive Fence",
+  "novakidDescription": "Just a Fence",
+  "inventoryIcon": "SK_fence.png",
+  "orientations": [
+    {
+      "imageLayers" : [ { "image" : "SK_fence.png"}, { "image" : "SK_fencelit.png:", "fullbright" : true  }  ],
+	  
+      "direction": "left",
+      "imagePosition": [0, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
+    }
+  ]
+}

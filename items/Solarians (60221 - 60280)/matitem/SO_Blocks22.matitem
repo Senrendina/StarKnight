@@ -1,0 +1,11 @@
+{
+  "itemName" : "SO_Blocks22",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "Blocks22icon.png",
+  "shortdescription" : "Stairs",
+  "description" : "Stairs",
+
+  "materialId" : 60242
+}

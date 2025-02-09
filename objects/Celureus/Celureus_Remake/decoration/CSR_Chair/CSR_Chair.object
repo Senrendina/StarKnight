@@ -1,0 +1,38 @@
+{
+  "objectName" : "CSR_Chair",
+  "colonyTags" : ["starknight"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 150,
+  "description" : "Comfy couch",
+  "shortdescription" : "Celureus Couch",
+  "race" : "generic",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+
+  "inventoryIcon" : "CSR_Chair.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "CSR_Chair.png"}, { "image" : "CSR_Chairlit.png:", "fullbright" : true  }  ],
+	  
+      "direction": "left",
+      "flipImages": true,
+      "imagePosition": [-8, 0],
+      "sitPositions": [[-8, 22]],
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+	  "collision": "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "CSR_Chair.png"}, { "image" : "CSR_Chairlit.png:", "fullbright" : true  }  ],
+	  
+      "direction": "right",
+      "imagePosition": [-8, 0],
+      "sitPositions": [[11, 22]],
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+	  "collision": "platform"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "op": "add",
+    "path": "/StarKnight",
+    "value": [
+      {
+        "name": "01. Victory",
+        "directory": "/sfx/music/Victory.ogg"
+      },
+      {
+        "name": "02. Racing",
+        "directory": "/sfx/music/racing.ogg"
+      },
+      {
+        "name": "03. Planetarium",
+        "directory": "/sfx/music/Planetarium.ogg"
+      },
+      {
+        "name": "04. Hearts",
+        "directory": "/sfx/music/Hearts.ogg"
+      },
+      {
+        "name": "05. Void",
+        "directory": "/sfx/music/Void.ogg"
+      },
+      {
+        "name": "06. Reflect",
+        "directory": "/sfx/music/Reflect.ogg"
+      },
+      {
+        "name": "07. Love",
+        "directory": "/sfx/music/Love.ogg"
+      },
+      {
+        "name": "08. Tragedy",
+        "directory": "/sfx/music/Tragedy.ogg"
+      },
+      {
+        "name": "09. Fighting",
+        "directory": "/sfx/music/fighting.ogg"
+      },
+      {
+        "name": "10. Hope",
+        "directory": "/sfx/music/Hope.ogg"
+      },
+      {
+        "name": "11. Senbon",
+        "directory": "/sfx/music/Senbon.ogg"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/##album_icons##/StarKnight",
+    "value": "/interface/scripted/fm_musicplayer/starknight-icon.png"
+  }
+]

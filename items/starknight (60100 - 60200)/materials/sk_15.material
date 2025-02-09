@@ -1,0 +1,21 @@
+{
+  "materialId" : 60114,
+  "materialName" : "SK_15",
+    "particleColor" : [55, 55, 55, 255],
+  "itemDrop" : "SK_15",
+  "shortdescription" : "Crate Panel",
+  "description" : "Some background Crate",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "SK_15.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 600
+  }
+}

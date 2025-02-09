@@ -1,0 +1,37 @@
+{
+  "itemName" : "CS_Civilianhead",
+  "price" : 480,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "category" : "headarmour",
+  "description" : "The Civilian",
+  "shortdescription" : "The Civilian",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "level" : 3,
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.5
+    },
+    {
+      "stat" : "protection",
+      "amount" : 5
+    },
+    {
+      "stat" : "maxEnergy",
+      "amount" : 15
+    },
+    {
+      "stat" : "maxHealth",
+      "amount" : 15
+    }
+  ],
+  "acceptsAugmentType" : "back",
+  "itemTags" : [ "tier5armour" ]
+}

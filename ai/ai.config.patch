@@ -1,0 +1,10 @@
+[{
+		"op" : "add",
+		"path" : "/species/ryuu",
+		"value" : {
+			"aiFrames" : "ryuuAI.png",
+			"portraitFrames" : "portraits/ryuuportrait.png",
+			"staticFrames" : "staticryuu.png"	
+		}
+	}
+]

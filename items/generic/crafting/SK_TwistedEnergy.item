@@ -1,0 +1,10 @@
+{
+  "itemName" : "SK_TwistedEnergy",
+  "price" : 50,
+  "rarity" : "Essential",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "SK_TwistedEnergy.png",
+  "description" : "a powerfull and are component used to craft one of the most rarest weapon of Starknight",
+  "shortdescription" : "Twisted Energy",
+  "itemTags" : [ "reagent" ]
+}

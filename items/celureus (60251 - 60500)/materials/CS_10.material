@@ -1,0 +1,25 @@
+{
+  "materialId" : 60260,
+  "materialName" : "CS_10",
+  "particleColor" : [55, 55, 55, 255],
+  "itemDrop" : "CS_10",
+  
+  "description" : "Some griders",
+  "shortdescription" : "Grider",
+  
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 6,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/girdertemplate.config",
+  "renderParameters" : {
+    "texture" : "CS_10.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : false,
+    "zLevel" : 100,
+	"radiantLight" : [0, 30, 56]
+  }
+}
+

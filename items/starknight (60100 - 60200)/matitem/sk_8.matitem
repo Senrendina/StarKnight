@@ -1,0 +1,12 @@
+{
+  "itemName" : "SK_8",
+  "price" : 10,
+  "category" : "platform",
+  "rarity" : "Rare",
+  "inventoryIcon" : "SK_8ico.png",
+  "description" : "Builded attach with the floor",
+  "shortdescription" : "Flooring Attach",
+  
+  "materialId" : 60107
+
+}

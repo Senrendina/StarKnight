@@ -1,0 +1,67 @@
+{
+	"Starknight_Intro_Weapon" : [
+		[1, 
+			{
+				"fill" : [
+					{ "item" : [ "starknight_suffer", 1 ] }
+				]
+			}
+		]
+	],
+	
+	"Starknight_Intro_Weapon2" : [
+		[1, 
+			{
+				"fill" : [
+					{ "item" : [ "starknight_overammo", 1 ] }
+				]
+			}
+		]
+	],
+	
+	"Starknight_Mission2Box" : [
+		[1, 
+			{
+				"fill" : [
+					{ "item" : [ "SK_Heavyarmorhead2", 1 ] },
+					{ "item" : [ "healingjuice", 3 ] },
+					{ "item" : [ "nanowrap", 2 ] }
+				]
+			}
+		]
+	],
+	
+	"Starknight_Mission2Box2" : [
+		[1, 
+			{
+				"fill" : [
+					{ "item" : [ "healingjuice", 10 ] },
+					{ "item" : [ "nanowrap", 10 ] },
+					{ "item" : [ "SK_Heavyarmorlegs2", 1 ] }
+				]
+			}
+		]
+	],
+	
+	"Starknight_Mission2Box3" : [
+		[1, 
+			{
+				"fill" : [
+					{ "item" : [ "SK_Heavyarmorchest2", 1 ] },
+					{ "item" : [ "healingjuice", 3 ] },
+					{ "item" : [ "nanowrap", 2 ] }
+				]
+			}
+		]
+	],
+	
+	"Starknight_Mission3Box1" : [
+		[1, 
+			{
+				"fill" : [
+					{ "item" : [ "climbingrope", 20 ] }
+				]
+			}
+		]
+	]				
+}

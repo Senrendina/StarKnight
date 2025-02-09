@@ -1,0 +1,128 @@
+{
+  "name" : "sk_eldora_underground",
+  "friendlyName" : "Eldora Underground",
+
+  "statusEffects" : [ "biomeheat" ],
+ 
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 2,
+        "pool" : [ 
+          [ 1.0, "gleap" ],
+          [ 1.0, "batong" ],
+          [ 1.0, "crustoise" ],
+          [ 1.0, "peblit" ],
+          [ 1.0, "bobfae" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : "generatedGroundAggroDay"
+      },
+      {
+        "select" : 5,
+        "pool" : [
+          [ 1, "hedgehogcritter" ],
+          [ 1, "snailcritter" ],
+          [ 1, "tortoisecritter" ],
+          [ 1, "mousecritter" ],
+          [ 1, "bunnycritter" ]
+        ]
+      }
+    ]
+  },
+
+  "mainBlock" : "SK_28",
+  "subBlocks" : [ "SK_29", "SK_1", "SK_3" ],
+  "ores" : "sk_ore_surface",
+
+  "parallax" : "/parallax/surface/forest.parallax",
+
+  "ambientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/forest_day.ogg", "/sfx/environmental/forest_day2.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/forest_night.ogg", "/sfx/environmental/forest_night2.ogg" ]
+    }
+  },
+
+  "musicTrack" : {
+    "day" : {
+      "tracks" : [ 
+	  "/music/hearts.ogg", //from the game Rusty hearts remixed
+	  "/music/Nostalgy.ogg", // OC
+	  "/music/Chase.ogg", //from the game : Grand Chase remixed
+	  "/music/Arsenal.ogg", 
+	  "/music/Surface.ogg" //From the game Kantai Collection
+	  
+	  ]
+    },
+    "night" : {
+      "tracks" : [ 
+	  "/music/void.ogg", // From the Mobile game : Arknights remixed
+	  "/music/Path.ogg", // from the groupe Rosalia - Gang Bang Dream remixed
+	  "/music/Home.ogg" // From the game Kantai Collection remixed
+	  ]
+    }
+  },
+
+  "undergroundPlaceables" : {
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "basicChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundtechChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "techChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundweaponChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "weaponChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "ceiling",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 180,
+        "treeStemHueShiftMax" : 10,
+        "treeStemList" : [ "sk_metallic" ],
+        "treeFoliageList" : [ "" ]
+      }
+    ]
+  }
+}

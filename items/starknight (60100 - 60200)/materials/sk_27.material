@@ -1,0 +1,21 @@
+{
+  "materialId" : 60126,
+  "materialName" : "SK_27",
+    "particleColor" : [55, 55, 55, 255],
+  "itemDrop" : "SK_27",
+  "shortdescription" : "Wall Light Panel",
+  "description" : "A Light Panel",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "SK_27.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 600
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "objectName" : "CSR_Generator",
+  "colonyTags" : ["Celureus"],
+  "rarity" : "Rare",
+  "description" : "For Energy",
+  "shortdescription" : "Celureus Generator",
+  "race" : "generic",
+  "category" : "wire",
+  "price" : 600,
+  "lightColor": [0, 99, 165],	  
+
+  "inventoryIcon" : "CSR_Generator.png:default.1",
+  "orientations": [
+    {
+      "image": "CSR_Generator.png:<color>.<frame>",
+      "flipImages": true,
+      "direction": "left",
+      "lightPosition": [0, 1],
+      "imagePosition": [0, 0],
+      "frames": 5,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+	  "collision": "platform",	  
+      "anchors": ["bottom"]
+    },
+    {
+      "image": "CSR_Generator.png:<color>.<frame>",
+      "direction": "right",
+      "lightPosition": [0, 1],
+      "imagePosition": [0, 0],
+      "frames": 5,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
+    }
+  ],
+  "scripts": ["/objects/wired/switch/switchwithinput.lua", "/scripts/npcToyObject.lua"],
+  "scriptDelta": 5,
+  "animation": "CSR_Generator.animation",
+  "animationCustom": {
+    "sounds": {
+      "on": ["/sfx/objects/console_button.ogg"],
+      "off": ["/sfx/objects/console_button.ogg"]
+    }
+  },
+  "animationParts": {
+    "bg": "CSR_Generator.png",
+    "fg": "CSR_Generatorlit.png"
+  },
+  "animationPosition": [0, 0],
+  "outputNodes": [[0, 1]],
+  "inputNodes": [[1, 0]],
+  "npcToy": {
+	"ownerOnly" : true,
+    "influence": ["console"],
+    "defaultReactions": {},
+    "preciseStandPositionLeft": [-0.5, 0],
+    "preciseStandPositionRight": [0, 0],
+    "maxNpcs": 1
+  }
+}

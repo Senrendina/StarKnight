@@ -1,0 +1,21 @@
+[
+	{ "op" : "add",
+		"path" : "/speciesShips/ryuu",
+		"value" : [
+		    "/ships/ryuu/ryuut0.structure",
+			"/ships/ryuu/ryuut1.structure",
+			"/ships/ryuu/ryuut2.structure",
+			"/ships/ryuu/ryuut3.structure",
+			"/ships/ryuu/ryuut4.structure",
+			"/ships/ryuu/ryuut5.structure",
+			"/ships/ryuu/ryuut6.structure",
+			"/ships/ryuu/ryuut7.structure",
+			"/ships/ryuu/ryuut8.structure"
+		]
+	},
+  {
+    "op" : "add",
+    "path" : "/speciesShips/ryuu/-",
+    "value" : "/ships/byos/byos.structure"
+  }
+]

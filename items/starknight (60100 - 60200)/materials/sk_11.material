@@ -1,0 +1,25 @@
+{
+  "materialId" : 60110,
+  "materialName" : "SK_11",
+  "particleColor" : [55, 55, 55, 255],
+  "itemDrop" : "SK_11",
+  
+  "description" : "Builded attach with the floor",
+  "shortdescription" : "Flooring Lined Light",
+  
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 6,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "SK_11.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 50,
+	"radiantLight" : [0, 30, 56]
+  }
+}
+

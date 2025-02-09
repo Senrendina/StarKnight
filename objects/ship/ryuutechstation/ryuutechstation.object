@@ -1,0 +1,58 @@
+{
+  "objectName" : "ryuutechstation",
+  "colonyTags" : ["ryuu"],
+  "printable" : false,
+  "rarity" : "Common",
+  "interactAction" : "OpenAiInterface",
+  "category" : "decorative",
+  "lightColor" : [61, 88, 102],
+  "lightPosition" : [-1, 0],
+  "description" : "High-speed communication console",
+  "shortdescription" : "H.S.C.C",
+  "race" : "ryuu",
+  "apexDescription" : "I can talk to SAIL through this console.",
+  "avianDescription" : "I can use this station to talk to SAIL.",
+  "floranDescription" : "Floran use thisss magic panel to talk to SAIL",
+  "glitchDescription" : "Happy. This station allows me to talk to SAIL.",
+  "humanDescription" : "This station allows me to communicate with SAIL.",
+  "hylotlDescription" : "This console allows me to communicate with SAIL.",
+  "novakidDescription" : "This here station let's me talk with SAIL.",
+  "inventoryIcon" : "ryuutechstationicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "ryuutechstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "ryuutechstationlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, -8],
+      "frames" : 32,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  "offeredQuests" : [ "gaterepair" ],
+  "animation" : "/objects/ship/techstation.animation",
+  "scripts" : [
+    "/objects/spawner/techstation.lua"
+  ],
+  "scriptDelta" : 20,
+  "shipPetType" : "petbunny",
+  "spawnOffset" : [2, -1],
+  "chatPortrait" : "/ai/portraits/ryuuportrait.png:unique.1",
+  "dialog" : {
+    "wakeUp" : [
+      [ "...", "/ai/portraits/ryuuportrait.png:unique.1" ],
+      [ "Ah, Hello there ! It's good to see you safe and sounds.", "/ai/portraits/ryuuportrait.png:talk.0" ],
+      [ "Don't worry about our home town. It's safe at the moment.", "/ai/portraits/ryuuportrait.png:talk.1" ],
+      [ "I'm not sure how the ship has been damaged but... You need to check out if all is operational.", "/ai/portraits/ryuuportrait.png:talk.0" ],
+      [ "So, for your first task, please go on the planet we just landed and see if they have anything useful.", "/ai/portraits/ryuuportrait.png:talk.1" ]
+    ],
+    "wakePlayer" : [
+      [ "Hey ! Can you hear me ?", "/ai/portraits/ryuuportrait.png:unique.1"],
+      [ "Please, reboot the console...", "/ai/portraits/ryuuportrait.png:unique.1"],
+      [ "Don't make me wait please...", "/ai/portraits/ryuuportrait.png:unique.1"],
+      [ "Repair this console if you want me to help you.", "/ai/portraits/ryuuportrait.png:unique.1" ],
+      [ "I'm sure you cannot go somewhere without me !", "/ai/portraits/ryuuportrait.png:unique.1"],
+      [ "Without that console, you cannot make the ship functionnal", "/ai/portraits/ryuuportrait.png:unique.1" ]
+    ]
+  },
+  "uniqueId" : "techstation"
+}

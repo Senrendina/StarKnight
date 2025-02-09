@@ -1,0 +1,14 @@
+{
+    "input": [{
+            "item": "silverbar",
+            "count": 2
+        }
+
+    ],
+    "output": {
+        "item": "SO_Console",
+        "count": 1
+    },
+    "duration": 0.5,
+    "groups": ["SO_Crafting", "server", "all"]
+}

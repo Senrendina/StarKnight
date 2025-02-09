@@ -1,0 +1,83 @@
+{
+  "projectileName" : "luyia-vortexbomb",
+  "image" : "luyia-vortexbomb.png",
+  "physics" : "default",
+  "animationCycle" : 1.0,
+  "animationLoops" : true,
+  "frameNumber" : 12,
+  "lightColor" : [80, 50, 95],
+  "pointLight" : true,
+  "fullbright" : true,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "luyia-vortexplasma",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.0,
+      "angleAdjust" : 360
+    },
+    {
+      "action" : "projectile",
+      "type" : "luyia-vortexplasma",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.0,
+      "angleAdjust" : 60
+    },
+    {
+      "action" : "projectile",
+      "type" : "luyia-vortexplasma",
+      "fuzzAngle" : 120,
+      "inheritDamageFactor" : 0.0,
+      "angleAdjust" : 120
+    },
+    {
+      "action" : "projectile",
+      "type" : "luyia-vortexplasma",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.0,
+      "angleAdjust" : 180
+    },
+    {
+      "action" : "projectile",
+      "type" : "luyia-vortexplasma",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.0,
+      "angleAdjust" : 240
+    },
+    {
+      "action" : "projectile",
+      "type" : "luyia-vortexplasma",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.0,
+      "angleAdjust" : 300
+    },
+    {
+      "action" : "projectile",
+      "type" : "luyia-vortexwell",
+      "fuzzAngle" : 359,
+      "inheritDamageFactor" : 2.0,
+      "angleAdjust" : 0
+    }
+  ],
+  "angleAdjust" : 90,
+  "knockback" : 5,
+  "power" : 6,
+  "speed" : 20,
+  "timeToLive" : 1,
+  "bounces" : -1,
+  "damagePoly" : [ [-27, 0], [-19, -19], [0, -27], [19, -19], [27, 0], [19, 19], [0, 27], [-19, 19] ],
+  "piercing" : true,
+  "damageTeam" : { "type" : "friendly" },
+  "damageKind" : "default",
+  "statusEffects" : [ "stun" ],
+  
+  "emitters" : [ "energyweapon", "electricplasma", "shadowsmoke", "smoke" ],
+
+  "scripts" : [ "/scripts/projectiles/homingprojectile.lua" ],
+  "scriptDelta" : 1,
+  "homingDistance" : 10,
+  "rotationRate" : 1,
+  "trackingLimit" : 10.0,
+
+  "persistentAudio" : ""
+}

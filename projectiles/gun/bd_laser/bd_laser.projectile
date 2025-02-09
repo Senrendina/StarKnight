@@ -1,0 +1,21 @@
+{
+  "projectileName" : "BD_Laser",
+  "image" : "BD_Laser.png",
+  "animationCycle" : 0.5,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 1,
+  "power" : 25,
+  "speed" : 70,
+  "lightColor" : [186, 0, 0],
+  "bounces" : 0,
+  "fullbright" : true,
+  "piercing" : false,
+  "damagePoly" : [ [-15, 3], [-15, -3], [15, -3], [15, 3] ],
+  "damageKind" : "fire",
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosion/bd_plasmaexplosion/bd_plasmaexplosion.config"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "materialId" : 60241,
+  "materialName" : "SO_Blocks21",
+  "collisionKind" : "platform",
+  "transparent" : true,
+  "itemDrop" : "SO_Blocks21",
+  
+  "shortdescription" : "Platform",
+  "description" : "A well-constructed metal platform.",
+ 
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "category" : "Supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "Blocks21.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "objectName" : "SK_Toka",
+  "colonyTags" : ["Eldora"],
+  "rarity" : "Common",
+  "category" : "other",
+  "description" : "Eldora Base Captain",
+  "shortdescription" : "Eldora Base Captain",
+  "race" : "generic",
+
+  "scannable" : false,
+  "printable" : false,
+
+  "inventoryIcon" : "Tokaicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "Toka.png:<color>.<frame>", "fullbright" : true }, { "image" : "Tokalit.png:<color>.<frame>" } ],
+      "imagePosition" : [0, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 1,
+      "animationCycle" : 7.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "Toka.png:<color>.<frame>", "fullbright" : true }, { "image" : "Tokalit.png:<color>.<frame>" } ],
+      "imagePosition" : [0, 0],
+
+      "direction" : "right",
+
+      "frames" : 1,
+      "animationCycle" : 7.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "turnInQuests" : [
+    "starknightmission1", "starknightmission2"],	
+
+  "scripts" : ["/scripts/chattyObject.lua"],
+  "scriptDelta" : 60,
+
+  "uniqueId" : "SK_Toka",
+  "mouthPosition" : [0.0, 0.5],
+  
+  "chatOptions" : [
+    "Welcome to Eldora Base",
+    "We're currently busy. Can you come back later ?"
+  ]
+}

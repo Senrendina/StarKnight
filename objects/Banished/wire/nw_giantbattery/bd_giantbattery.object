@@ -1,0 +1,23 @@
+{
+  "objectName": "BD_GiantBattery",
+  "colonyTags": ["nightwatch", "furniture"],
+  "rarity": "Rare",
+  "description": "Battery Used to store exceed energy",
+  "shortdescription": "Particle Battery",
+  "race": "generic",
+  "category": "decorative",
+  "price": 110,
+  "inventoryIcon": "BD_GiantBattery.png",
+  "orientations": [
+    {
+      "imageLayers" : [ { "image" : "BD_GiantBattery.png"}, { "image" : "BD_GiantBatterylit.png:", "fullbright" : true  }  ],
+	  
+      "direction": "left",
+      "imagePosition": [0, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
+    }
+  ]
+}

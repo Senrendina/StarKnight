@@ -1,0 +1,13 @@
+[
+  {
+    "op": "add",
+    "path": "/ryuuStarterTreasure",
+    "value": [[0, {
+      "fill" : [
+        {"pool" : "starterTreasure"},
+        {"item" : [ "starknight_suffer", 1 ]},
+		{"item" : [ "SK_5", 20 ]}
+      ]
+    }]]
+  }
+]

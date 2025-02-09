@@ -1,0 +1,11 @@
+{
+  "itemName" : "CS_3",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "CS_3ico.png",
+  "shortdescription" : "Plate Armor",
+  "description" : "Plate Armor",
+
+  "materialId" : 60253
+}

@@ -1,0 +1,66 @@
+{
+  "objectName" : "StarknightMissionTeleporter",
+  "objectType" : "teleporter",
+  "rarity" : "Legendary",
+  "description" : "Wait... What is that teleporter ? Feels different...",
+  "shortdescription" : "Starknight Base Teleporter",
+  "price" : 3000,
+  "printable" : false,
+  
+  "category" : "teleporter",
+  "lightColor" : [0, 191, 191],
+  "lightPosition" : [0, 5],
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/StarknightBaseWrap.config",
+
+  "inventoryIcon" : "StarknightMissionTeleporter.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "StarknightMissionTeleporter.png:<color>", "fullbright" : true }, { "image" : "StarknightMissionTeleporterlit.png:<color>" } ],
+
+      "imagePosition" : [-32, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid",
+      "collisionSpaces": [
+        [-2, 0],
+        [-1, 0],
+        [0, 0],
+        [1, 0],
+        [-2, 9],
+        [-1, 9],
+        [0, 9],
+        [1, 9]]
+    }
+  ],
+
+  "health" : 20,
+  
+  "breakDropPool" : "remoteteleporter",
+  
+  "teleporterFootPosition" : [0, 1],
+
+  "scripts" : [ "/scripts/npcToyObject.lua"],
+  "npcToy" : {
+    "influence" : [
+      "teleporter",
+      "teleporterComplete"
+    ],
+    "defaultReactions" : {
+      "teleporter" : [
+        [1.0, "beamaway"]
+      ],
+      "teleporterComplete" : [
+        [1.0, "vomit"],
+        [1.0, "smile"]
+      ]
+    },
+    "preciseStandPositionLeft" : [0, 0.0],
+    "preciseStandPositionRight" : [0, 0.0],
+    "maxNpcs" : 1
+  }
+}

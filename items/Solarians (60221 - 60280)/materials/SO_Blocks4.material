@@ -1,0 +1,25 @@
+{
+  "materialId" : 60224,
+  "materialName" : "SO_Blocks4",
+  "particleColor" : [55, 55, 55, 255],
+  "itemDrop" : "SO_Blocks4",
+  
+  "description" : "Builded attach with the floor",
+  "shortdescription" : "Solarian Flooring",
+  
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 6,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "Blocks4.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : false,
+    "zLevel" : 50,
+	"radiantLight" : [0, 30, 56]
+  }
+}
+

@@ -1,0 +1,22 @@
+{
+  "metadata" : {
+    "name" : "StarknightBase",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "StarknightBase" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : true
+  },
+  "parts" : [
+    {
+      "name" : "StarknightBase",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", [ "StarknightBase.json" ] ]
+    }
+  ]
+ }

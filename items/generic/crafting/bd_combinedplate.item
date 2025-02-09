@@ -1,0 +1,10 @@
+{
+  "itemName" : "BD_CombinedPlate",
+  "price" : 100,
+  "rarity" : "Essential",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "BD_CombinedPlate.png",
+  "description" : "The Black and Red Plate Combined for crafting Advanced furniture",
+  "shortdescription" : "Combined Plate",
+  "itemTags" : [ "reagent" ]
+}

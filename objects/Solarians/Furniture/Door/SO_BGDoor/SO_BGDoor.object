@@ -1,0 +1,33 @@
+{
+  "objectName": "SO_BGDoor",
+  "colonyTags": ["door"],
+  "rarity": "Rare",
+  "category": "door",
+  "price": 135,
+  "description": "A Background door used to hide something.",
+  "shortdescription": "BG Door",
+  "race": "generic",
+  "inventoryIcon": "SO_BGDoor.png:default.off",
+  "orientations": [
+    {
+      "dualImage": "SO_BGDoor.png:<color>.off",
+      "imagePosition": [0, 0],
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
+    }
+  ],
+  "scripts": ["/objects/wired/switch/switch.lua"],
+  "scriptDelta": 5,
+  "animation": "default.animation",
+  "animationCustom": {
+    "sounds": {
+      "on": ["/sfx/objects/apexcooldoor_open.ogg"],
+      "off": ["/sfx/objects/apexcooldoor_close.ogg"]
+    }
+  },
+  "animationParts": {
+    "switch": "SO_BGDoor.png",
+    "switchlit": "SO_BGDoorlit.png"
+  },
+  "animationPosition": [0, 0]
+}

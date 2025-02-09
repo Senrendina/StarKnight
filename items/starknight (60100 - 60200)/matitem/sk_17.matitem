@@ -1,0 +1,11 @@
+{
+  "itemName" : "SK_17",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "SK_17ico.png",
+  "shortdescription" : "Door Attach",
+  "description" : "Some Door Attach",
+
+  "materialId" : 60116
+}

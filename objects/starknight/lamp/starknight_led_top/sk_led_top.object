@@ -1,0 +1,72 @@
+{
+  "objectName": "SK_Led_Top",
+  "colonyTags": ["light"],
+  "rarity": "Rare",
+  "description": "A cyan wall light.",
+  "shortdescription": "Cyan Led Top",
+  "race": "generic",
+  "apexDescription": "A functional cyan wall light.",
+  "avianDescription": "It's a cyan wall light.",
+  "floranDescription": "Shiny light!",
+  "glitchDescription": "Impressed. This cyan wall mounted light is effective.",
+  "humanDescription": "A pretty standard cyan wall light.",
+  "hylotlDescription": "A cyan wall light. It is functional but unpleasant.",
+  "novakidDescription": "This light's okay, but it ain't as bright as me!",
+  "category": "light",
+  "price": 60,
+  "lightColor": [0, 191, 191],
+  "inventoryIcon": "SK_Led_Topicon.png",
+  "orientations": [
+    {
+      "image": "SK_Led_Top.png:<color>.<frame>",
+      "imagePosition": [0, 0],
+      "animationParts": {
+        "bg": "SK_Led_Top.png",
+        "fg": "SK_Led_Toplit.png"
+      },
+      "direction": "right",
+      "spaceScan": 0.1,
+      "anchors": ["top"]
+    },
+    {
+      "image": "SK_Led_Bottom.png:<color>.<frame>",
+      "imagePosition": [0, 0],
+      "animationParts": {
+        "bg": "SK_Led_Bottom.png",
+        "fg": "SK_Led_Bottomlit.png"
+      },
+      "direction": "right",
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
+    },
+    {
+       "image": "SK_Led_Top.png:<color>.<frame>",
+      "imagePosition": [0, 0],
+      "animationParts": {
+        "bg": "SK_Led_Top.png",
+        "fg": "SK_Led_Toplit.png"
+      },
+      "direction": "right",
+      "spaceScan": 0.1,
+      "anchors": ["background"]
+    }
+  ],
+  "soundEffect": "/sfx/objects/fluorescent_light_quiet.ogg",
+  "soundEffectRangeMultiplier": 0.5,
+  "animation": "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationCustom": {
+    "sounds": {
+      "on": ["/sfx/objects/tinywallswitch.ogg"],
+      "off": ["/sfx/objects/tinywallswitch.ogg"]
+    }
+  },
+  "animationParts": {
+    "bg": "SK_Led_Top.png",
+    "fg": "SK_Led_Toplit.png"
+  },
+  "animationPosition": [0, 0],
+  "scripts": ["/objects/wired/light/light.lua"],
+  "scriptDelta": 60,
+  "interactive": false,
+  "inputNodes": [[0, 0]]
+}

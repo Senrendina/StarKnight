@@ -1,0 +1,55 @@
+{
+  "name" : "Starknight_CargoTram",
+  "boundBox" : [-7.5, -0.25, 7.5, 4.75],
+  "slaveControlTimeout" : 2.0,
+  "slaveControlHeartbeat" : 1.0,
+  "canBeHit" : false,
+
+  "persistent" : true,
+
+  "script" : "/vehicles/railtram/railtram.lua",
+  "animation" : "Starknight_CargoTram.animation",
+
+  "animationPartTags" : {
+    "gate" : {
+      "partImage" : "/vehicles/tram/Cargo_Tram/Starknight_CargoTramGate.png"
+    },
+    "tram" : {
+      "partImage" : "/vehicles/tram/Cargo_Tram/Starknight_CargoTram.png"
+    },
+    "tramfullbright" : {
+      "partImage" : "/vehicles/tram/Cargo_Tram/Starknight_CargoTramlit.png"
+    },
+    "tramControls" : {
+      "partImage" : "/vehicles/railtram/stationtram_arrows.png"
+    }
+  },
+
+  "movementSettings" : {
+    "collisionPoly" : [ [-7.5, 4.75], [7.5, 4.75], [7.5, 0.5], [1.5, -0.25], [-1.5, -0.25], [-7.5, 0.5] ],
+    "mass" : 2.0,
+    "ignorePlatformCollision" : true,
+    "physicsEffectCategories" : []
+  },
+
+  "loungePositions" : {
+    "seat" : {
+      "part" : "gate",
+      "partAnchor" : "standPosition",
+      "orientation" : "stand"
+    }
+  },
+
+  "physicsCollisions" : {
+    "platform" : {
+      "collision" : [ [-7.5, 0], [7.5, 0] ],
+      "collisionKind" : "platform"
+    }
+  },
+
+  "railConfig" : {
+    "speed" : 10
+  },
+
+  "popItem" : "Starknight_CargoTram"
+}

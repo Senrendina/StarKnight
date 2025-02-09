@@ -1,0 +1,23 @@
+{
+  "materialId" : 60103,
+  "materialName" : "SK_4",
+  "collisionKind" : "platform",
+  "transparent" : true,
+  "itemDrop" : "SK_4",
+  
+  "shortdescription" : "Platform",
+  "description" : "A well-constructed metal platform.",
+ 
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "category" : "Supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "SK_4.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

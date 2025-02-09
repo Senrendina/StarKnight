@@ -1,0 +1,47 @@
+{
+  "objectName" : "CSR_Couch",
+  "colonyTags" : ["starknight"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 150,
+  "description" : "Comfy couch",
+  "shortdescription" : "Starknight Couch",
+  "race" : "generic",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+
+  "inventoryIcon" : "CSR_Couch.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "CSR_Couch.png"}, { "image" : "CSR_Couchlit.png:", "fullbright" : true  }  ],
+      "imagePosition" : [0, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPositions" : [
+        // Positions from front to back.
+        [-10, 22], // Right
+        [3, 22] // Left
+      ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "CSR_Couch.png"}, { "image" : "CSR_Couchlit.png:", "fullbright" : true  }  ],
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "sitPositions" : [
+        // Positions from front to back.
+        [-2, 22], // Left
+        [11, 22] // Right
+      ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+
+}

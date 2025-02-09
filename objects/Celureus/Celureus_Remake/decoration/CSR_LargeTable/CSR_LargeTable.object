@@ -1,0 +1,36 @@
+{
+  "objectName": "CSR_LargeTable",
+  "colonyTags": ["Celureus", "furniture"],
+  "rarity": "Rare",
+  "description": "A table. Perfect for eating.",
+  "shortdescription": "Large Metal Table",
+  "race": "generic",
+  "category": "decorative",
+  "price": 110,
+  "inventoryIcon": "CSR_LargeTable.png",
+  "orientations": [
+    {
+      "imageLayers" : [ { "image" : "CSR_LargeTable.png"}, { "image" : "CSR_LargeTablelit.png:", "fullbright" : true  }  ],
+	  
+      "flipImages": true,
+      "direction": "left",
+      "imagePosition": [0, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "CSR_LargeTable.png"}, { "image" : "CSR_LargeTablelit.png:", "fullbright" : true  }  ],
+	  
+      "direction": "right",
+      "imagePosition": [0, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    }
+  ]
+}

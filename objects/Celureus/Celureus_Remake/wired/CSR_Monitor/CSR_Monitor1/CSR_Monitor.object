@@ -1,0 +1,48 @@
+{
+	"objectName": "CSR_Monitor",
+	"colonyTags": ["Celureus"],
+	"rarity": "Rare",
+	"description": "A long holographic console.",
+	"shortdescription": "Celureus Monitor 1",
+	"race": "generic",
+	"category": "wire",
+	"price": 120,
+    "lightColor": [0, 89, 89],	
+	"inventoryIcon": "CSR_Monitor.png:default.off",
+  "orientations": [
+    {
+      "image": "CSR_Monitor.png:<color>.on",
+      "flipImages": true,
+      "direction": "left",
+      "lightPosition": [0, 1],
+      "imagePosition": [0, 0],
+      "frames": 9,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["background"]
+    },
+    {
+      "image": "CSR_Monitor.png:<color>.on",
+      "direction": "right",
+      "lightPosition": [0, 1],
+      "imagePosition": [0, 0],
+      "frames": 9,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["background"]
+    }
+  ],
+  "soundEffect" : "/sfx/objects/outpostmonitor_static.ogg",
+
+  "animation" : "CSR_Monitor.animation",
+  "animationParts" : {
+    "bg" : "CSR_Monitor.png",
+    "fg" : "CSR_Monitorlit.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+}

@@ -1,0 +1,37 @@
+{
+	"objectName": "SK_UnitedScreen",
+	"colonyTags": ["starknight"],
+	"rarity": "Rare",
+	"description": "A Screen Displaying the Propagation of Ryuu",
+	"shortdescription": "Propagation Screen",
+	"race": "generic",
+	"category": "wire",
+	"price": 120,
+    "lightColor": [0, 89, 89],		
+	"inventoryIcon": "SK_UnitedScreen.png:default.off",
+  "orientations": [
+    {
+      "image": "SK_UnitedScreen.png:<color>.on",
+      "direction": "right",
+      "lightPosition": [0, 1],
+      "imagePosition": [0, 0],
+      "frames": 6,
+      "animationCycle": 5.0,
+      "spaceScan": 0.1,
+      "anchors": ["background"]
+    }
+  ],
+  "soundEffect" : "/sfx/objects/outpostmonitor_static.ogg",
+
+  "animation" : "SK_UnitedScreen.animation",
+  "animationParts" : {
+    "bg" : "SK_UnitedScreen.png",
+    "fg" : "SK_UnitedScreenlit.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+}

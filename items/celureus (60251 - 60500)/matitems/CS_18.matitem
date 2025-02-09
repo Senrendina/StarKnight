@@ -1,0 +1,11 @@
+{
+  "itemName" : "CS_18",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "CS_18ico.png",
+  "shortdescription" : "White Hull Front",
+  "description" : "White Metal Plate used to build Spaceship or Ship",
+
+  "materialId" : 60268
+}

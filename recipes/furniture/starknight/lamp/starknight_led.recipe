@@ -1,0 +1,13 @@
+{
+    "input": [
+	{"item": "silverbar", "count": 2},
+	{"item": "refinedferozium", "count": 1}
+
+    ],
+    "output": {
+        "item": "SK_led",
+        "count": 1
+    },
+    "duration": 0.5,
+    "groups": ["metalstarbench", "lights", "all"]
+}

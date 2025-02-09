@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "CSK_SolidIngot", "count" : 20 }, 
+	{ "item" : "CSK_SynergicTransmitter", "count" : 1 }
+  ],
+  "output" : { "item" : "starknight_swordmoon", "count" : 1},
+  "duration" : 0.5,
+  "groups" : [ "metalstartable", "weapon", "all" ]
+}

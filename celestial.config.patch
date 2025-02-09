@@ -1,0 +1,73 @@
+[
+
+	// Regular Patch
+	[
+		{
+			"op" : "add",
+			"path" : "/terrestrialHorizonGraphics/eldora",
+			"value" :
+			{
+				"baseImages" : "/celestial/system/terrestrial/horizon/textures/SK_Machinery_<selector>.png",
+				"maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+				"maskRange" : [1, 25],
+				"maskPerPlanetRange" : [3, 3]
+			}
+		},
+
+		{
+			"op" : "add",
+			"path" : "/terrestrialGraphics/eldora",
+			"value" :
+			{
+				"baseImages" : "/celestial/system/terrestrial/biomes/eldora/maskie<num>.png",
+				"dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+				"dynamicsRange" : [1, 30]
+			}
+		},
+	
+		// Gentle: Tier1, Tier2
+		// Temperate: Tier2, Tier3
+		// Radioactive: Tier2, Tier3, Tier4
+		// Frozen: Tier2, Tier3, Tier4, Tier5
+		// Fiery: Tier3, Tier4, Tier5, Tier6
+		
+		// Patch planet to generate in tier 1 stars
+		{
+			"op":"add",
+			"path":"/planetaryTypes/Tier3/baseParameters/terrestrialType/-",
+			"value":"eldora"
+		},
+		
+		// Patch planet to generate in tier 2 stars
+		{
+			"op":"add",
+			"path":"/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
+			"value":"eldora"
+		}
+		
+	],
+
+	// TrueSpace Patch, Optional
+	[
+		// Test if Truespace is installed
+		{
+		  "op": "test",
+		  "path": "/systemTypes/ClassMStar",
+		  "inverse": false
+		},
+		
+		// Planets
+		{
+		  "op": "add",
+		  "path": "/planetaryTypes/MildPlanet/baseParameters/terrestrialType/-",
+		  "value": "eldora"
+		},
+		
+		// Sats
+		{
+		  "op": "add",
+		  "path": "/satelliteTypes/MildNSat/baseParameters/terrestrialType/-",
+		  "value": "eldora"
+		}
+	]
+]

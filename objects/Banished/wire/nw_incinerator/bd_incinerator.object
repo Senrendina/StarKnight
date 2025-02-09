@@ -1,0 +1,23 @@
+{
+  "objectName": "BD_Incinerator",
+  "colonyTags": ["nightwatch", "furniture"],
+  "rarity": "Rare",
+  "description": "Just decorative but it used to incinerate any component you put inside",
+  "shortdescription": "Incinerator",
+  "race": "generic",
+  "category": "decorative",
+  "price": 110,
+  "inventoryIcon": "BD_Incinerator.png",
+  "orientations": [
+    {
+      "imageLayers" : [ { "image" : "BD_Incinerator.png"}, { "image" : "BD_Incineratorlit.png:", "fullbright" : true  }  ],
+	  
+      "direction": "left",
+      "imagePosition": [0, 0],
+      "frames": 1,
+      "animationCycle": 1,
+	  "spaceScan": 0.1,
+      "anchors": ["bottom"]
+    }
+  ]
+}

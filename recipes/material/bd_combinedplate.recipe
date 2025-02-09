@@ -1,0 +1,9 @@
+{
+  "input" : [ 
+	{ "item" : "BD_SmallBlackPlate", "count" : 1 },
+	{ "item" : "BD_SmallRedPlate", "count" : 1 }
+  ],
+  "output" : { "item" : "BD_CombinedPlate", "count" : 1},
+  "duration" : 0.5,
+  "groups" : [ "BD_Fabricator", "reagent", "all" ]
+}

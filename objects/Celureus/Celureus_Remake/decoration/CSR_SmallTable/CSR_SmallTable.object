@@ -1,0 +1,36 @@
+{
+  "objectName": "CSR_SmallTable",
+  "colonyTags": ["Celureus", "furniture"],
+  "rarity": "Rare",
+  "description": "A table. Perfect for eating.",
+  "shortdescription": "Small Metal Table",
+  "race": "generic",
+  "category": "decorative",
+  "price": 110,
+  "inventoryIcon": "CSR_SmallTable.png",
+  "orientations": [
+    {
+      "imageLayers" : [ { "image" : "CSR_SmallTable.png"}, { "image" : "CSR_SmallTablelit.png:", "fullbright" : true  }  ],
+	  
+      "flipImages": true,
+      "direction": "left",
+      "imagePosition": [0, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "CSR_SmallTable.png"}, { "image" : "CSR_SmallTablelit.png:", "fullbright" : true  }  ],
+	  
+      "direction": "right",
+      "imagePosition": [0, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    }
+  ]
+}

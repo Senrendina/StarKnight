@@ -1,0 +1,31 @@
+{
+  "objectName": "SK_energypillarendtop",
+  "colonyTags": ["starknight", "furniture"],
+  "rarity": "Rare",
+  "description": "An pure Energy Source",
+  "shortdescription": "Energy Pillar End Top",
+  "race": "generic",
+  "category": "decorative",
+  "price": 110,
+  "lightColor": [0, 170, 170],
+  "apexDescription": "A Energy Connection.",
+  "avianDescription": "A Energy Connection.",
+  "floranDescription": "Floran likess Energy Connection.",
+  "glitchDescription": "Indifferent. Energy Connection.",
+  "humanDescription": "A Energy PConnection.",
+  "hylotlDescription": "An unattractive Energy Connection.",
+  "novakidDescription": "Just a Energy PConnection",
+  "inventoryIcon": "SK_energypillarendtop.png",
+  "orientations": [
+    {
+      "imageLayers" : [ { "image" : "SK_energypillarendtop.png"}, { "image" : "SK_energypillarendtoplit.png:", "fullbright" : true  }  ],
+	  
+      "direction": "left",
+      "imagePosition": [0, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["background"]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "itemName" : "BD_Ratle",
+  "level" : 6,
+  "price" : 1500,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Longue Distance Rifle",
+  "shortdescription" : "Banished Ratle",
+  "tooltipKind" : "gun",
+  "category" : "assaultRifle",
+  "twoHanded" : true,
+  "itemTags" : ["weapon"],
+
+  "inventoryIcon" : [
+    { "image" : "BD_Ratle.png:idle.1" }
+  ],
+
+  "animation" : "BD_Ratle.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "BD_Ratle.png",
+    "middlefullbright" : "BD_Ratlelit.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/active/banished/weapons/ranged/BD_muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/plasma_sniper1.ogg" ]
+    }
+  },
+  "baseOffset" : [0.9, 0.35],
+  "muzzleOffset" : [2.375, 0.125],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "fire",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.35,
+    "baseDps" : 15,
+    "energyUsage" : 10,
+    "inaccuracy" : 0.00,
+	"projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "BD_Laser",
+    "projectileParameters" : {
+      "knockback" : 0,
+      "speed" : 50,
+      "statusEffects" : [ "burning" ]
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.11,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

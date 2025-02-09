@@ -1,0 +1,48 @@
+{
+	"objectName": "CSR_StandingConsole",
+	"colonyTags": ["Celureus"],
+	"rarity": "Rare",
+	"description": "A long holographic console.",
+	"shortdescription": "Celureus Console",
+	"race": "generic",
+	"category": "wire",
+	"price": 120,
+    "lightColor": [0, 89, 89],	
+	"inventoryIcon": "CSR_StandingConsole.png:default.off",
+  "orientations": [
+    {
+      "image": "CSR_StandingConsole.png:<color>.on",
+      "flipImages": true,
+      "direction": "left",
+      "lightPosition": [0, 1],
+      "imagePosition": [0, 0],
+      "frames": 5,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
+    },
+    {
+      "image": "CSR_StandingConsole.png:<color>.on",
+      "direction": "right",
+      "lightPosition": [0, 1],
+      "imagePosition": [0, 0],
+      "frames": 5,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
+    }
+  ],
+  "soundEffect" : "/sfx/objects/outpostmonitor_static.ogg",
+
+  "animation" : "CSR_StandingConsole.animation",
+  "animationParts" : {
+    "bg" : "CSR_StandingConsole.png",
+    "fg" : "CSR_StandingConsolelit.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [ 
+	{ "item" : "CSK_SolidIngot", "count" : 1 }
+  ],
+  "output" : { "item" : "CS_18", "count" : 100},
+  "duration" : 0.5,
+  "groups" : [ "CelureusCraftRemake", "materials", "all" ]
+}

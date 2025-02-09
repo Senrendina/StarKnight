@@ -1,0 +1,11 @@
+{
+  "itemName" : "CS_11",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "CS_11ico.png",  
+  "description" : "Some Grating Support",
+  "shortdescription" : "CS Grating Support",
+
+  "materialId" : 60261
+}

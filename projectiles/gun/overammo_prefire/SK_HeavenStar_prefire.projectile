@@ -1,0 +1,27 @@
+{
+  "projectileName" : "SK_HeavenStar_prefire",
+  "image" : "SK_HeavenStar_prefire.png",
+  "timeToLive" : 0,
+  "animationCycle" : 0,
+  "frameNumber" : 1,
+  "lightColor" : [0, 0, 0],
+  "pointLight" : false,
+  "actionOnReap" : [
+	{
+      "action" : "projectile",
+      "type" : "SK_helixbullet",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.625,
+      "angleAdjust" : 0
+    }
+  ],
+  "statusEffects" : [ ],
+  "emitters" : [],
+  "flippable" : true,
+  "power" : 0.0,
+  "speed" : 0,
+  "acceleration" : 0,
+  "physics" : "rocket",
+  "damageType" : "ignoresdef",
+  "damageKind" : "default"
+}

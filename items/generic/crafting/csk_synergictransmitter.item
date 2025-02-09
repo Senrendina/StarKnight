@@ -1,0 +1,10 @@
+{
+  "itemName" : "CSK_SynergicTransmitter",
+  "price" : 100,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "CSK_SynergicTransmitter.png",
+  "description" : "Some material used for conduct energy around the furniture",
+  "shortdescription" : "Synergic Transmitter",
+  "itemTags" : [ "reagent" ]
+}

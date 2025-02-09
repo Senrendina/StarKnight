@@ -1,0 +1,21 @@
+{ 
+  "modId" : 60281,
+  "modName" : "sk_sardonyx_mod",
+  "itemDrop" : "sk_sardonyx_ore",
+  "description" : "It's some sardonyx ore. Can be used for smelting.",
+  "health" : 10,
+  "harvestLevel" : 3,
+  "breaksWithTile" : true,
+
+  "miningSounds" : [ "/sfx/tools/pickaxe_ore.ogg", "/sfx/tools/pickaxe_ore2.ogg" ],
+  "miningParticle" : "orespark",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "sk_sardonyx_ore.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0,
+    "radiantLight" : [70, 10, 40]
+  }
+}

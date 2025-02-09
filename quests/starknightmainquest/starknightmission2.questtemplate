@@ -1,0 +1,45 @@
+{
+  "id" : "starknightmission2",
+  "prerequisites" : ["starknightmission1"],
+  "title" : "^orange;Satellite problem",
+  "text" : "Alright, with all these component, we can use it for the next step. We have an outpost that we use as range detection. However the satellite in question is not functioning anymore. Are you up for this job ?",
+  "completionText" : "Hey ! Glad to see you safe and sound.",
+  "moneyRange" : [100, 100],
+  "rewards" : [
+    [ [ "SK_TwistedEnergy", 1 ] ]
+  ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/instance.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : {
+        "portrait" : [ {"image" : "/objects/mission/Kal'Thar/SK_Kal'Tharportrait.png"} ],
+        "title" : "Ryoko"
+      },
+      "questComplete" : {
+        "portrait" : [ {"image" : "/objects/mission/Kal'Thar/SK_Kal'Tharportrait.png"} ],
+        "title" : "Ryoko"
+      }
+    },
+    "descriptions" : {
+      "enterInstance" : "Talk to ^orange;Ryoko^reset; to reach the ^orange;Satellite outpost^reset;",
+      "findGoal" : "^orange;Find the Solar Panel^reset;",
+      "turnIn" : "Speak to ^orange;Ryoko^reset; at the ^orange;Starknight base^reset;"
+    },
+
+    "warpEntityUid" : "SK_Ryoko",
+    "warpAction" : "instanceworld:ActivatingTheSatellite",
+    "warpDialog" : "/interface/confirmation/starknightteleportconfirmation.config:SKmission2",
+
+    "goalTrigger" : "proximity",
+    "proximityRange" : 5,
+	
+    "goalEntityUid" : "starknight_goalMission2",
+    "indicateGoal" : false,
+    "trackGoalEntity" : false,	
+
+    "turnInEntityUid" : "SK_Ryoko"
+  }
+}
+

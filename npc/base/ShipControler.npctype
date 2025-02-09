@@ -1,0 +1,40 @@
+{
+  "type" : "ShipControler",
+  "baseType" : "outpostcivilian",
+
+  "scriptConfig" : {
+    "offeredQuests" : [ ],
+    "turnInQuests" : [ ],
+    
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "Let's see if we have everything"
+          ]
+        },
+        "ryuu" : {
+          "default" : [
+            "Hello, star traveller! A friendly face is always welcome here."
+          ],
+          "ryuu" : [
+            "Want to travel with us ?",
+			"Have you found some stuff for us ?",
+			"Let's make sure the ressource we gather is enough."
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "CS_Explorerchest" } ],
+            "legs" : [ { "name" : "CS_Explorerlegs" } ]
+          }
+        ] ]
+    ]
+  }
+}

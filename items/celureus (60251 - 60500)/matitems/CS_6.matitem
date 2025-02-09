@@ -1,0 +1,11 @@
+{
+  "itemName" : "CS_6",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "CS_6ico.png",
+  "shortdescription" : "Locker Wall",
+  "description" : "Locker Wall",
+
+  "materialId" : 60256
+}

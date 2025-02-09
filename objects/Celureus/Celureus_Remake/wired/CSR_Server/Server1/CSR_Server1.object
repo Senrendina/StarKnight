@@ -1,0 +1,55 @@
+{
+	"objectName": "CSR_Server1",
+	"colonyTags": ["starknight"],
+	"rarity": "Rare",
+	"description": "A long holographic console.",
+	"shortdescription": "Celureus server",
+	"race": "generic",
+	"category": "wire",
+	"price": 120,
+    "lightColor": [76, 183, 255],
+	"inventoryIcon": "CSR_Server1.png:default.1",
+	"orientations": [{
+			"imageLayers": [{
+				"image": "CSR_Server1.png:<color>.on"
+			}, {
+				"image": "CSR_Server1lit.png:<color>.on",
+				"fullbright": true
+			}],
+			"flipImages": true,
+			"direction": "left",
+			"lightPosition": [0, 1],
+			"imagePosition": [0, 0],
+			"frames": 2,
+			"animationCycle": 0.5,
+			"spaceScan": 0.1,
+			"anchors": ["bottom"]
+		},
+		{
+			"imageLayers": [{
+				"image": "CSR_Server1.png:<color>.on"
+			}, {
+				"image": "CSR_Server1lit.png:<color>.on",
+				"fullbright": true
+			}],
+			"direction": "right",
+			"lightPosition": [0, 1],
+			"imagePosition": [0, 0],
+			"frames": 2,
+			"animationCycle": 0.5,
+			"spaceScan": 0.1,
+			"anchors": ["bottom"]
+		}
+  ],
+  "animation" : "CSR_Server1.animation",
+  "animationParts" : {
+    "bg" : "CSR_Server1.png",
+    "fg" : "CSR_Server1lit.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+}

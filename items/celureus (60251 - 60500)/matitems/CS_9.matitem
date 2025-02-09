@@ -1,0 +1,11 @@
+{
+  "itemName" : "CS_9",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "CS_9ico.png",  
+  "description" : "Some Floor",
+  "shortdescription" : "CS Flooring 2",
+
+  "materialId" : 60259
+}

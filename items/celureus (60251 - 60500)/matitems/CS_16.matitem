@@ -1,0 +1,11 @@
+{
+  "itemName" : "CS_16",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "CS_16ico.png",
+  "shortdescription" : "Dark Sloped Hull Front",
+  "description" : "Dark Metal Plate used to build Spaceship or Ship",
+
+  "materialId" : 60266
+}

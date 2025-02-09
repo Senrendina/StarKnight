@@ -1,0 +1,47 @@
+[
+{
+"op":"add",
+"path":"/StarknightBase",
+"value":
+{
+    "primaryDungeon" : "StarknightBase",
+    "threatLevel" : 5,
+    "gravity" : 80,
+    "worldSize" : [2000, 2000],
+    "dungeonBaseHeight" : 1500,
+    "dungeonSurfaceHeight" : 1000,
+    "ambientLightLevel" : [32, 32, 32],
+    "musicTrack" : "/music/calmdawn.ogg"
+}
+},
+{
+"op":"add",
+"path":"/ActivatingTheSatellite",
+"value":
+{
+    "primaryDungeon" : "ActivatingTheSatellite",
+    "threatLevel" : 5,
+    "gravity" : 80,
+    "worldSize" : [2000, 2000],
+    "dungeonBaseHeight" : 1500,
+    "dungeonSurfaceHeight" : 1000,
+    "ambientLightLevel" : [32, 32, 32],
+    "musicTrack" : "/music/arsenal.ogg"
+}
+},
+{
+"op":"add",
+"path":"/StrangeSignal",
+"value":
+{
+    "primaryDungeon" : "StrangeSignal",
+    "threatLevel" : 4,
+    "gravity" : 80,
+    "worldSize" : [2000, 2000],
+    "dungeonBaseHeight" : 1500,
+    "dungeonSurfaceHeight" : 1000,
+    "ambientLightLevel" : [32, 32, 32],
+    "musicTrack" : "/music/victory.ogg"
+}
+}
+]

@@ -1,0 +1,12 @@
+{
+    "input": [
+	{"item": "silverbar", "count": 5},
+	{"item": "refinedferozium", "count": 1}
+    ],
+    "output": {
+        "item": "SK_FTL",
+        "count": 1
+    },
+    "duration": 0.5,
+    "groups": ["metalstarbench", "sensors", "all"]
+}

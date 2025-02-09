@@ -1,0 +1,23 @@
+{
+  "materialId" : 60270,
+  "materialName" : "CS_20",
+  "particleColor" : [237, 254, 255, 255],
+  "itemDrop" : "CS_20",
+  
+  "shortdescription" : "Glass Block",
+  "description" : "Glass Block used to build Spaceship or Ship",
+  
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "CS_20.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 200
+  }
+}

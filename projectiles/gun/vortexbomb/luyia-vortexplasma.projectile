@@ -1,0 +1,24 @@
+{
+  "projectileName" : "luyia-vortexplasma",
+  "image" : "luyia-vortexplasma.png",
+  "animationCycle" : 1.0,
+  "frameNumber" : 4,
+  "renderLayer" : "player+1",
+  "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
+  "lightColor" : [120, 20, 120],	
+  "fullbright" : true,  
+  "actionOnReap" : [
+  ],
+  "physics" : "grenade",
+  "bounces" : -1,
+  "piercing" : true,
+  "power" : 0,
+  "knockback" : 5,
+  "speed" : 20,
+  "damageKind" : "bow",
+  "timeToLive" : 2.2,
+  "damageKindImage" : "/interface/statuses/fire.png",
+  "statusEffects" : [
+  ],
+  "emitters" : [ "electricplasma", "energyplasma" ]
+}

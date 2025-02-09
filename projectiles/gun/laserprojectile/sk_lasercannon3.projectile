@@ -1,0 +1,21 @@
+{
+  "projectileName" : "sk_lasercannon3",
+  "image" : "sk_lasercannon3.png",
+  "animationCycle" : 0.5,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 1,
+  "lightColor" : [0, 255, 255],
+  "bounces" : 0,
+  "fullbright" : true,
+  "piercing" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosion/sk_explosion/sk_explosion.config"
+    }
+  ],
+  "speed" : 70,  
+  "power" : 10.0,
+  "damageKind" : "default",
+  "physics" : "laser"
+}

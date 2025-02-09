@@ -1,0 +1,28 @@
+{
+  "objectName": "SK_Streetlamp",
+  "colonyTags": ["light"],
+  "rarity": "Rare",
+  "description": "a Cyan Blue Light",
+  "shortdescription": "starknight Streetlamp",
+  "race": "generic",
+  "apexDescription": "A functional blue wall light.",
+  "avianDescription": "It's a blue wall light.",
+  "floranDescription": "Shiny light!",
+  "glitchDescription": "Impressed. This blue wall mounted light is effective.",
+  "humanDescription": "A pretty standard blue wall light.",
+  "hylotlDescription": "A blue wall light. It is functional but unpleasant.",
+  "novakidDescription": "This light's okay, but it ain't as bright as me!",
+  "category": "light",
+  "price": 60,
+  "lightColor": [0, 180, 180],
+  "inventoryIcon": "SK_Streetlamp.png",
+  "orientations": [
+     {
+      "imageLayers" : [ { "image" : "SK_Streetlamp.png"}, { "image" : "SK_Streetlamplit.png", "fullbright" : true  }  ],
+      "imagePosition": [0, 0],
+      "direction": "right",
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
+    }
+  ]
+}

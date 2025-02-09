@@ -1,0 +1,10 @@
+{
+  "itemName" : "BD_MagneticDisk",
+  "price" : 100,
+  "rarity" : "Essential",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "BD_MagneticDisk.png",
+  "description" : "A Magnetik Disk used for weapon and some furniture",
+  "shortdescription" : "Magnetik Disk",
+  "itemTags" : [ "reagent" ]
+}

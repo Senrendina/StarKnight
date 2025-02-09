@@ -1,0 +1,23 @@
+{
+  "materialId" : 60201,
+  "materialName" : "BD_1",
+  "particleColor" : [237, 254, 255, 255],
+  "itemDrop" : "BD_1",
+  
+  "shortdescription" : "Purpled Hull",
+  "description" : "Dark Purple Metal Plate used to build Spaceship or Ship",
+  
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "BD_1.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 800
+  }
+}

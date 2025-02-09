@@ -1,0 +1,23 @@
+{
+  "materialId" : 60272,
+  "materialName" : "CS_22",
+  "particleColor" : [237, 254, 255, 255],
+  "itemDrop" : "CS_22",
+  
+  "shortdescription" : "Inset Panel",
+  "description" : "Inset Panel",
+  
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "CS_22.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 200
+  }
+}

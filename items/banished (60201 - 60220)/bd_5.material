@@ -1,0 +1,21 @@
+{
+  "materialId" : 60205,
+  "materialName" : "BD_5",
+    "particleColor" : [55, 55, 55, 255],
+  "itemDrop" : "BD_5",
+  "shortdescription" : "Support Beam Light",
+  "description" : "Support Beam with incrusted Light",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/girdertemplate.config",
+  "renderParameters" : {
+    "texture" : "BD_5.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 300
+  }
+}

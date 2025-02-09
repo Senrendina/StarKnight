@@ -1,0 +1,11 @@
+{
+    "input": [	
+	{"item": "CSK_SolidIngot","count": 2}
+    ],
+    "output": {
+        "item": "BD_BGDoor1",
+        "count": 1
+    },
+    "duration": 0.5,
+    "groups": ["BD_Replicator", "doors", "all"]
+}

@@ -1,0 +1,57 @@
+{
+  "objectName" : "SK_Bar",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Rare",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/SK_Bar.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  StarKnight Bar",
+        "subtitle" : " Food / Drink... Get Drunk",
+        "icon" : {
+          "file" : "/objects/starknight/crafting/SK_Bar/SK_Baricon.png"
+        }
+      }
+    },
+    "filter" : [ "SK_Bar" ]
+  },
+  "printable" : false,
+  "description" : "StarKnight Bar",
+  "shortdescription" : "StarKnight Bar",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 30,
+   
+  "inventoryIcon" : "SK_Baricon.png",
+    "orientations" : [
+    {
+       "imageLayers" : [ { "image" : "SK_Bar.png:<color>.<frame>"}, { "image" : "SK_Barlit.png:<color>.<frame>", "fullbright" : true  }  ],
+
+      "imagePosition" : [0, 0],
+      "frames" : 8,
+      "animationCycle" : 10.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left",
+      "flipImages" : true
+
+
+    },
+        {
+       "imageLayers" : [ { "image" : "SK_Bar.png:<color>.<frame>"}, { "image" : "SK_Barlit.png:<color>.<frame>", "fullbright" : true  }  ],
+
+      "imagePosition" : [0, 0],
+      "frames" : 8,
+      "animationCycle" : 10.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right"
+      
+
+
+    }    
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [ 
+	{ "item" : "BD_SmallBlackPlate", "count" : 5 },
+	{ "item" : "BD_EnergyCapsule", "count" : 1 }
+  ],
+  "output" : { "item" : "BD_Ratle", "count" : 1},
+  "duration" : 0.5,
+  "groups" : [ "BD_Fabricator", "Ranged", "all" ]
+}

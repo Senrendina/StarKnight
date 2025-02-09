@@ -1,0 +1,43 @@
+{
+  "objectName": "CS_Table",
+  "colonyTags": ["Celureus", "furniture"],
+  "rarity": "Rare",
+  "description": "A table. Perfect for eating.",
+  "shortdescription": "Small Metal Table",
+  "race": "generic",
+  "category": "decorative",
+  "price": 110,
+  "apexDescription": "A decent table.",
+  "avianDescription": "A nice table.",
+  "floranDescription": "Floran likess large round table.",
+  "glitchDescription": "Indifferent. A table.",
+  "humanDescription": "A table.",
+  "hylotlDescription": "An unattractive table.",
+  "novakidDescription": "Just a table.",
+  "inventoryIcon": "CS_Table.png",
+  "orientations": [
+    {
+      "imageLayers" : [ { "image" : "CS_Table.png"}, { "image" : "CS_Tablelit.png:", "fullbright" : true  }  ],
+	  
+      "flipImages": true,
+      "direction": "left",
+      "imagePosition": [0, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "CS_Table.png"}, { "image" : "CS_Tablelit.png:", "fullbright" : true  }  ],
+	  
+      "direction": "right",
+      "imagePosition": [0, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    }
+  ]
+}

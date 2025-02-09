@@ -1,0 +1,11 @@
+{
+  "itemName" : "SO_Blocks24",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "Blocks24icon.png",
+  "shortdescription" : "Flooring Light",
+  "description" : "Some Flooring Light",
+
+  "materialId" : 60244
+}

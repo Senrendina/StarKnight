@@ -1,0 +1,13 @@
+{
+    "input": [
+	{"item": "CSK_SolidIngot","count": 20},
+	{"item": "solariumstar","count": 5}
+	
+    ],
+    "output": {
+        "item": "SO_OrianBurst",
+        "count": 1
+    },
+    "duration": 0.5,
+  "groups" : [ "metalstartable", "weapon", "all" ]
+}

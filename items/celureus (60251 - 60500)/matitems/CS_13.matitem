@@ -1,0 +1,11 @@
+{
+  "itemName" : "CS_13",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "CS_13ico.png",  
+  "description" : "Some Light Column",
+  "shortdescription" : "CS Column",
+
+  "materialId" : 60263
+}

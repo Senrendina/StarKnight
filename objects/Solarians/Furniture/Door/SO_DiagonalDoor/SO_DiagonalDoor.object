@@ -1,0 +1,59 @@
+{
+  "objectName" : "SO_DiagonalDoor",
+  "colonyTags" : ["Solarians","door"],
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 125,
+  "printable" : true,
+  "description" : "This door is airtight and made with incredibly strong materials.",
+  "shortdescription" : "Solarians Diagonal Door",
+  "race" : "generic",
+
+  "inventoryIcon" : "DiagonalDoor.png:default",
+  "orientations" : [
+    {
+      "image" : "DiagonalDoor.png:default",
+      "direction" : "left",
+      "flipImages" : true,
+      "imagePosition" : [0, 0],
+      "renderLayer" : "ForegroundTile-69420",
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [-2, -1], [-1, -1], [4, 6], [5, 6] ],
+      "animationPosition" : [0, 0]
+    },
+    {
+      "image" : "DiagonalDoor.png:default",
+      "direction" : "right",
+      "imagePosition" : [0, 0],
+      "renderLayer" : "ForegroundTile-69420",
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [-5, 6], [-4, 6], [1, -1], [2, -1] ],
+      "animationPosition" : [0, 0]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/Solarians/Furniture/Door/SO_DiagonalDoor/SO_DiagonalDoorlit.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "DiagonalDoor.png",
+	"fullbright" : "DiagonalDoorlit.png"
+  },
+
+  "inputNodes" : [ [0, 2] ],
+  "outputNodes" : [ [0, 0] ]
+}

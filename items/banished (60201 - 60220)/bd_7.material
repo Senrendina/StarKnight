@@ -1,0 +1,23 @@
+{
+  "materialId" : 60207,
+  "materialName" : "BD_7",
+  "collisionKind" : "platform",
+  "transparent" : true,
+  "itemDrop" : "BD_7",
+  
+  "shortdescription" : "Platform",
+  "description" : "A well-constructed metal platform.",
+ 
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "category" : "Supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "BD_7.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

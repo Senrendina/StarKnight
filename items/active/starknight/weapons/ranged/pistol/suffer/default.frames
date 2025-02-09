@@ -1,0 +1,11 @@
+{
+  "frameGrid" : {
+    "size" : [20, 12],
+    "dimensions" : [4, 3],
+    "names" : [
+      ["default.1", null, null, null],
+      ["firing.1", "firing.2", "firing.3", "firing.4"],
+      ["finalshot.1", "finalshot.2", "finalshot.3", "finalshot.4"]
+    ]
+  }
+}

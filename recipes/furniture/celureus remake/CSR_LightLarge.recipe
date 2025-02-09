@@ -1,0 +1,11 @@
+{
+    "input": [	
+	{"item": "CSK_SolidIngot","count": 1}
+    ],
+    "output": {
+        "item": "CSR_LightLarge",
+        "count": 1
+    },
+    "duration": 0.2,
+    "groups": ["CelureusCraftRemake", "lights", "all"]
+}

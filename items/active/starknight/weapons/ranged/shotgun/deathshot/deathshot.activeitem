@@ -1,0 +1,87 @@
+{
+	"itemName": "SK_DeathShot",
+  "price" : 840,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "DeathShot",
+  "shortdescription" : "DeathShot",
+  "tooltipKind" : "gun",
+  "category" : "shotgun",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","shotgun"],
+  "level" : 3,
+
+  "inventoryIcon" : "deathshot.png:default.1",
+
+	"animation": "deathshot.animation",
+	"animationParts": {
+		"butt" : "",
+		"middle": "deathshot.png",
+		"middlefullbright": "deathshotlit.png",
+		"barrel" : "",
+		"muzzleFlash" : "/items/active/starknight/weapons/ranged/sk_muzzleflash.png"
+	},
+ "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/plasma_sniper1.ogg"]
+    }
+  },
+
+  "baseOffset" : [0.9, 0.25],
+  "muzzleOffset" : [2, 0.125],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 1.2,
+    "baseDps" : 10.5,
+    "energyUsage" : 31.5,
+    "inaccuracy" : 0.05,
+
+    "projectileCount" : 4,
+    "fireType" : "auto",
+
+    "projectileType" : "SK_Bullet",
+    "projectileParameters" : {
+      "damageKind" : "shotgunbullet",
+      "knockback" : 30
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.15,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "altAbilityType" : "burstshot",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,23 @@
+{
+  "materialId" : 60100,
+  "materialName" : "SK_1",
+  "particleColor" : [237, 254, 255, 255],
+  "itemDrop" : "SK_1",
+  
+  "shortdescription" : "Dark Sloped Hull",
+  "description" : "Dark Metal Plate used to build Spaceship or Ship",
+  
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "SK_1.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 800
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id" : "starknightmission1",
+  "prerequisites" : [],
+  "title" : "^orange;Starknight intro",
+  "text" : "Hello there, you must be new, right? Let me introduce myself. My name is Ryoko and I'm the chief of this base. As you can see we're quite busy, so do you think you can get me some of these component first?",
+  "completionText" : "You brought me the parts, Wonderful! Please, take this weapon as thanks. It's a prototype of our Solarian Ally, and I believe it will be a great help to you.",
+  "moneyRange" : [100, 100],
+  "rewards" : [
+    [ [ "SO_OrianBurst", 1 ] ]
+  ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : {
+        "portrait" : [ {"image" : "/objects/mission/Kal'Thar/SK_Kal'Tharportrait.png"} ],
+        "title" : "Ryoko"
+      },
+      "questComplete" : {
+        "portrait" : [ {"image" : "/objects/mission/Kal'Thar/SK_Kal'Tharportrait.png"} ],
+        "title" : "Ryoko"
+      }
+    },
+    "requireTurnIn" : true,
+
+    "turnInDescription" : "Speak to ^orange;Ryoko^reset; at the ^orange;Starknight base^reset;",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "CSK_SynergicTransmitter",
+        "count" : 10,
+        "consume" : true
+      }
+    ]
+  }
+}

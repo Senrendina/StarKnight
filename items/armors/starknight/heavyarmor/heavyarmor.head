@@ -1,0 +1,40 @@
+{
+  "itemName" : "SK_Heavyarmorhead",
+  "price" : 480,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "category" : "headarmour",
+  "description" : "The Bastion Armor Helmet give a good amount of health but slow you down (accept augment)",
+  "shortdescription" : "Bastion Helmet",
+  "tooltipKind" : "SK_Armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "level" : 6,
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 2
+    },
+    {
+      "stat" : "protection",
+      "amount" : 5
+    },
+    {
+      "stat" : "maxEnergy",
+      "amount" : 50
+    },
+    {
+      "stat" : "maxHealth",
+      "amount" : 75
+        },
+        "heavyArmor"
+    ],
+    "acceptsAugmentType": "back",
+    "itemTags": [
+        "tier6armour"
+    ]
+}

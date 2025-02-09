@@ -1,0 +1,14 @@
+{
+    "input": [
+    {"item": "CSK_SolidIngot", "count": 10},
+	{"item": "CSK_CrystalCore", "count": 1},
+	{"item": "CSK_TechUSB", "count": 1}
+
+    ],
+    "output": {
+        "item": "SK_teleporter",
+        "count": 1
+    },
+    "duration": 0.5,
+    "groups": ["metalstarbench", "sensors", "all"]
+}

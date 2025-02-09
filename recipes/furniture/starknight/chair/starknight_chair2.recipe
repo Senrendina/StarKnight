@@ -1,0 +1,14 @@
+{
+    "input": [{
+            "item": "CSK_SolidIngot",
+            "count": 2
+        }
+
+    ],
+    "output": {
+        "item": "SK_chair2",
+        "count": 1
+    },
+    "duration": 0.5,
+    "groups": ["metalstarbench", "beds", "all"]
+}

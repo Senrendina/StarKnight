@@ -1,0 +1,12 @@
+{
+  "itemName" : "BD_3",
+  "price" : 10,
+  "category" : "platform",
+  "rarity" : "Rare",
+  "inventoryIcon" : "BD_3ico.png",
+  "shortdescription" : "Red Flooring",
+  "description" : "Some Flooring with Energy Light incrusted",
+  
+  "materialId" : 60203
+
+}

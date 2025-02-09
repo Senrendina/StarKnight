@@ -1,0 +1,25 @@
+{
+  "materialId" : 60240,
+  "materialName" : "SO_Blocks20",
+  "particleColor" : [55, 55, 55, 255],
+  "itemDrop" : "SO_Blocks20",
+  
+  "description" : "Solarian Sloped Flat",
+  "shortdescription" : "Gold Flat Sloped",
+  
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 6,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "Blocks20.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : false,
+    "zLevel" : 50,
+	"radiantLight" : [0, 30, 56]
+  }
+}
+

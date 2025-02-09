@@ -1,0 +1,49 @@
+{
+    "type": "banished-soldier",
+    "baseType": "hostile",
+ 
+    "dropPools": ["BanishedSoldiersDrop"],
+	
+	"identity" : {
+     "species" : "ryuu"
+	 },
+	
+ 
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+                        "Enemy spotted ! Fire !",
+                        "Go back where you came from !",
+                        "You're not welcome here !",
+                        "Get out of here !"
+          ]
+        }
+      }
+    }
+  },
+    "innateStatusEffects" : [
+		{"stat":"maxHealth","amount":15},
+		{"stat":"powerMultiplier","amount":0.90},
+		{"stat":"maxEnergy","amount":100}],
+ 
+    "items": {
+        "override": [
+            [0, [{
+                "head": [{
+                    "name": "SK_Lightarmorhead1"
+                }],
+                "chest": [{
+                    "name": "CS_Explorerchest"
+                }],
+                "legs": [{
+                    "name": "CS_Explorerlegs"
+                }],
+                "primary": [
+                    "BD_DragonRoar"
+                ]
+            }]]
+        ]
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [ 
+	{ "item" : "BD_SmallBlackPlate", "count" : 5 }
+  ],
+  "output" : { "item" : "BD_FlameCutter", "count" : 1},
+  "duration" : 0.5,
+  "groups" : [ "BD_Fabricator", "Melee", "all" ]
+}

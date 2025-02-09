@@ -1,0 +1,85 @@
+{
+  "id" : "mwh_quest_instanceTest",
+  "mainQuest" : false,
+  "canBeAbandoned" : true,
+  "prerequisites" : [ ],
+  "title" : "Test Title",
+  "text" : "Description",
+  "completionText" : "Complete Description",
+  "moneyRange" : [0, 0],
+  "rewards" : [
+  [
+	]
+  ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/mwh_instance.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "default" : "questGiver"
+    },
+
+    "descriptions" : {
+      //info before you enter the mission
+      "enterInstance" : "请互动并进入副本",
+      //info after you complete all targets in the mission
+      "turnIn" : "请交付任务"
+    },
+	
+    "warpEntityUid" : "mwhaddon_npc_exousia_generalFalke",
+    "warpAction" : "instanceworld:mwh_test_mission",
+    "warpDialog" : "/interface/confirmation/teleportconfirmation.config:mwh_test_mission",
+	
+    //All targets in the mission
+    //They're checked in queues so you have to complete the current one to progress the next one
+    //The script checks if the last target exists to judge whether the player is in the mission
+    "targets" : [
+      {
+        //Target's Uid
+        "targetEntityUid" : "mwh_testUID_1",
+        "description" : "Approach the target 1st",
+
+        //the way to check the goal, it can either be *proximity* or *interact*
+        "targetTrigger" : "proximity",
+        //for proximity, how close it should be to trigger the target
+        "proximityRange" : 10,
+
+        //[Optional]If true, the compass next to the description window will point at the target
+        "track" : true,
+        //[Optional]If true, there'll be a blue marker to indicate the goal
+        "indicator" : true
+      },
+      {
+        "targetEntityUid" : "mwh_testUID_2",
+        "description" : "Interact with the target 2nd",
+        "targetTrigger" : "interact",
+        "indicator" : false
+      },
+      {
+        "targetEntityUid" : "mwh_testUID_3",
+        "description" : "Approach the target 3rd",
+        "targetTrigger" : "proximity",
+        "proximityRange" : 10,
+        "track" : true
+      }
+    ],
+
+    //When you approach an entity with a checkpointUid
+    //As long as you have not reach the target progress as index shows, your target progress will be set to that value
+
+    //e.g.
+    //if your progress is *mwh_testUID_3*, you approach the checkpoint, nothing happens
+    //if your progress is *mwh_testUID_1*, you approach the checkpoint, it will be set to the 2nd progress, in this case, it's *mwh_testUID_2*
+
+    //This Mechanism is added due to the fact that when you respawn in the mission, all your targets will lost and be reset even you never leave the mission
+    "checkpoints" : [
+      {
+        "checkpointUid" : "mwh_testUID_checkpoint",
+        "index" : 2
+      }
+    ],
+
+    //you should return to the entity with this Uid to complete this quest
+    "turnInEntityUid" : "mwhaddon_npc_exousia_generalFalke"
+  }
+}

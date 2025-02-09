@@ -1,0 +1,50 @@
+{
+  "objectName" : "CSR_ShipDoor",
+  "colonyTags" : ["door","Celureus"],
+  "rarity" : "Rare",
+
+  "category" : "door",
+  "price" : 1025,
+  "description" : "A door suitable for a spaceship.",
+  "shortdescription" : "Celureus Door",
+  "race" : "generic",
+
+  "inventoryIcon" : "CSR_ShipDoor.png:default",
+  "orientations" : [
+    {
+      "dualImage" : "CSR_ShipDoor.png:default",
+      "imagePosition" : [0, 0],
+      "renderLayer" : "Object+5",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/Celureus/Celureus_Remake/decoration/Door/CSR_ShipDoor/CSR_ShipDoor.animation",
+
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "bg" : "CSR_ShipDoor.png",
+    "fg" : "CSR_ShipDoorlit.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "inputNodes" : [ [-1, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}
+

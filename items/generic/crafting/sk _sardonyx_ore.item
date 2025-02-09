@@ -1,0 +1,10 @@
+{
+  "itemName" : "sk_sardonyx_ore",
+  "price" : 5,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "sk_sardonyx_ore.png",
+  "description" : "It's some sardonyx ore. Can be used for smelting.",
+  "shortdescription" : "Sardonyx Ore",
+  "itemTags" : [ "reagent" ]
+}

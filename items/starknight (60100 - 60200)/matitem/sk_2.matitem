@@ -1,0 +1,11 @@
+{
+  "itemName" : "SK_2",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "SK_2ico.png",
+  "shortdescription" : "Energy Pipe",
+  "description" : "A Energy Pipe.",
+
+  "materialId" : 60101
+}

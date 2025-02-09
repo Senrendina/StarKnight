@@ -1,0 +1,48 @@
+{
+	"objectName": "BD_BigWallScreen",
+	"colonyTags": ["nightwatch"],
+	"rarity": "Rare",
+	"description": "A long holographic console.",
+	"shortdescription": "wallscreen 1",
+	"race": "generic",
+	"category": "decorative",
+	"price": 120,
+    "lightColor": [84, 19, 39],	
+	"inventoryIcon": "BD_BigWallScreen.png:default.off",
+  "orientations": [
+    {
+      "image": "BD_BigWallScreen.png:<color>.on",
+      "flipImages": true,
+      "direction": "left",
+      "lightPosition": [0, 1],
+      "imagePosition": [0, 0],
+      "frames": 4,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["background"]
+    },
+    {
+      "image": "BD_BigWallScreen.png:<color>.on",
+      "direction": "right",
+      "lightPosition": [0, 1],
+      "imagePosition": [0, 0],
+      "frames": 4,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["background"]
+    }
+  ],
+  "soundEffect" : "/sfx/objects/outpostmonitor_static.ogg",
+
+  "animation" : "BD_BigWallScreen.animation",
+  "animationParts" : {
+    "bg" : "BD_BigWallScreen.png",
+    "fg" : "BD_BigWallScreenlit.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+}

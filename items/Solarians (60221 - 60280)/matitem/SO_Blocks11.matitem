@@ -1,0 +1,11 @@
+{
+  "itemName" : "SO_Blocks11",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "Blocks11icon.png",
+  "shortdescription" : "Reinforced Panel",
+  "description" : "Reinforced Panel",
+
+  "materialId" : 60231
+}

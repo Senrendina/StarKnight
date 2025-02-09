@@ -1,0 +1,11 @@
+{
+  "itemName" : "CS_1",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "CS_1ico.png",
+  "description" : "Some Energy Pipe",
+  "shortdescription" : "Energy Pipe",
+
+  "materialId" : 60251
+}

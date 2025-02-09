@@ -1,0 +1,12 @@
+{
+    "input": [
+	{"item": "CSK_SolidIngot","count": 2},
+	{"item": "sk_eldowater","count": 100}
+    ],
+    "output": {
+        "item": "SO_FusionBeamCore",
+        "count": 1
+    },
+    "duration": 0.5,
+    "groups": ["SO_Crafting", "decorations", "all"]
+}

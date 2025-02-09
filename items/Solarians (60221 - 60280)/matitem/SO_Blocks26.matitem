@@ -1,0 +1,11 @@
+{
+  "itemName" : "SO_Blocks26",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "Blocks26icon.png",
+  "shortdescription" : "Light LED Block",
+  "description" : "Some Light Block",
+
+  "materialId" : 60246
+}

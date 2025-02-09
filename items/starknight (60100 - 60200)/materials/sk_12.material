@@ -1,0 +1,23 @@
+{
+  "materialId" : 60111,
+  "materialName" : "SK_12",
+  "particleColor" : [237, 254, 255, 255],
+  "itemDrop" : "SK_12",
+  
+  "shortdescription" : "Sloped Glass",
+  "description" : "Glass Windows",
+  
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "SK_12.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 200
+  }
+}

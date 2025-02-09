@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "name" : "ActivatingTheSatellite",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "ActivatingTheSatellite" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : true
+  },
+
+  "parts" : [
+    {
+      "name" : "ActivatingTheSatellite",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "ActivatingTheSatellite.json" ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "itemName" : "starknight_overammo",
+  "price" : 960,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "",
+  "shortdescription" : "Overammo",
+  "tooltipKind" : "gun",
+  "category" : "assaultRifle",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","assaultrifle"],
+  "level" : 4,
+
+  "inventoryIcon" : [
+    { "image" : "starknight_overammo.png:idle.1" }
+  ],
+
+  "animation" : "starknight_overammo.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "starknight_overammo.png",
+    "middlefullbright" : "starknight_overammolit.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/active/starknight/weapons/ranged/sk_muzzleflash.png"
+  },
+  "animationCustom" : {
+    "lights" : { "glow" : {
+      "active" : true,
+      "position" : [0.75, 0.5],
+      "color" : [0, 89, 89]
+    }},
+    "sounds" : {
+      "fire" : [ "/sfx/gun/plasma_sniper1.ogg" ]
+    }
+  },
+  "baseOffset" : [0.4, 0.15],
+  "muzzleOffset" : [2.3, 0.15],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.10,
+    "baseDps" : 12,
+    "energyUsage" : 30,
+    "inaccuracy" : 0.01,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "SK_Bullet",
+    "projectileParameters" : {
+      "knockback" : 5
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.11,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "altAbilityType" : "rocketburst",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

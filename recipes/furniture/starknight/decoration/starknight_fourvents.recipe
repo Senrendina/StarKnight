@@ -1,0 +1,11 @@
+{
+    "input": [
+	{"item": "refinedferozium", "count": 1}
+    ],
+    "output": {
+        "item": "SK_fourvents",
+        "count": 1
+    },
+    "duration": 0.5,
+    "groups": ["metalstarbench", "decoration", "all"]
+}

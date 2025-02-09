@@ -1,0 +1,37 @@
+{
+  "objectName" : "SK_Antennatop",
+  "colonyTags" : ["starknight"],
+  "rarity" : "Rare",
+  "description" : "Antenna",
+  "shortdescription" : "Antenna top",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 100,
+
+  "inventoryIcon" : "Antenna_top.png",
+  "orientations" : [
+    {
+	  "imageLayers" : [ { "image" : "Antenna_top.png"}, { "image" : "Antenna_toplit.png", "fullbright" : true  }  ],
+      "direction" : "left",
+	  "flipImages" : true,
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+	{
+	  "imageLayers" : [ { "image" : "Antenna_top.png"}, { "image" : "Antenna_toplit.png:", "fullbright" : true  }  ],
+      "direction" : "right",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

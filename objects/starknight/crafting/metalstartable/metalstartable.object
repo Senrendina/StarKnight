@@ -1,0 +1,57 @@
+{
+  "objectName" : "metalstartable",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Rare",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingmetalstartable.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  StarKnight Crafting Station",
+        "subtitle" : " Crafting...",
+        "icon" : {
+          "file" : "/objects/starknight/crafting/metalstartable/metalstartableicon.png"
+        }
+      }
+    },
+    "filter" : [ "metalstartable" ]
+  },
+  "printable" : false,
+  "description" : "This crafting station is where you can craft starknight weapon and much more later",
+  "shortdescription" : "StarKnight Crafting Station",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 30,
+   
+  "inventoryIcon" : "metalstartable.png",
+    "orientations" : [
+    {
+       "imageLayers" : [ { "image" : "metalstartable.png"}, { "image" : "metalstartablelit.png", "fullbright" : true  }  ],
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left",
+      "flipImages" : true
+
+
+    },
+        {
+       "imageLayers" : [ { "image" : "metalstartable.png"}, { "image" : "metalstartablelit.png:", "fullbright" : true  }  ],
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right"
+      
+
+
+    }    
+  ]
+}

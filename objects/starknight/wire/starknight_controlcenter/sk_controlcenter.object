@@ -1,0 +1,62 @@
+{
+  "objectName" : "SK_controlcenter",
+  "colonyTags" : ["starknight"],
+  "rarity" : "Rare",
+  "description" : "For communication",
+  "shortdescription" : "Starknight Controle Center",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 600,
+
+  "inventoryIcon" : "SK_controlcenter.png:default.off",
+  "orientations" : [
+    {
+	  "imageLayers" : [ { "image" : "SK_controlcenter.png:<color>.on", "fullbright" : true }, { "image" : "SK_controlcenterlit.png:<color>.on"} ],
+      "direction" : "left",
+	  "flipImages" : true,
+      "imagePosition" : [0, 0],
+	  "lightPosition" : [3, 0],
+      "frames" : 2,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+
+    },
+	{
+	  "imageLayers" : [ { "image" : "SK_controlcenter.png:<color>.on", "fullbright" : true }, { "image" : "SK_controlcenterlit.png:<color>.on"} ],
+      "direction" : "right",
+      "imagePosition" : [0, 0],
+	  "lightPosition" : [-3, 0],
+      "frames" : 2,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+
+    }
+  ],
+  "scripts": ["/objects/wired/switch/switch.lua", "/scripts/npcToyObject.lua"],
+  "scriptDelta": 5,
+  "animation": "SK_controlcenter.animation",
+  "animationCustom": {
+    "sounds": {
+      "on": ["/sfx/objects/console_button.ogg"],
+      "off": ["/sfx/objects/console_button.ogg"]
+    }
+  },
+    "animationParts": {
+    "bg": "SK_controlcenter.png",
+    "fg": "SK_controlcenter.png"
+  },
+  "animationPosition": [-16, 0],
+  "outputNodes": [[0, 0]],
+  "npcToy": {
+	"ownerOnly" : true,
+    "influence": ["console"],
+    "defaultReactions": {},
+    "preciseStandPositionLeft": [-0.5, 0],
+    "preciseStandPositionRight": [0, 0],
+    "maxNpcs": 1
+}
+}

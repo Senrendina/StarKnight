@@ -1,0 +1,53 @@
+{
+  "objectName" : "SK_multipleceilingmonitor",
+  "colonyTags" : ["starknight"],
+  "rarity" : "Rare",
+  "description" : "A decorative Monitor.",
+  "shortdescription" : "Multiple Display Monitor",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 600,
+  "lightColor": [0, 89, 89],	
+
+  "inventoryIcon" : "SK_multipleceilingmonitor.png:default.0",
+  "orientations" : [
+    {
+	  "imageLayers" : [ { "image" : "SK_multipleceilingmonitor.png:<color>.<frame>", "fullbright" : true }, { "image" : "SK_multipleceilingmonitorlit.png:<color>.<frame>"} ],
+      "direction" : "left",
+	  "flipImages" : true,
+      "imagePosition" : [0, 0],
+	  "lightPosition" : [3, 0],
+      "frames" : 4,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["top"]
+
+    },
+	{
+	  "imageLayers" : [ { "image" : "SK_multipleceilingmonitor.png:<color>.<frame>", "fullbright" : true }, { "image" : "SK_multipleceilingmonitorlit.png:<color>.<frame>"} ],
+      "direction" : "right",
+      "imagePosition" : [0, 0],
+	  "lightPosition" : [-3, 0],
+      "frames" : 4,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["top"]
+
+    }
+  ],
+  "soundEffect" : "/sfx/objects/outpostmonitor_static.ogg",
+
+  "animation" : "SK_multipleceilingmonitor.animation",
+  "animationParts" : {
+    "bg" : "SK_multipleceilingmonitor.png",
+    "fg" : "SK_multipleceilingmonitorlit.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+}

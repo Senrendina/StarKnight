@@ -1,0 +1,23 @@
+{
+  "materialId" : 60102,
+  "materialName" : "SK_3",
+  "particleColor" : [237, 254, 255, 255],
+  "itemDrop" : "SK_3",
+  
+  "shortdescription" : "A Metal Panel",
+  "description" : "Metal Panel",
+  
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "SK_3.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 470
+  }
+}

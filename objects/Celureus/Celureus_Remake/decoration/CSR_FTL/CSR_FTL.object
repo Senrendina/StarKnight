@@ -1,0 +1,32 @@
+{
+  "objectName": "CSR_FTL",
+  "colonyTags": ["Celureus"],
+  "printable": false,
+  "rarity": "Rare",
+  "objectType": "container",
+  "description": "Accepts Liquid Erchius as fuel for the ship's FTL dive.",
+  "shortdescription": "FTL Fuel Hatch",
+  "race": "generic",
+  "inventoryIcon": "CSR_FTL.png",
+  "orientations": [
+    {
+          "imageLayers" : [ { "image" : "CSR_FTL.png"}, { "image" : "CSR_FTLlit.png:", "fullbright" : true  }  ],
+      "imagePosition": [-8, -16],
+      "frames": 4,
+      "animationCycle": 0.7,
+      "spaceScan": 0.1,
+      "anchors": ["background"]
+    }
+  ],
+  "hasWindowIcon": false,
+  "recipeGroup": "fuel",
+  "slotCount": 6,
+  "uiConfig": "/interface/fuel/fuel.config",
+  "autoCloseCooldown": 3600,
+  "frameCooldown": 5,
+  "itemTags": ["newfuelhatch"],
+  "scripts": ["/stagehands/radiomessage.lua"],
+  "scriptDelta": 30,
+  "broadcastArea": [-5, -5, 5, 5],
+  "radioMessage": "fuel"
+}

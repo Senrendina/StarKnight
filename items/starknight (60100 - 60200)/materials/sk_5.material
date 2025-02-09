@@ -1,0 +1,20 @@
+{
+  "materialId" : 60104,
+  "materialName" : "SK_5",
+  "collisionKind" : "platform",
+  "itemDrop" : "SK_5",
+  "shortdescription" : "Stairs",
+  "description" : "Stairs",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "category" : "Supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "SK_5.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "objectName": "SO_Truck",
+  "colonyTags": ["starknight", "furniture"],
+  "rarity": "Rare",
+  "description": "a Truck for Main commission (Early preview)",
+  "shortdescription": "Solarian Truck",
+  "race": "generic",
+  "category": "decorative",
+  "price": 110,
+  "inventoryIcon": "SO_Truck.png",
+  "orientations": [
+    {
+      "imageLayers" : [ { "image" : "SO_Truck.png"}, { "image" : "SO_Trucklit.png:", "fullbright" : true  }  ],
+	  
+      "flipImages": true,
+      "direction": "left",
+      "imagePosition": [-24, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "SO_Truck.png"}, { "image" : "SO_Trucklit.png:", "fullbright" : true  }  ],
+	  
+      "direction": "right",
+      "imagePosition": [-24, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    }
+  ]
+}

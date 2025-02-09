@@ -1,0 +1,8 @@
+{
+  "input" : [ 
+	{ "item" : "BD_MagneticDisk", "count" : 1 }
+  ],
+  "output" : { "item" : "BD_EnergyCapsule", "count" : 1},
+  "duration" : 0.5,
+  "groups" : [ "BD_Fabricator", "reagent", "all" ]
+}

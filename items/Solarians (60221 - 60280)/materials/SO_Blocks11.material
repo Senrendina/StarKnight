@@ -1,0 +1,21 @@
+{
+  "materialId" : 60231,
+  "materialName" : "SO_Blocks11",
+    "particleColor" : [55, 55, 55, 255],
+  "itemDrop" : "SO_Blocks11",
+  "shortdescription" : "Reinforced Panel",
+  "description" : "Reinforced Panel",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "Blocks11.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 50
+  }
+}

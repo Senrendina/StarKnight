@@ -1,0 +1,23 @@
+{
+  "materialId" : 60271,
+  "materialName" : "CS_21",
+  "particleColor" : [237, 254, 255, 255],
+  "itemDrop" : "CS_21",
+  
+  "shortdescription" : "Inset Panel",
+  "description" : "Inset Panel",
+  
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "CS_21.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 200
+  }
+}

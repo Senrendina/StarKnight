@@ -1,0 +1,31 @@
+[{
+	"op": "add",
+	"path": "/dragonburstshot",
+	"value": "/item/active/weapon/ranged/abilities/dragonburstshot/dragonburstshot.weaponability"
+	},
+	{
+	"op": "add",
+	"path": "/BD_FlashLight",
+	"value": "/items/active/banished/weapons/ranged/abilities/BD_Flashlight/BD_FlashLight.weaponability"
+	},
+	{
+	"op": "add",
+	"path": "/Risingfire",
+	"value": "/items/active/banished/weapons/melee/abilities/Risingfire/Risingfire.weaponability"
+	},
+	{
+	"op": "add",
+	"path": "/BD_Dash",
+	"value": "/items/active/banished/weapons/melee/abilities/BD_Dash/BD_Dash.weaponability"	
+	},
+	{
+	"op": "add",
+	"path": "/laser",
+	"value": "/items/active/celureus/weapons/magic/abilities/laser/laser.weaponability"
+//Gun Sword Combo
+	},
+	{
+		"op" : "add",
+		"path" : "/luyia-gunswordcombo",
+		"value": "/items/active/starknight/weapons/unique/abilities/luyia-gunswordcombo.weaponability"	
+}]

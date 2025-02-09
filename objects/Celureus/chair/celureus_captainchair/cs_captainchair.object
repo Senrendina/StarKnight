@@ -1,0 +1,41 @@
+{
+  "objectName": "CS_CaptainChair",
+  "printable": false,
+  "rarity": "Rare",
+  "objectType": "loungeable",
+  "colonyTags": ["Celureus"],
+  "description": "The most Comfy Chair",
+  "shortdescription": "Metal Captain's Chair",
+  "race": "generic",
+  "category": "furniture",
+  "inventoryIcon": "CS_CaptainChair.png",
+  "sitCoverImage": "/objects/Celureus/Chair/CS_CaptainChairframe.png",
+  "orientations": [
+    {
+      "imageLayers" : [ { "image" : "CS_CaptainChair.png"}, { "image" : "CS_CaptainChairlit.png:", "fullbright" : true  }  ],
+      "imagePosition": [-8, 0],
+      "frames": 1,
+      "animationCycle": 0.5,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "flipImages": true,
+      "direction": "left",
+      "sitPosition": [-4, 19]
+    },
+    {
+      "imageLayers" : [ { "image" : "CS_CaptainChair.png"}, { "image" : "CS_CaptainChairlit.png:", "fullbright" : true  }  ],
+      "imagePosition": [-8, 0],
+      "frames": 1,
+      "animationCycle": 0.5,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "direction": "right",
+      "sitPosition": [4, 19]
+    }
+  ],
+  "interactAction": "ScriptPane",
+  "interactData": "/interface/cockpit/cockpit.config",
+  "sitFlipDirection": false,
+  "soundEffect": "/sfx/objects/shipengine.ogg",
+  "soundEffectRadius": 1000
+}

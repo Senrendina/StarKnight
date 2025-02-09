@@ -1,0 +1,62 @@
+[
+
+
+  [
+      {
+          "op": "test",
+          "path": "/displayDungeons"
+      },
+ 
+    {"op" : "add", "path" : "/wordsList/sk_eldora_biome", "value" : {"word" : "sk_eldora_biome","friendlyWord" : "Eldora Biome"}}, 
+    {"op" : "add", "path" : "/wordsList/bd_eldora_biome", "value" : {"word" : "bd_eldora_biome","friendlyWord" : "Banished Biome"}}, 
+    {"op" : "add", "path" : "/wordsList/sk_eldora_core", "value" : {"word" : "sk_eldora_core","friendlyWord" : "Eldora Core"}}, 		  
+
+      {
+          "op": "add",
+          "path": "/displayDungeons/SolarianOutpost",
+          "value": {
+          "description": "Solarian Outpost detected.",
+          "icon": "/interface/cockpit/dungeons/Solarian_outpost.png"
+          }
+      },
+      {
+          "op": "add",
+          "path": "/displayDungeons/StarknightOutpost",
+          "value": {
+          "description": "StarKnight Outpost detected.",
+          "icon": "/interface/cockpit/dungeons/StarknightOutpost.png"
+            }
+        }
+    ],
+	
+[
+  {
+    "op" : "add",
+    "path" : "/visitableTypeDescription/eldora",
+    "value" : [
+      "Native planet of Ryuu. A fullbrighted colored Cyan where threat are no more to be found",
+      "Multiple faction can be found in this planet alone."
+      ]
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/planetTypeNames/eldora",
+    "value" : "eldora"
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypeColors/eldora",
+    "value" : [0, 255, 255]
+  },
+{
+        "op": "add",
+        "path": "/displayOres/sk_sardonyx_mod",
+        "value": {
+            "displayName": "sardonyx",
+            "icon": "/items/generic/crafting/sk_sardonyx_ore.png"
+        }
+    }  
+		
+]
+]

@@ -1,0 +1,15 @@
+{
+    "input": [
+	{"item": "CSK_SynergicTransmitter","count": 1},
+	{"item": "CSK_CrystalCore","count": 1},
+	{"item": "CSK_SolidIngot","count": 20},
+	{"item": "CSK_TechUSB","count": 1}	
+
+    ],
+    "output": {
+        "item": "SO_ShipTeleporter",
+        "count": 1
+    },
+    "duration": 0.5,
+    "groups": ["SO_Crafting", "server", "all"]
+}

@@ -1,0 +1,43 @@
+{
+  "id" : "starknightmission3",
+  "prerequisites" : ["starknightmission1", "starknightmission2"],
+  "title" : "^orange;Strange Signal",
+  "text" : "Thanks to you, the ^orange;Satellite^reset; is now repaired. With this, we can now focus on the main mission. Data has been transmitting non-stop from the satellite. Interestingly however, it's picking it up from a strange location. I need you to investigate that location in question?",
+  "completionText" : "Hey ! Glad to see you safe and sound.",
+  "moneyRange" : [100, 100],
+  "rewards" : [],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/instance.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : {
+        "portrait" : [ {"image" : "/objects/mission/Kal'Thar/SK_Kal'Tharportrait.png"} ],
+        "title" : "Ryoko"
+      },
+      "questComplete" : {
+        "portrait" : [ {"image" : "/objects/mission/Kal'Thar/SK_Kal'Tharportrait.png"} ],
+        "title" : "Ryoko"
+      }
+    },
+    "descriptions" : {
+      "enterInstance" : "Talk to ^orange;Ryoko^reset; to reach the ^orange;Strange location^reset;",
+      "findGoal" : "^orange;Find the source of the signal.^reset;",
+      "turnIn" : "Speak to ^orange;Ryoko^reset; at the ^orange;Starknight base^reset;"
+    },
+
+    "warpEntityUid" : "SK_Ryoko",
+    "warpAction" : "instanceworld:StrangeSignal",
+    "warpDialog" : "/interface/confirmation/starknightteleportconfirmation.config:SKmission3",
+
+    "goalTrigger" : "proximity",
+    "proximityRange" : 5,
+	
+    "goalEntityUid" : "starknight_goalMission3",
+    "indicateGoal" : false,
+    "trackGoalEntity" : false,	
+
+    "turnInEntityUid" : "SK_Ryoko"
+  }
+}
+

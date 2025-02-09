@@ -1,0 +1,15 @@
+{
+  "id" : "RyuuStory1",
+  "title" : "Ryuu Story 1",
+  "description" : "Ryuu Story Part 1",
+  "icon" : "RyuCover1.png",
+  "contentPages" : [
+
+"The Ryuu Race use this language to communicate between them so that poeple doesn't know what they talking about. That's also the language the Dragon are able to hear and know easily."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "legendary",
+    "price" : 25
+  }
+}

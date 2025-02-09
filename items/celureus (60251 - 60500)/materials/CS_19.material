@@ -1,0 +1,23 @@
+{
+  "materialId" : 60269,
+  "materialName" : "CS_19",
+  "particleColor" : [237, 254, 255, 255],
+  "itemDrop" : "CS_19",
+  
+  "shortdescription" : "Hull Front",
+  "description" : "Metal Plate used to build Spaceship or Ship",
+  
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "CS_19.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 800
+  }
+}

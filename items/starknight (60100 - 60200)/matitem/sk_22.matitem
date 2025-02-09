@@ -1,0 +1,11 @@
+{
+  "itemName" : "SK_22",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "SK_22ico.png",
+  "shortdescription" : "Support Column",
+  "description" : "Dark Column Support",
+
+  "materialId" : 60121
+}

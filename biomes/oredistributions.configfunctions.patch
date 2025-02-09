@@ -1,0 +1,10 @@
+[
+  {
+    "op": "add",
+    "path": "/sk_ore_surface",
+    "value":
+	[
+      [0.0, [ [ "tungsten", 0.10 ], [ "titanium", 0.10 ], [ "durasteel", 0.10 ], [ "aegisalt", 0.10 ], [ "ferozium", 0.10 ], [ "violium", 0.00 ], [ "solarium", 0.10 ], [ "sk_sardonyx_mod", 0.50 ] ] ]
+	]
+  }
+]

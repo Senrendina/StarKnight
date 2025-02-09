@@ -1,0 +1,9 @@
+{
+  "input" : [ 
+	{ "item" : "CSK_SolidIngot", "count" : 1 },
+	{ "item" : "CSK_SynergicTransmitter", "count" : 1 }
+  ],
+  "output" : { "item" : "SK_2", "count" : 100},
+  "duration" : 0.5,
+  "groups" : [ "metalstarbench", "materials", "all" ]
+}

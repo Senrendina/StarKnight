@@ -1,0 +1,46 @@
+{
+  "objectName" : "SK_chair2",
+  "colonyTags" : ["starknight"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 150,
+  "description" : "Comfy couch",
+  "shortdescription" : "Starknight Couch",
+  "race" : "generic",
+
+  "apexDescription" : "Another ugly piece of furniture forced on the innocent.",
+  "avianDescription" : "An abhorrent piece of fabric covers this chair.",
+  "floranDescription" : "Ssmells old.",
+  "glitchDescription" : "Appalled. Many design principles ignored.",
+  "humanDescription" : "This chair sucks the life out of the room.",
+  "hylotlDescription" : "A very unattractive piece of furniture.",
+  "novakidDescription" : "I guess it's for sitting on and not for lookin' at.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+
+  "inventoryIcon" : "SK_chair2.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "SK_chair2.png"}, { "image" : "SK_chair2lit.png:", "fullbright" : true  }  ],
+	  
+      "direction": "left",
+      "flipImages": true,
+      "imagePosition": [-8, 0],
+      "sitPositions": [[-8, 22]],
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+	  "collision": "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "SK_chair2.png"}, { "image" : "SK_chair2lit.png:", "fullbright" : true  }  ],
+	  
+      "direction": "right",
+      "imagePosition": [-8, 0],
+      "sitPositions": [[11, 22]],
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+	  "collision": "platform"
+    }
+  ]
+}

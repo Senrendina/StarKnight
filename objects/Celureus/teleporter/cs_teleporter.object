@@ -1,0 +1,41 @@
+{
+  "objectName": "CS_Teleporter",
+  "colonyTags": ["Celureus"],
+  "printable": false,
+  "rarity": "Legendary",
+  "description": "Trusty teleporter, what would we do without you?",
+  "shortdescription": "Ship Teleporter",
+  "apexDescription": "The ship's teleporter. Teleporting feels like riding a rollercoaster at the speed of light.",
+  "avianDescription": "The teleporter! Teleporting feels like flying.",
+  "floranDescription": "Ship teleporter. Floran feel confusssed during teleport.",
+  "glitchDescription": "Smug. A teleporter. I am able to enter a sleep mode during the teleport process.",
+  "humanDescription": "The teleporter! Teleporting is such a rush.",
+  "hylotlDescription": "A teleporter. Teleporting feels like diving into the ocean from a mountain top.",
+  "novakidDescription": "Ship's teleporter. Let's take her for a spin!",
+  "category": "teleporter",
+  "interactAction": "OpenTeleportDialog",
+  "interactData": "/interface/warping/shipteleporter.config",
+  "soundEffectRangeMultiplier": 1.5,
+  "inventoryIcon": "CS_Teleporter.png",
+  "orientations": [
+    {
+      "imageLayers" : [ { "image" : "CS_Teleporter.png"}, { "image" : "CS_Teleporterlit.png:", "fullbright" : true  }  ],
+      "imagePosition": [-32, 0],
+      "frames": 1,
+      "animationCycle": 0.5,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "solid",
+      "collisionSpaces": [
+        [-2, 0],
+        [-1, 0],
+        [0, 0],
+        [1, 0],
+        [-2, 9],
+        [-1, 9],
+        [0, 9],
+        [1, 9]
+      ]
+    }
+  ]
+}

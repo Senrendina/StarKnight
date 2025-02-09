@@ -1,0 +1,11 @@
+{
+  "itemName" : "SO_Blocks1",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "Blocks1icon.png",
+  "shortdescription" : "Solarian Dark Panel",
+  "description" : "Solarian Dark Panel",
+
+  "materialId" : 60221
+}

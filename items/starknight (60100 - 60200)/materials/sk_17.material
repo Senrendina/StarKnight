@@ -1,0 +1,21 @@
+{
+  "materialId" : 60116,
+  "materialName" : "SK_17",
+    "particleColor" : [55, 55, 55, 255],
+  "itemDrop" : "SK_17",
+  "shortdescription" : "Door Attach",
+  "description" : "Some Door Attach",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/rowtemplate.config",
+  "renderParameters" : {
+    "texture" : "SK_17.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 600
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "input": [	
+	{"item": "CSK_SolidIngot","count": 1}
+    ],
+    "output": {
+        "item": "CSR_Monitor",
+        "count": 1
+    },
+    "duration": 0.2,
+    "groups": ["CelureusCraftRemake", "sensors", "all"]
+}

@@ -1,0 +1,46 @@
+{
+	"objectName": "CS_StoragePad",
+	"colonyTags": ["Celureus", "storage"],
+	"rarity": "Rare",
+	"description": "some glass Storage.",
+	"shortdescription": "Magnetic Storage",
+	"race": "generic",
+	"category": "storage",
+	"objectType": "container",
+	"tooltipKind": "container",
+	"price": 120,
+	"inventoryIcon": "CS_StoragePad.png:default.off",
+  "orientations" : [
+    {
+	  "imageLayers" : [ { "image" : "CS_StoragePad.png:<color>.<frame>", "fullbright" : true }, { "image" : "CS_StoragePadlit.png:<color>.<frame>"} ],
+      "direction" : "left",
+	  "flipImages" : true,
+      "imagePosition" : [0, 0],
+	  "lightPosition" : [3, 0],
+      "frames" : 3,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+
+    },
+	{
+	  "imageLayers" : [ { "image" : "CS_StoragePad.png:<color>.<frame>", "fullbright" : true }, { "image" : "CS_StoragePadlit.png:<color>.<frame>"} ],
+      "direction" : "right",
+      "imagePosition" : [0, 0],
+	  "lightPosition" : [-3, 0],
+      "frames" : 3,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+
+    }    
+  ],
+    "openSounds": ["/sfx/objects/shippingcontainer_open.ogg"],
+  "closeSounds": ["/sfx/objects/shippingcontainer_close.ogg"],
+  "slotCount": 64,
+    "uiConfig": "/interface/chests/chest<slots>.config",
+    "frameCooldown": 5,
+    "autoCloseCooldown": 3600
+}

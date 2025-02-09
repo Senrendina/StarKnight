@@ -1,0 +1,11 @@
+{
+  "layers" : [
+    {
+      "kind" : "parallax/EldoUndergroundA",
+      "nohueshift" : true,
+      "lightMapped" : true,
+      "parallax" : 2.5,
+      "repeatY" : true
+    }
+  ]
+}

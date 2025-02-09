@@ -1,0 +1,48 @@
+{
+	"objectName": "SO_CoordinationScreen",
+	"colonyTags": ["Solarian"],
+	"rarity": "Rare",
+	"description": "A long holographic Screen.",
+	"shortdescription": "Solarian wallscreen 1",
+	"race": "generic",
+	"category": "decorative",
+	"price": 120,
+    "lightColor": [0, 99, 165],
+	"inventoryIcon": "SO_CoordinationScreen.png:default.off",
+  "orientations": [
+    {
+      "image": "SO_CoordinationScreen.png:<color>.on",
+      "flipImages": true,
+      "direction": "left",
+      "lightPosition": [0, 1],
+      "imagePosition": [0, 0],
+      "frames": 4,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["background"]
+    },
+    {
+      "image": "SO_CoordinationScreen.png:<color>.on",
+      "direction": "right",
+      "lightPosition": [0, 1],
+      "imagePosition": [0, 0],
+      "frames": 4,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["background"]
+    }
+  ],
+  "soundEffect" : "/sfx/objects/outpostmonitor_static.ogg",
+
+  "animation" : "SO_CoordinationScreen.animation",
+  "animationParts" : {
+    "bg" : "SO_CoordinationScreen.png",
+    "fg" : "SO_CoordinationScreenlit.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+}

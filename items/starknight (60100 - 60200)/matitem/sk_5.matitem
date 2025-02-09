@@ -1,0 +1,12 @@
+{
+  "itemName" : "SK_5",
+  "price" : 10,
+  "category" : "platform",
+  "rarity" : "Rare",
+  "inventoryIcon" : "SK_5ico.png",
+  "shortdescription" : "starknight stairs",
+  "description" : "starknight stairs",
+  
+  "materialId" : 60104
+
+}

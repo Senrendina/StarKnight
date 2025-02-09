@@ -1,0 +1,11 @@
+{
+  "itemName" : "CS_10",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "CS_10ico.png",
+  "description" : "Some griders",
+  "shortdescription" : "CS Grider",
+
+  "materialId" : 60260
+}

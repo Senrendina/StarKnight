@@ -1,0 +1,21 @@
+{
+  "materialId" : 60209,
+  "materialName" : "BD_9",
+    "particleColor" : [55, 55, 55, 255],
+  "itemDrop" : "BD_9",
+  "shortdescription" : "Grid Panel",
+  "description" : "An Plate Panel for covering surface",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "BD_9.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 300
+  }
+}

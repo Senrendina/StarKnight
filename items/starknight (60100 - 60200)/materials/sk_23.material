@@ -1,0 +1,21 @@
+{
+  "materialId" : 60122,
+  "materialName" : "SK_23",
+    "particleColor" : [55, 55, 55, 255],
+  "itemDrop" : "SK_23",
+  "shortdescription" : "Hyero Language Panel",
+  "description" : "A Ryuu language native panel",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "SK_23.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 600
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "itemName" : "SK_9",
+  "price" : 10,
+  "category" : "platform",
+  "rarity" : "Rare",
+  "inventoryIcon" : "SK_9ico.png",
+  "shortdescription" : "Support Beam Light",
+  "description" : "Support Beam with incrusted Light",
+  
+  "materialId" : 60108
+
+}

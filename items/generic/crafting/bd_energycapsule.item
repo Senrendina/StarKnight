@@ -1,0 +1,10 @@
+{
+  "itemName" : "BD_EnergyCapsule",
+  "price" : 100,
+  "rarity" : "Essential",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "BD_EnergyCapsule.png",
+  "description" : "An Energy Capsule used mostly for weapon",
+  "shortdescription" : "Energy Capsule",
+  "itemTags" : [ "reagent" ]
+}

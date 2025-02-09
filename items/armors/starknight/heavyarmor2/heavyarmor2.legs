@@ -1,0 +1,36 @@
+{
+  "itemName" : "SK_Heavyarmorlegs2",
+  "price" : 320,
+  "inventoryIcon" : "icons.png:pants",
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "category" : "legarmour",
+  "description" : "The Sentinel Armor legs",
+  "shortdescription" : "The Sentinel Leggings",
+  "tooltipKind" : "SK_Armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "level" : 5,
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 2
+    },
+    {
+      "stat" : "protection",
+      "amount" : 20
+    },
+    {
+      "stat" : "maxEnergy",
+      "amount" : 50
+    },
+    {
+      "stat" : "maxHealth",
+      "amount" : 75
+    }
+  ],
+  "acceptsAugmentType" : "back",
+  "itemTags" : [ "tier6armour" ]
+}

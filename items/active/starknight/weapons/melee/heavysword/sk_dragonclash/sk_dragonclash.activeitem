@@ -1,0 +1,132 @@
+{
+  "itemName" : "SK_DragonClash",
+  "price" : 1500,
+  "level" : 5,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A Heavy Sword that hit hard but slow",
+  "shortdescription" : "Dragon Clash",
+  "tooltipKind" : "sword",
+  "category" : "Heavy Sword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "melee", "broadsword"],
+
+  "inventoryIcon" : "SK_DragonClash.png",
+
+  "animation" : "/items/active/starknight/weapons/melee/heavysword/SK_DragonClash/SK_DragonClash.animation",
+  "animationParts" : {
+    "handle": "handle.png",
+	"swordfullbright" : "fullbright.png",
+    "blade" : "blade.png"
+  },
+   "animationCustom" : {},
+
+  "scripts" : ["/items/active/weapons/melee/energymeleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+ "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.8,
+    "baseDps" : 25,
+    "stances" : {
+      "idle" : {
+        "armRotation" : -40,
+        "weaponRotation" : 0,
+        "allowRotate" : false,
+        "allowFlip" : true,
+		"twoHanded" : true
+      },
+      "windup1" : {
+        "duration" : 0.3,
+        "armRotation" : 90,
+        "weaponRotation" : -10,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "preslash1" : {
+        "duration" : 0.025,
+        "armRotation" : 55,
+        "weaponRotation" : -45,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "fire1" : {
+        "duration" : 0.2,
+        "armRotation" : -45,
+        "weaponRotation" : -55,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "wait1" : {
+        "duration" : 0.5,
+        "armRotation" : -60,
+        "weaponRotation" : -200,
+        "allowRotate" : false,
+        "allowFlip" : true,
+        "twoHanded" : true
+      },
+      "windup2" : {
+        "duration" : 0.3,
+		"armRotation": -100,
+		"weaponRotation": -160,
+        "weaponOffset" : [0, 0],
+        "twoHanded" : true,
+        "allowFlip" : true,
+        "allowRotate" : false
+      },
+      "fire2" : {
+        "duration" : 0.2,
+		"armRotation": 70,
+		"weaponRotation": -150,
+        "weaponOffset" : [0, 0],
+        "twoHanded" : true,
+        "allowFlip" : true,
+        "allowRotate" : false
+      },
+      "wait2" : {
+        "duration" : 0.3,
+        "armRotation" : -20,
+        "weaponRotation" : 0,
+        "weaponOffset" : [0, 0],
+        "allowRotate" : false,
+        "allowFlip" : true,
+        "twoHanded" : true
+      },
+      "windup3" : {
+        "duration" : 0.3,
+        "armRotation" : 90,
+        "weaponRotation" : -10,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "fire3" : {
+        "duration" : 0.2,
+        "armRotation" : -45,
+        "weaponRotation" : -55,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "wait3" : {
+        "duration" : 0.2,
+        "armRotation" : -40,
+        "weaponRotation" : 0,
+        "allowRotate" : false,
+        "allowFlip" : true,
+        "twoHanded" : true
+            }
+        }
+    },
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

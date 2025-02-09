@@ -1,0 +1,11 @@
+{
+  "itemName" : "SK_14",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "SK_14ico.png",
+  "shortdescription" : "Sloped Light Hull",
+  "description" : "Light Sloped Hull",
+
+  "materialId" : 60113
+}

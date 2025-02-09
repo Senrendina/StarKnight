@@ -1,0 +1,37 @@
+{
+  "itemName" : "dragon_twinmoon",
+  "price" : 480,
+  "level" : 5,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "ETC",
+  "shortdescription" : "ETC",
+  "tooltipKind" : "sword",
+  "category" : "spear",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "melee", "spear"],
+
+  "inventoryIcon" : "twinmoon.png",
+
+  "animation" : "/items/active/weapons/melee/spear/spear.animation",
+  "animationParts" : {
+    "handle": "handle.png",
+	"spearfullbright" : "fullbright.png",
+    "blade" : "blade.png"
+  },
+   "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "fireTime" : 0.95,
+    "baseDps" : 10.5
+  },
+
+  "altAbilityType" : "spearspin",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

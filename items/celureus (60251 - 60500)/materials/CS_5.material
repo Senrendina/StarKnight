@@ -1,0 +1,21 @@
+{
+  "materialId" : 60255,
+  "materialName" : "CS_5",
+    "particleColor" : [55, 55, 55, 255],
+  "itemDrop" : "CS_5",
+  "shortdescription" : "Plate Armor",
+  "description" : "Plate Armor",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "CS_5.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 300
+  }
+}

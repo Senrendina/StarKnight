@@ -1,0 +1,65 @@
+{
+  "objectName" : "CS_CraftingStation",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Rare",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/Celureus_CraftingStation.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  Celureus Crafting Station",
+        "subtitle" : " Crafting...",
+        "icon" : {
+          "file" : "/objects/Celureus/crafting/Celureus_CraftingStation/CS_CraftingStationicon.png"
+        }
+      }
+    },
+    "filter" : [ "CelureusCraft" ]
+  },
+  "printable" : false,
+  "description" : "This crafting station is where you can craft Celureus Furniture",
+  "shortdescription" : "Celureus Crafting Station",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 30,
+
+  "apexDescription" : "A crafting table for ironwork.",
+  "avianDescription" : "This crafting table enables me to create a wide range of equipment.",
+  "floranDescription" : "Iron table for making thingsss.",
+  "glitchDescription" : "Interested. It's an iron crafting table. It's better than a wooden one.",
+  "humanDescription" : "I'm not scared of some DIY. Let's do this.",
+  "hylotlDescription" : "An iron crafting table can be used to craft some good equipment with.",
+  "novakidDescription" : "A good ol' iron crafting table. It's better than a wooden one.",
+   
+  "inventoryIcon" : "CS_CraftingStationicon.png",
+    "orientations" : [
+    {
+       "imageLayers" : [ { "image" : "CS_CraftingStation.png:<color>.<frame>"}, { "image" : "CS_CraftingStationlit.png:<color>.<frame>", "fullbright" : true  }  ],
+
+      "imagePosition" : [0, 0],
+      "frames" : 12,
+      "animationCycle" : 2.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left",
+      "flipImages" : true
+
+
+    },
+        {
+       "imageLayers" : [ { "image" : "CS_CraftingStation.png:<color>.<frame>"}, { "image" : "CS_CraftingStationlit.png:<color>.<frame>", "fullbright" : true  }  ],
+
+      "imagePosition" : [0, 0],
+      "frames" : 12,
+      "animationCycle" : 2.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right"
+      
+
+
+    }    
+  ]
+}

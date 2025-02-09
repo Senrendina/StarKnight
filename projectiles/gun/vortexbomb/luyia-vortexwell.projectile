@@ -1,0 +1,53 @@
+{
+  "projectileName" : "luyia-vortexwell",
+  "image" : "luyia-vortexwell.png",
+  "animationCycle" : 1.5,
+  "physics" : "illusion",
+  "frameNumber" : 12,
+  "windupFrames" : 4,
+  "winddownFrames" : 4,
+  "pointLight" : false,
+  "speed" : 0,
+  "power" : 0.0,
+
+  "bounces" : -1,
+  "piercing" : true,
+
+  "timeToLive" : 2,
+
+  "orientationLocked" : true,
+  
+  "emitters" : [ "electricplasma", "energyweapon" ],
+
+  "damagePoly" : [ [-48, 0], [-32, -32], [0, -48], [32, -32], [48, 0], [32, 32], [0, 48], [-32, 32] ],
+  "damageRepeatTimeout" : 0.1,
+
+  "boundBox" : [-10, -10, 10, 10],
+  "physicsForces" : {
+    "vacuum" : {
+      "type" : "RadialForceRegion",
+      "outerRadius" : 10,
+      "innerRadius" : 4,
+      "targetRadialVelocity" : -15,
+      "controlForce" : 350,
+      "categoryWhitelist" : ["monster", "npc", "vehicle", "itemdrop", "projectile"]
+    }
+  },
+
+  "clientEntityMode" : "ClientSlaveOnly",
+
+  "scripts" : ["luyia-vortexwell.lua"],
+
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/tech/vehicle_disappear1.ogg" ]
+    },
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmaexplosion2/plasmaexplosion2.config"
+    }
+  ],
+
+  "persistentAudio" : "/sfx/projectiles/gravitymine_loop.ogg"
+}

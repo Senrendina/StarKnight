@@ -1,0 +1,14 @@
+{
+    "input": [{
+            "item": "silverbar",
+            "count": 2
+        }
+
+    ],
+    "output": {
+        "item": "RyuuSymbolDescription-codex",
+        "count": 1
+    },
+    "duration": 0.5,
+    "groups": ["codexShop", "codex", "all"]
+}

@@ -1,0 +1,39 @@
+{
+  "objectName" : "SO_FusionBeamCore",
+  "colonyTags" : ["Solarian"],
+  "rarity" : "Rare",
+  "description" : "A fusing Eldora liquid making the eldowater dangerous instead of being safe",
+  "shortdescription" : "Eldo Liquid Fusion",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 600,
+
+  "inventoryIcon" : "SO_FusionBeamCore.png:default.0",
+  "orientations" : [
+    {
+	  "imageLayers" : [ { "image" : "SO_FusionBeamCore.png:<color>.<frame>", "fullbright" : true }, { "image" : "SO_FusionBeamCorelit.png:<color>.<frame>"} ],
+      "direction" : "left",
+	  "flipImages" : true,
+      "imagePosition" : [0, 0],
+	  "lightPosition" : [0, 0],
+      "frames" : 16,
+      "animationCycle" : 1.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+
+    },
+	{
+	  "imageLayers" : [ { "image" : "SO_FusionBeamCore.png:<color>.<frame>", "fullbright" : true }, { "image" : "SO_FusionBeamCorelit.png:<color>.<frame>"} ],
+      "direction" : "right",
+      "imagePosition" : [0, 0],
+	  "lightPosition" : [0, 0],
+      "frames" : 16,
+      "animationCycle" : 1.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+
+    }
+  ]
+}

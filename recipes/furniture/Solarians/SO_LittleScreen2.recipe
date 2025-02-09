@@ -1,0 +1,12 @@
+{
+    "input": [
+	{"item": "CSK_SynergicTransmitter","count": 1}
+
+    ],
+    "output": {
+        "item": "SO_LittleScreen2",
+        "count": 1
+    },
+    "duration": 0.5,
+    "groups": ["SO_Crafting", "server", "all"]
+}

@@ -1,0 +1,24 @@
+{
+  "objectName": "BD_Railing1",
+  "colonyTags": ["furniture"],
+  "rarity": "Rare",
+  "description": "A Front Railing",
+  "shortdescription": "Railing",
+  "race": "generic",
+  "category": "decorative",
+  "price": 110,
+  "inventoryIcon": "BD_Railing1.png",
+  "orientations": [
+    {
+      "imageLayers" : [ { "image" : "BD_Railing1.png"}, { "image" : "BD_Railing1lit.png:", "fullbright" : true  }  ],
+	  
+      "direction": "left",
+	  "renderLayer" : "Player+1",
+      "imagePosition": [0, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
+    }
+  ]
+}

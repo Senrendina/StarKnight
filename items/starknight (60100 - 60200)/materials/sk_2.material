@@ -1,0 +1,21 @@
+{
+  "materialId" : 60101,
+  "materialName" : "SK_2",
+    "particleColor" : [55, 55, 55, 255],
+  "itemDrop" : "SK_2",
+  "shortdescription" : "Energy Pipe",
+  "description" : "A Energy Pipe.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "SK_2.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 200
+  }
+}

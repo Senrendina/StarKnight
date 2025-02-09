@@ -1,0 +1,11 @@
+{
+  "itemName" : "BD_2",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "BD_2ico.png",
+  "shortdescription" : "Dark Hull",
+  "description" : "Dark Red Metal Plate used to build Spaceship or Ship",
+
+  "materialId" : 60202
+}

@@ -1,0 +1,21 @@
+{
+  "materialId" : 60232,
+  "materialName" : "SO_Blocks12",
+    "particleColor" : [55, 55, 55, 255],
+  "itemDrop" : "SO_Blocks12",
+  "shortdescription" : "Storage Panel",
+  "description" : "A Storage Panel",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "Blocks12.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 50
+  }
+}

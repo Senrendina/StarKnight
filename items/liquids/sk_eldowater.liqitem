@@ -1,0 +1,10 @@
+{
+  "itemName" : "sk_eldowater",
+  "rarity" : "Common",
+  "category" : "liquid",
+  "inventoryIcon" : "eldoliquidicon.png",
+  "shortdescription" : "Eldora Liquid",
+  "description" : "a dangeround liquid but refreshing found on Eldora the main planet of Ryuu",
+
+  "liquid" : "sk_eldoliquid"
+}

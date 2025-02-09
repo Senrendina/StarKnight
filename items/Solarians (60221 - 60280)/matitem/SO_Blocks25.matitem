@@ -1,0 +1,11 @@
+{
+  "itemName" : "SO_Blocks25",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "Blocks25icon.png",
+  "shortdescription" : "Light Panel",
+  "description" : "Some Light Panel",
+
+  "materialId" : 60245
+}

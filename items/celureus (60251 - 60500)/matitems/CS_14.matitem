@@ -1,0 +1,11 @@
+{
+  "itemName" : "CS_14",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "CS_14ico.png",
+  "shortdescription" : "Platform",
+  "description" : "A well-constructed metal platform.",
+
+  "materialId" : 60264
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "SK_3",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "SK_3ico.png",
+  "shortdescription" : "A Metal Panel",
+  "description" : "Metal Panel",
+
+  "materialId" : 60102
+}

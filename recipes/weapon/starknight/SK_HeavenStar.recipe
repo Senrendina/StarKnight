@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "SK_TwistedEnergy", "count" : 1 },  
+	{ "item" : "CSK_SolidIngot", "count" : 50 },
+	{ "item" : "CSK_CrystalCore", "count" : 25 },
+	{ "item" : "CSK_SynergicTransmitter", "count" : 10 },
+	{ "item" : "CSK_TechUSB", "count" : 10 }		
+  ],
+  "output" : { "item" : "SK_HeavenStar", "count" : 1},
+  "duration" : 0.5,
+  "groups" : [ "metalstartable", "weapon", "all" ]
+}

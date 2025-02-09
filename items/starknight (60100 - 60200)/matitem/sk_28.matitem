@@ -1,0 +1,11 @@
+{
+  "itemName" : "SK_28",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "legendary",
+  "inventoryIcon" : "SK_28ico.png",
+  "shortdescription" : "Sardonyx Block",
+  "description" : "A solid Sardonyx block.",
+
+  "materialId" : 60127
+}

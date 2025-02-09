@@ -1,0 +1,14 @@
+{
+    "input": [{
+            "item": "CSK_SolidIngot",
+            "count": 2
+        }
+
+    ],
+    "output": {
+        "item": "SO_Box3",
+        "count": 1
+    },
+    "duration": 0.5,
+    "groups": ["SO_Crafting", "storages", "all"]
+}

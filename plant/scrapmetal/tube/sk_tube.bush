@@ -1,0 +1,16 @@
+{
+  "name" : "sk_tube",
+  "description" : "Scap tube",
+  "shortdescription" : "A tube.",
+  "shapes" : [
+    {
+      "base" : "base1.png"
+	},
+	{
+      "base" : "base2.png"
+	},
+	{
+      "base" : "base3.png"
+    }
+  ]
+}

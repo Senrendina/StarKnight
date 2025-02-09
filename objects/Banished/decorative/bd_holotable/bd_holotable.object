@@ -1,0 +1,57 @@
+{
+	"objectName": "BD_HoloTable",
+	"colonyTags": ["generic"],
+	"rarity": "Rare",
+	"description": "A long holographic table",
+	"shortdescription": "Hologram Table",
+	"race": "generic",
+	"category": "wire",
+	"price": 120,
+	"inventoryIcon": "BD_HoloTable.png:default.off",
+  "orientations": [
+    {
+      "image": "BD_HoloTable.png:<color>.on",
+      "flipImages": true,
+      "direction": "left",
+      "lightPosition": [0, 1],
+      "imagePosition": [0, 0],
+      "frames": 2,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
+    },
+    {
+      "image": "BD_HoloTable.png:<color>.on",
+      "direction": "right",
+      "lightPosition": [0, 1],
+      "imagePosition": [0, 0],
+      "frames": 2,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"]
+    }
+  ],
+  "scripts": ["/objects/wired/switch/switch.lua", "/scripts/npcToyObject.lua"],
+  "scriptDelta": 5,
+  "animation": "BD_HoloTable.animation",
+  "animationCustom": {
+    "sounds": {
+      "on": ["/sfx/objects/console_button.ogg"],
+      "off": ["/sfx/objects/console_button.ogg"]
+    }
+  },
+  "animationParts": {
+    "bg": "BD_HoloTable.png",
+    "fg": "BD_HoloTablelit.png"
+  },
+  "animationPosition": [0, 0],
+  "outputNodes": [[0, 0]],
+  "npcToy": {
+	"ownerOnly" : true,
+    "influence": ["console"],
+    "defaultReactions": {},
+    "preciseStandPositionLeft": [-0.5, 0],
+    "preciseStandPositionRight": [0, 0],
+    "maxNpcs": 1
+  }
+}

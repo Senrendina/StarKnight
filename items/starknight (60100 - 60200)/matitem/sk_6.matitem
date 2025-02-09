@@ -1,0 +1,12 @@
+{
+  "itemName" : "SK_6",
+  "price" : 10,
+  "category" : "platform",
+  "rarity" : "Rare",
+  "inventoryIcon" : "SK_6ico.png",
+  "shortdescription" : "Light Flooring",
+  "description" : "Some Flooring with Energy Light incrusted",
+  
+  "materialId" : 60105
+
+}

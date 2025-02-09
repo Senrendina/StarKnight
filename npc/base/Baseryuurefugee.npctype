@@ -1,0 +1,40 @@
+{
+  "type" : "Baseryuurefugee",
+  "baseType" : "outpostcivilian",
+
+  "scriptConfig" : {
+    "offeredQuests" : [ ],
+    "turnInQuests" : [ ],
+    
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "Hello, star traveller! A friendly face is always welcome here."
+          ]
+        },
+        "ryuu" : {
+          "default" : [
+            "Hello, star traveller! A friendly face is always welcome here."
+          ],
+          "ryuu" : [
+            "Hey ! You're back.",
+			"Have you found some stuff for us ?",
+			"Let's make sure the ressource we gather is enough."
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "CS_Civilianchest" } ],
+            "legs" : [ { "name" : "CS_Civilianlegs" } ]
+          }
+        ] ]
+    ]
+  }
+}

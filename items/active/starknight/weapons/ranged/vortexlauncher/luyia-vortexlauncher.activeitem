@@ -1,0 +1,89 @@
+{
+  "itemName" : "luyia-vortexlauncher",
+  "level" : 5,
+  "price" : 2000,
+  "maxStack" : 1,
+  "rarity" : "Essential",
+  "description" : "Fires unstable black holes!",
+  "shortdescription" : "Vortex Launcher",
+  "tooltipKind" : "gun",
+  "category" : "Launcher",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "ranged", "gun"],
+
+  "inventoryIcon" : [
+    { "image" : "luyia-vortexlauncher.png"}
+  ],
+
+  "animation" : "luyia-vortexlauncher.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "luyia-vortexlauncher.png",
+    "middlefullbright" : "",
+    "barrel" : "",
+    "muzzleFlash" : "muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/grenade2.ogg"]
+    }
+  },
+  "baseOffset" : [0.7, 0.35],
+  "muzzleOffset" : [2.8, 0.0],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 3.0,
+    "baseDps" : 1.0,
+    "energyUsage" : 100,
+    "inaccuracy" : 0.0,
+    "fireType" : "auto",
+
+    "projectileType" : "luyia-vortexbomb",
+    "projectileParameters" : {
+    },
+    "projectileCount" : 1,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+		"playSounds" : ["reload"],
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0.65,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 1.6,
+		"playSounds" : ["eject"],
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  },
+  
+  "learnBlueprintsOnPickup" : [
+  ],  
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

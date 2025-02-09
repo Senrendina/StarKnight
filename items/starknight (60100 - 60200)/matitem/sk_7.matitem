@@ -1,0 +1,12 @@
+{
+  "itemName" : "SK_7",
+  "price" : 10,
+  "category" : "platform",
+  "rarity" : "Rare",
+  "inventoryIcon" : "SK_7ico.png",
+  "shortdescription" : "Light Flooring hazard",
+  "description" : "Some Flooring with Energy Light incrusted",
+  
+  "materialId" : 60106
+
+}

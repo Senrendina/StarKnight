@@ -1,0 +1,23 @@
+{
+  "itemName" : "Starknight_CargoTram",
+  "level" : 1,
+  "price" : 1000,
+  "rarity" : "Rare",
+  "category" : "railPlatform",
+  "description" : "A Starknight Cargo Elevator",
+  "shortdescription" : "Starknight Cargo Tram",
+  "twoHanded" : true,
+  "maxStack" : 10,
+
+  "inventoryIcon" : "icon.png",
+
+  "scripts" : ["/items/active/unsorted/railplatform/railplatform.lua"],
+  "animationScripts" : ["/items/active/unsorted/railplatform/placementpreview.lua"],
+
+  "placementRange" : 15,
+  "placementBounds" : [-2.5, -0.25, 2.5, 3.75],
+  "placementPreviewImage" : "/items/vehicles/Cargo_Tram/Starknight_CargoTram.png",
+  "previewOffset" : [0, 2.0],
+
+  "platformType" : "Starknight_CargoTram"
+}

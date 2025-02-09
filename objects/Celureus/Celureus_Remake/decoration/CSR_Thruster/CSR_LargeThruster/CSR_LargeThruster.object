@@ -1,0 +1,41 @@
+{
+  "objectName" : "CSR_LargeThruster",
+  "colonyTags" : ["starknight"],
+  "rarity" : "Rare",
+  "description" : "A decorative ship booster.",
+  "shortdescription" : "Main Ship Booster",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 600,
+  
+  "lightColor" : [0, 99, 165],
+
+  "inventoryIcon" : "CSR_LargeThruster.png:default.0",
+  "orientations" : [
+    {
+	  "imageLayers" : [ { "image" : "CSR_LargeThruster.png:<color>.<frame>", "fullbright" : true }, { "image" : "CSR_LargeThrusterlit.png:<color>.<frame>"} ],
+      "direction" : "left",
+	  "flipImages" : true,
+      "imagePosition" : [0, 0],
+	  "lightPosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["right"]
+
+    },
+	{
+	  "imageLayers" : [ { "image" : "CSR_LargeThruster.png:<color>.<frame>", "fullbright" : true }, { "image" : "CSR_LargeThrusterlit.png:<color>.<frame>"} ],
+      "direction" : "right",
+      "imagePosition" : [0, 0],
+	  "lightPosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["right"]
+
+    }
+  ]
+}

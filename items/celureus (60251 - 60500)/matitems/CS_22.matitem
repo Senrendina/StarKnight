@@ -1,0 +1,11 @@
+{
+  "itemName" : "CS_22",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "CS_22ico.png",
+  "shortdescription" : "Inset Panel",
+  "description" : "Inset Panel",
+
+  "materialId" : 60272
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "SO_Blocks17",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "Blocks17icon.png",
+  "description" : "Solarian Gold Interior Sloped",
+  "shortdescription" : "Gold Solarian Sloped",
+
+  "materialId" : 60237
+}

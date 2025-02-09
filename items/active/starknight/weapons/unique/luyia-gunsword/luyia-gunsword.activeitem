@@ -1,0 +1,95 @@
+{
+  "itemName" : "SK_GunBlade",
+  "price" : 1500,
+  "level" : 4,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "An all-range lethal weapon! [^cyan;Transforming^reset;]",
+  "shortdescription" : "Starknight GunBlade",
+  "tooltipKind" : "base",
+  "category" : "Blade and Gun",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "icon.png",
+
+  "animation" : "luyia-gunsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "blade.png",
+    "lights" : "",
+    "muzzleflash" : "muzzle.png"
+  },
+  "animationCustom" : {
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "aimOffset" : 0.75,
+
+  "primaryAbilityType" : "luyia-gunswordcombo",
+  
+  "primaryAbility":{
+    "scripts" : ["/items/active/starknight/weapons/unique/luyia-gunsword/assistedmeleecombo.lua"]
+  },
+
+  "altAbility" : {
+    "name" : "Gun Sword Transform",
+    "scripts" : ["/items/active/starknight/weapons/unique/abilities/luyia-gunswordtransform/luyia-gunswordtransform.lua"],
+	"class" : "GunSwordTransform",
+
+    "cooldownTime" : 0.75,
+	
+	"fireTime" : 0.30,
+	"baseDps" : 15.0,
+	"energyUsage" : 65.0,
+    "inaccuracy" : 0.015,
+	
+	"fireOffset" : [1.75, 0.75],
+	
+	"projectileType" : "SK_helixbullet_prefire",
+	"projectileParameters" : {
+		"piercing" : false
+    },
+
+    "stances" : {
+      "transforming" : {
+        "duration" : 0.5,
+		"armRotation" : -12,
+        "weaponRotation" : -30,
+        "twoHanded" : false,
+        "weaponOffset" : [0.0, -0.25],
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+	  "aiming" : {
+		"armRotation" : 0,
+        "weaponRotation" : -90,
+        "twoHanded" : true,
+        "weaponOffset" : [-0.5, -0.75],
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+	  "gunfire" : {
+        "duration" : 0.1,
+		"armRotation" : 2,
+        "weaponRotation" : -88,
+        "twoHanded" : true,
+        "weaponOffset" : [-0.5, -0.75],
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  },
+  
+  "learnBlueprintsOnPickup" : [
+  ],
+
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,45 @@
+{
+  "itemName" : "SK_Heavyarmorchest2",
+  "price" : 800,
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "category" : "chestarmour",
+  "description" : "The Sentinel armor",
+  "shortdescription" : "The Sentinel armor",
+  "tooltipKind" : "SK_Armor",
+
+  "maleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "level" : 6,
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 3.5
+    },
+    {
+      "stat" : "protection",
+      "amount" : 20
+    },
+    {
+      "stat" : "maxEnergy",
+      "amount" : 50
+    },
+    {
+      "stat" : "maxHealth",
+      "amount" : 100
+    }
+  ],
+  "acceptsAugmentType" : "back",
+  "itemTags" : [ "tier6armour" ]
+}
