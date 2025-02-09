@@ -5,9 +5,7 @@
   "text" : "Thanks to you, the ^orange;Satellite^reset; is now repaired. With this, we can now focus on the main mission. Data has been transmitting non-stop from the satellite. Interestingly however, it's picking it up from a strange location. I need you to investigate that location in question?",
   "completionText" : "Hey ! Glad to see you safe and sound.",
   "moneyRange" : [100, 100],
-  "rewards" : [
-  [ "CSK_SolidIngot", 100 ]
-  ],
+  "rewards" : [],
 
   "updateDelta" : 10,
   "script" : "/quests/scripts/instance.lua",
