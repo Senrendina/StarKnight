@@ -4,5 +4,5 @@
   ],
   "output" : { "item" : "SO_Blocks15", "count" : 100},
   "duration" : 0.5,
-  "groups" : [ "SO_Crafting", "blocks", "all" ]
+  "groups" : [ "SO_Crafting", "materials", "all" ]
 }

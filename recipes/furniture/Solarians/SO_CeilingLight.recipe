@@ -10,5 +10,5 @@
         "count": 1
     },
     "duration": 0.5,
-    "groups": ["SO_Crafting", "Lights", "all"]
+    "groups": ["SO_Crafting", "lights", "all"]
 }

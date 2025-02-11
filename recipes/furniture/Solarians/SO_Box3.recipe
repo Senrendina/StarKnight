@@ -10,5 +10,5 @@
         "count": 1
     },
     "duration": 0.5,
-    "groups": ["SO_Crafting", "storages", "all"]
+    "groups": ["SO_Crafting", "storage", "all"]
 }

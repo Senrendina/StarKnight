@@ -8,5 +8,5 @@
         "count": 1
     },
     "duration": 0.5,
-    "groups": ["SO_Crafting", "decorations", "all"]
+    "groups": ["SO_Crafting", "decoration", "all"]
 }

@@ -58,7 +58,7 @@
                  "y":2792
                 }, 
                 {
-                 "height":64,
+                 "height":40,
                  "id":800,
                  "name":"",
                  "properties":
@@ -75,8 +75,8 @@
                  "type":"",
                  "visible":true,
                  "width":104,
-                 "x":1152,
-                 "y":2240
+                 "x":568,
+                 "y":2792
                 }, 
                 {
                  "height":88,
@@ -100,7 +100,7 @@
                  "y":1488
                 }, 
                 {
-                 "height":664,
+                 "height":296,
                  "id":1480,
                  "name":"",
                  "properties":
@@ -116,9 +116,9 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":664,
-                 "x":2120,
-                 "y":1640
+                 "width":648,
+                 "x":1224,
+                 "y":1784
                 }, 
                 {
                  "height":152,
@@ -126,7 +126,7 @@
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{ \"radioMessages\" : [\"starknight_SourceFound2\", \"starknight_SourceFound\"] }",
+                     "parameters":"{ \"radioMessages\" : [\"starknight_SourceFound3\", \"starknight_SourceFound2\", \"starknight_SourceFound\"] }",
                      "stagehand":"radiomessage"
                     },
                  "propertytypes":
@@ -3028,7 +3028,7 @@
                  "y":2024
                 }, 
                 {
-                 "gid":7744,
+                 "gid":7745,
                  "height":16,
                  "id":2317,
                  "name":"",
@@ -3373,26 +3373,6 @@
                  "visible":true,
                  "width":40,
                  "x":5752,
-                 "y":2304
-                }, 
-                {
-                 "gid":7716,
-                 "height":32,
-                 "id":2354,
-                 "name":"",
-                 "properties":
-                    {
-                     "parameters":"{ \"uniqueId\" : \"starknight_goalMission3\" }"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":5688,
                  "y":2304
                 }, 
                 {
@@ -3934,6 +3914,26 @@
                  "width":16,
                  "x":3536,
                  "y":1552
+                }, 
+                {
+                 "gid":2147491371,
+                 "height":32,
+                 "id":2436,
+                 "name":"",
+                 "properties":
+                    {
+                     "parameters":"{ \"uniqueId\" : \"starknight_goalMission3\" }"
+                    },
+                 "propertytypes":
+                    {
+                     "parameters":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":48,
+                 "x":5696,
+                 "y":2304
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -4907,7 +4907,7 @@
          "y":0
         }],
  "nextlayerid":12,
- "nextobjectid":2436,
+ "nextobjectid":2437,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.10.2",
@@ -5026,7 +5026,7 @@
          "source":"..\/..\/..\/..\/tilesets\/packed\/starknight\/solarian_object\/SO_Object.json"
         }, 
         {
-         "firstgid":7723,
+         "firstgid":7724,
          "source":"..\/..\/..\/..\/tilesets\/packed\/starknight\/starknight_object\/SK_Objects.json"
         }],
  "tilewidth":8,

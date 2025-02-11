@@ -1,0 +1,65 @@
+{
+  "objectName" : "SK_TogetherBench",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Rare",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/togetherbench.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  StarKnight Workbench",
+        "subtitle" : " Crafting...",
+        "icon" : {
+          "file" : "/objects/starknight/crafting/SK_TogetherBench/SK_TogetherBenchicon.png"
+        }
+      }
+    },
+    "filter" : [ "metalstarbench", "CelureusCraftRemake", "SO_Crafting" ]
+  },
+  "printable" : false,
+  "description" : "The ultimate crafting station the station that make you able to crafting Solarian / Starknight & Celureus props !",
+  "shortdescription" : "All-Together Bench",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 30,
+
+  "apexDescription" : "A crafting table for ironwork.",
+  "avianDescription" : "This crafting table enables me to create a wide range of equipment.",
+  "floranDescription" : "Iron table for making thingsss.",
+  "glitchDescription" : "Interested. It's an iron crafting table. It's better than a wooden one.",
+  "humanDescription" : "I'm not scared of some DIY. Let's do this.",
+  "hylotlDescription" : "An iron crafting table can be used to craft some good equipment with.",
+  "novakidDescription" : "A good ol' iron crafting table. It's better than a wooden one.",
+   
+  "inventoryIcon" : "SK_TogetherBench.png",
+    "orientations" : [
+    {
+       "imageLayers" : [ { "image" : "SK_TogetherBench.png"}, { "image" : "SK_TogetherBenchlit.png", "fullbright" : true  }  ],
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left",
+      "flipImages" : true
+
+
+    },
+        {
+       "imageLayers" : [ { "image" : "SK_TogetherBench.png"}, { "image" : "SK_TogetherBenchlit.png:", "fullbright" : true  }  ],
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right"
+      
+
+
+    }    
+  ]
+}

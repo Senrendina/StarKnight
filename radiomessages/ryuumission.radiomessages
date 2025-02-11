@@ -192,15 +192,22 @@
     "important" : true,
     "type" : "mission",
     "senderName" : "Ryoko",
-    "portraitImage" : "/interface/chatbubbles/Kal'Thar.png:<frame>",	
-    "text" : "The signal come straight from this Fusion Beam Core."		
+    "portraitImage" : "/interface/chatbubbles/Kal'TharSurprised.png:<frame>",	
+    "text" : "The signal come straight from this... Bench ?"		
   },
   "starknight_SourceFound2" : {
     "important" : true,
     "type" : "mission",
     "senderName" : "Ryoko",
-    "portraitImage" : "/interface/chatbubbles/Kal'Thar.png:<frame>",	
-    "text" : "I guess that's all for now, i got all the data i needed. Don't forget to activate the console."		
-  }	
+    "portraitImage" : "/interface/chatbubbles/Kal'TharSurprised.png:<frame>",	
+    "text" : "That's my first time i see this kind of bench ! But how and why ?"		
+  },
+  "starknight_SourceFound3" : {
+    "important" : true,
+    "type" : "mission",
+    "senderName" : "Ryoko",
+    "portraitImage" : "/interface/chatbubbles/Kal'TharSurprised.png:<frame>",	
+    "text" : "I don't think we can get any more information about that. Let's get back."		
+  }		
 }  
 
