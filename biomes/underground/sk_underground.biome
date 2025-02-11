@@ -133,16 +133,7 @@
 
         "type" : "microdungeon",
         "microdungeons" : [ "Starknight_Light" ]
-      },	
-	  {
-        "mode" : "floor",
-        "priority" : 0.5,
-        "variants" : 2,
-        "distribution" : "/biomes/distributions.config:mainBiomeEncounterDungeon",
-
-        "type" : "microdungeon",
-        "microdungeons" : [ "SolarianMicroDungeon" ]
-      },		  
+      },			  
       {
         "mode" : "floor",
         "priority" : 0.0,

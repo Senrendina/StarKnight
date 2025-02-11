@@ -40,8 +40,6 @@
 
   "health" : 20,
   
-  "breakDropPool" : "remoteteleporter",
-  
   "teleporterFootPosition" : [0, 1],
 
   "scripts" : [ "/scripts/npcToyObject.lua"],

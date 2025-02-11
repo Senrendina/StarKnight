@@ -13,20 +13,12 @@
 
       {
           "op": "add",
-          "path": "/displayDungeons/SolarianOutpost",
+          "path": "/displayDungeons/StarknightAirShip",
           "value": {
           "description": "Solarian Outpost detected.",
           "icon": "/interface/cockpit/dungeons/Solarian_outpost.png"
           }
-      },
-      {
-          "op": "add",
-          "path": "/displayDungeons/StarknightOutpost",
-          "value": {
-          "description": "StarKnight Outpost detected.",
-          "icon": "/interface/cockpit/dungeons/StarknightOutpost.png"
-            }
-        }
+      }
     ],
 	
 [

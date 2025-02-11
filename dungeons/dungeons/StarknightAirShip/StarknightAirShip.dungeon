@@ -1,0 +1,25 @@
+{
+  "metadata" : {
+    "name" : "StarknightAirShip",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "StarknightAirShip"],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "StarknightAirShip",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "StarknightAirShip.json" ]
+    }
+  ]
+}
