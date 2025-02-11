@@ -142,15 +142,6 @@
 	  {
         "mode" : "floor",
         "priority" : 0.5,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:mainBiomeEncounterDungeon",
-
-        "type" : "microdungeon",
-        "microdungeons" : [ "SolarianMicroDungeon" ]
-      },
-	  {
-        "mode" : "floor",
-        "priority" : 0.5,
         "variants" : 2,
         "distribution" : "/biomes/distributions.config:mainBiomeRareMicrodungeon",
 
@@ -167,7 +158,7 @@
         "treeFoliageHueShiftMax" : 180,
         "treeStemHueShiftMax" : 15,
         "treeStemList" : [ "sk_metallic" ],
-        "treeFoliageList" : [ "" ]
+        "treeFoliageList" : [ "sk_flower" ]
       },
       {
         "mode" : "floor",
