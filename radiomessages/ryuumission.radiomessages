@@ -200,14 +200,14 @@
     "type" : "mission",
     "senderName" : "Ryoko",
     "portraitImage" : "/interface/chatbubbles/Kal'TharSurprised.png:<frame>",	
-    "text" : "That's my first time i see this kind of bench ! But how and why ?"		
+    "text" : "This is the first time I've seen a bench like this! But how and why?"		
   },
   "starknight_SourceFound3" : {
     "important" : true,
     "type" : "mission",
     "senderName" : "Ryoko",
     "portraitImage" : "/interface/chatbubbles/Kal'TharSurprised.png:<frame>",	
-    "text" : "I don't think we can get any more information about that. Let's get back."		
+    "text" : "I don't think we can gather any more information on that. Let's head back."		
   }		
 }  
 
