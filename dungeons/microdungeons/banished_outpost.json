@@ -50,7 +50,7 @@
          "name":"objects",
          "objects":[
                 {
-                 "gid":2147492459,
+                 "gid":2147492461,
                  "height":24,
                  "id":752,
                  "name":"",
@@ -62,47 +62,223 @@
                  "y":296
                 }, 
                 {
-                 "gid":8813,
-                 "height":32,
-                 "id":761,
+                 "gid":8835,
+                 "height":16,
+                 "id":767,
                  "name":"",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":16,
-                 "x":336,
+                 "width":24,
+                 "x":136,
+                 "y":264
+                }, 
+                {
+                 "gid":8836,
+                 "height":16,
+                 "id":768,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":24,
+                 "x":144,
                  "y":344
                 }, 
                 {
-                 "gid":2147492461,
-                 "height":32,
-                 "id":762,
+                 "gid":2147492484,
+                 "height":16,
+                 "id":769,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":24,
+                 "x":312,
+                 "y":344
+                }, 
+                {
+                 "gid":2147492483,
+                 "height":16,
+                 "id":770,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":24,
+                 "x":320,
+                 "y":264
+                }, 
+                {
+                 "gid":8831,
+                 "height":24,
+                 "id":771,
                  "name":"",
                  "properties":
                     {
-                     "\/\/description":"A Giant Light Pylone",
-                     "\/\/name":"BD_LightPylone",
-                     "\/\/shortdescription":"Light Pylone",
-                     "imagePositionX":"0",
-                     "imagePositionY":"0",
-                     "object":"BD_LightPylone",
-                     "tildirection":"right"
+                     "parameters":"{ \"treasurePools\" : [ \"BanishedLoot\" ] }"
                     },
                  "propertytypes":
                     {
-                     "\/\/description":"string",
-                     "\/\/name":"string",
-                     "\/\/shortdescription":"string",
-                     "imagePositionX":"string",
-                     "imagePositionY":"string",
-                     "object":"string",
-                     "tildirection":"string"
+                     "parameters":"string"
                     },
                  "rotation":0,
                  "type":"",
                  "visible":true,
+                 "width":32,
+                 "x":224,
+                 "y":280
+                }, 
+                {
+                 "height":8,
+                 "id":772,
+                 "name":"",
+                 "properties":
+                    {
+                     "npc":"ryuu",
+                     "parameters":"{\"level\" : 6 }",
+                     "typeName":"Banishedhostile"
+                    },
+                 "propertytypes":
+                    {
+                     "npc":"string",
+                     "parameters":"string",
+                     "typeName":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":168,
+                 "y":320
+                }, 
+                {
+                 "height":8,
+                 "id":773,
+                 "name":"",
+                 "properties":
+                    {
+                     "npc":"ryuu",
+                     "parameters":"{\"level\" : 6 }",
+                     "typeName":"Banishedhostile"
+                    },
+                 "propertytypes":
+                    {
+                     "npc":"string",
+                     "parameters":"string",
+                     "typeName":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":304,
+                 "y":320
+                }, 
+                {
+                 "height":8,
+                 "id":774,
+                 "name":"",
+                 "properties":
+                    {
+                     "npc":"ryuu",
+                     "parameters":"{\"level\" : 6 }",
+                     "typeName":"Banishedhostile"
+                    },
+                 "propertytypes":
+                    {
+                     "npc":"string",
+                     "parameters":"string",
+                     "typeName":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":96,
+                 "y":336
+                }, 
+                {
+                 "height":8,
+                 "id":775,
+                 "name":"",
+                 "properties":
+                    {
+                     "npc":"ryuu",
+                     "parameters":"{\"level\" : 6 }",
+                     "typeName":"Banishedhostile"
+                    },
+                 "propertytypes":
+                    {
+                     "npc":"string",
+                     "parameters":"string",
+                     "typeName":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":376,
+                 "y":336
+                }, 
+                {
+                 "gid":8827,
+                 "height":40,
+                 "id":776,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
                  "width":16,
-                 "x":128,
+                 "x":120,
+                 "y":344
+                }, 
+                {
+                 "gid":8827,
+                 "height":40,
+                 "id":777,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":344,
+                 "y":344
+                }, 
+                {
+                 "gid":8832,
+                 "height":16,
+                 "id":778,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":208,
+                 "y":320
+                }, 
+                {
+                 "gid":8832,
+                 "height":16,
+                 "id":779,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":264,
+                 "y":320
+                }, 
+                {
+                 "gid":8833,
+                 "height":16,
+                 "id":781,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":208,
                  "y":344
                 }],
          "opacity":1,
@@ -128,7 +304,83 @@
          "draworder":"topdown",
          "id":6,
          "name":"monsters & npcs",
-         "objects":[],
+         "objects":[
+                {
+                 "height":8,
+                 "id":763,
+                 "name":"",
+                 "properties":
+                    {
+                     "monster":"banishedcannon"
+                    },
+                 "propertytypes":
+                    {
+                     "monster":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":120,
+                 "y":208
+                }, 
+                {
+                 "height":8,
+                 "id":764,
+                 "name":"",
+                 "properties":
+                    {
+                     "monster":"banishedcannon"
+                    },
+                 "propertytypes":
+                    {
+                     "monster":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":352,
+                 "y":208
+                }, 
+                {
+                 "height":8,
+                 "id":765,
+                 "name":"",
+                 "properties":
+                    {
+                     "monster":"banishedcannon"
+                    },
+                 "propertytypes":
+                    {
+                     "monster":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":192,
+                 "y":272
+                }, 
+                {
+                 "height":8,
+                 "id":766,
+                 "name":"",
+                 "properties":
+                    {
+                     "monster":"banishedcannon"
+                    },
+                 "propertytypes":
+                    {
+                     "monster":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":280,
+                 "y":272
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -361,7 +613,7 @@
          "y":0
         }],
  "nextlayerid":11,
- "nextobjectid":763,
+ "nextobjectid":782,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.10.2",
@@ -508,8 +760,12 @@
          "source":"..\/..\/tilesets\/packed\/starknight\/tiles\/Banished_Blocks.json"
         }, 
         {
-         "firstgid":8810,
+         "firstgid":8812,
          "source":"..\/..\/tilesets\/packed\/starknight\/banished_object\/Banished Object.json"
+        }, 
+        {
+         "firstgid":8825,
+         "source":"..\/..\/tilesets\/packed\/starknight\/banished_object\/banished object.json"
         }],
  "tilewidth":8,
  "type":"map",

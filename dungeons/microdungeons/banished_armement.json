@@ -19,7 +19,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJztmIsKgzAMRfsj\/f8PHOh8bIxCy0KYadLWYes9cEFxiznablXnAAAAAADAP1m8cztJ2B+Z1cv7o7HGe5oC33GYfPssbHvOpOQcNa6bMuGzr0ymOD7S\/hqdpO\/Mytr0HFZneq1auZb6Wp2t95mPjVauNb4WZ+vYPmPO1szf2vmcYyPXalOOiSth7f9uvmGMPWN6XDta+w+\/Ie+YHtcW1v7h2xfW\/u82fxf\/XUvQ70rhz8hSeD+a+pbw\/nPw9U8LdlLnjPoUa\/3W\/eysxtV8reNBgrsG6Jq89NlNomX\/Fn65jgpcxwSu1+URM5H\/brrNIx2Toq1fGl4\/eeW8k\/vROikcs76bSO8naA3tukwb6ih5St5HKfHV1G2RUnrzreVf9+MqvgAAAAAAwMYHSYG+Qw==",
+         "data":"eJztmAsKgzAQRL1I7n\/AgtZPPwQSuix2s6Np0TgPBmqr6z6NNtp1hBBCCCHkn4yh6xaRuNwyU7CXW2NK5zSHvu3Qh\/oZ1eehkC372OM6OxPXfRTSp\/GRl6fkZG0zOGvLfaDO8ljVct3qizqj51mPjVque3wRZ3Rs\/+Ka3XP97r2eS8ziWM3OMXEk0P6v5hvH2D3ljHNHtP94D3mmnHFugfZP33OB9n+163cMn7mE3NaKfka2ovvx1Eei+y+h5z81WEQdXd87P\/cG7b+276Jq6Pq1zy\/aPzoeENeInJNvfXazqNk\/wpprq9C1Teh6XG4pvbi398Z93\/rNSqn+2n\/UK8Wzrq6fvUre2f3bPCn+hr6byO8nZA1dd1r5Lvt61pWOlqfl\/S2D6MWTIfjq1shWSr5ojurp8T1iCCGEEELIf3kDZFrqMw==",
          "encoding":"base64",
          "height":50,
          "id":2,
@@ -50,7 +50,7 @@
          "name":"objects",
          "objects":[
                 {
-                 "gid":7683,
+                 "gid":2147491333,
                  "height":40,
                  "id":684,
                  "name":"",
@@ -62,7 +62,7 @@
                  "y":208
                 }, 
                 {
-                 "gid":7684,
+                 "gid":7686,
                  "height":32,
                  "id":685,
                  "name":"",
@@ -74,13 +74,13 @@
                  "y":208
                 }, 
                 {
-                 "gid":7685,
+                 "gid":7687,
                  "height":24,
                  "id":686,
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{\"treasurePools\":[\"basicTreasure\"]}\n"
+                     "parameters":"{ \"treasurePools\" : [ \"BanishedLoot\" ] }"
                     },
                  "propertytypes":
                     {
@@ -94,7 +94,7 @@
                  "y":272
                 }, 
                 {
-                 "gid":7681,
+                 "gid":7683,
                  "height":40,
                  "id":687,
                  "name":"",
@@ -106,7 +106,7 @@
                  "y":280
                 }, 
                 {
-                 "gid":7681,
+                 "gid":7683,
                  "height":40,
                  "id":688,
                  "name":"",
@@ -118,7 +118,7 @@
                  "y":280
                 }, 
                 {
-                 "gid":7681,
+                 "gid":7683,
                  "height":40,
                  "id":689,
                  "name":"",
@@ -130,7 +130,7 @@
                  "y":280
                 }, 
                 {
-                 "gid":7679,
+                 "gid":7681,
                  "height":24,
                  "id":690,
                  "name":"",
@@ -142,7 +142,7 @@
                  "y":248
                 }, 
                 {
-                 "gid":7686,
+                 "gid":7688,
                  "height":16,
                  "id":691,
                  "name":"",
@@ -154,7 +154,7 @@
                  "y":240
                 }, 
                 {
-                 "gid":7686,
+                 "gid":7688,
                  "height":16,
                  "id":693,
                  "name":"",
@@ -166,7 +166,7 @@
                  "y":256
                 }, 
                 {
-                 "gid":7686,
+                 "gid":7688,
                  "height":16,
                  "id":694,
                  "name":"",
@@ -178,7 +178,7 @@
                  "y":256
                 }, 
                 {
-                 "gid":2147491339,
+                 "gid":2147491341,
                  "height":16,
                  "id":695,
                  "name":"",
@@ -190,7 +190,7 @@
                  "y":208
                 }, 
                 {
-                 "gid":7690,
+                 "gid":7692,
                  "height":16,
                  "id":696,
                  "name":"",
@@ -202,7 +202,7 @@
                  "y":280
                 }, 
                 {
-                 "gid":2147491337,
+                 "gid":2147491339,
                  "height":16,
                  "id":698,
                  "name":"",
@@ -214,7 +214,7 @@
                  "y":168
                 }, 
                 {
-                 "gid":7688,
+                 "gid":7690,
                  "height":24,
                  "id":700,
                  "name":"",
@@ -226,7 +226,7 @@
                  "y":176
                 }, 
                 {
-                 "gid":7687,
+                 "gid":7689,
                  "height":16,
                  "id":701,
                  "name":"",
@@ -238,7 +238,7 @@
                  "y":280
                 }, 
                 {
-                 "gid":7686,
+                 "gid":7688,
                  "height":16,
                  "id":702,
                  "name":"",
@@ -250,7 +250,7 @@
                  "y":192
                 }, 
                 {
-                 "gid":7686,
+                 "gid":7688,
                  "height":16,
                  "id":703,
                  "name":"",
@@ -376,6 +376,101 @@
                  "width":8,
                  "x":272,
                  "y":192
+                }, 
+                {
+                 "height":8,
+                 "id":708,
+                 "name":"",
+                 "properties":
+                    {
+                     "monster":"banishedcannon"
+                    },
+                 "propertytypes":
+                    {
+                     "monster":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":80,
+                 "y":64
+                }, 
+                {
+                 "height":8,
+                 "id":709,
+                 "name":"",
+                 "properties":
+                    {
+                     "monster":"banishedcannon"
+                    },
+                 "propertytypes":
+                    {
+                     "monster":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":24,
+                 "y":184
+                }, 
+                {
+                 "height":8,
+                 "id":710,
+                 "name":"",
+                 "properties":
+                    {
+                     "monster":"banishedcannon"
+                    },
+                 "propertytypes":
+                    {
+                     "monster":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":448,
+                 "y":184
+                }, 
+                {
+                 "height":8,
+                 "id":711,
+                 "name":"",
+                 "properties":
+                    {
+                     "monster":"banishedcannon"
+                    },
+                 "propertytypes":
+                    {
+                     "monster":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":400,
+                 "y":96
+                }, 
+                {
+                 "height":8,
+                 "id":712,
+                 "name":"",
+                 "properties":
+                    {
+                     "monster":"banishedcannon"
+                    },
+                 "propertytypes":
+                    {
+                     "monster":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":120,
+                 "y":96
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -477,7 +572,7 @@
          "y":0
         }],
  "nextlayerid":11,
- "nextobjectid":708,
+ "nextobjectid":713,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.10.2",
@@ -588,7 +683,7 @@
          "source":"..\/..\/tilesets\/packed\/starknight\/tiles\/banished_blocks.json"
         }, 
         {
-         "firstgid":7679,
+         "firstgid":7681,
          "source":"..\/..\/tilesets\/packed\/starknight\/banished_object\/banished object.json"
         }],
  "tilewidth":8,

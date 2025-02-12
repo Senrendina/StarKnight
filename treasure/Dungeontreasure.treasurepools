@@ -24,5 +24,29 @@
 		{"weight" : 0.050, "item" : ["SK_BaseTeleporterCore", 1]}		
       ]
     } ]
-  ]
+  ],
+	"BanishedLoot" : [
+    [1, {
+	  "fill" : [
+		{"pool" : "BanishedLoot_Item" },
+		{"pool" : "BanishedLoot_Item" },
+		{"pool" : "BanishedLoot_Item" }
+      ]
+    } ]
+  ],
+  
+  "BanishedLoot_Item" : [
+    [1, {
+      "poolRounds" : [
+        [0.70, 1],
+        [0.05, 3]
+      ],
+	  "pool" : [
+		{"weight" : 0.5, "item" : ["BD_SmallBlackPlate", 5]},
+		{"weight" : 0.2, "item" : ["BD_SmallRedPlate", 1]},
+		{"weight" : 0.1, "item" : ["BD_EnergyCapsule", 2]},
+		{"weight" : 0.2, "item" : ["BD_CombinedPlate", 2]}	
+      ]
+    } ]
+  ]  
 }
