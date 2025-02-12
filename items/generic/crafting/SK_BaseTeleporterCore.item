@@ -5,6 +5,6 @@
   "category" : "craftingMaterial",
   "inventoryIcon" : "SK_BaseTeleporterCore.png",
   "description" : "The main Core used to craft one of important building of Starknight.",
-  "shortdescription" : "Base / Outpost Teleporter Core",
+  "shortdescription" : "Base Teleporter Core",
   "itemTags" : [ "reagent" ]
 }

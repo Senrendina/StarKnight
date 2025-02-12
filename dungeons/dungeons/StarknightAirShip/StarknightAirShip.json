@@ -176,7 +176,7 @@
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{ \"treasurePools\" : [ \"celureus_cache\" ] }"
+                     "parameters":"{ \"treasurePools\" : [ \"Celureus_Cache\" ] }"
                     },
                  "propertytypes":
                     {
@@ -196,7 +196,7 @@
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{ \"treasurePools\" : [ \"celureus_cache\" ] }"
+                     "parameters":"{ \"treasurePools\" : [ \"Celureus_Cache\" ] }"
                     },
                  "propertytypes":
                     {
@@ -228,7 +228,7 @@
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{ \"treasurePools\" : [ \"celureus_cache\" ] }"
+                     "parameters":"{ \"treasurePools\" : [ \"Celureus_Cache\" ] }"
                     },
                  "propertytypes":
                     {
@@ -248,7 +248,7 @@
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{ \"treasurePools\" : [ \"celureus_cache\" ] }"
+                     "parameters":"{ \"treasurePools\" : [ \"Starknight_AirShiploot\" ] }"
                     },
                  "propertytypes":
                     {
@@ -268,7 +268,7 @@
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{ \"treasurePools\" : [ \"celureus_cache\" ] }"
+                     "parameters":"{ \"treasurePools\" : [ \"Celureus_Cache\" ] }"
                     },
                  "propertytypes":
                     {
@@ -630,25 +630,13 @@
                  "y":320
                 }, 
                 {
-                 "gid":2147490162,
-                 "height":75,
-                 "id":731,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":46,
-                 "x":1440,
-                 "y":464
-                }, 
-                {
                  "gid":7714,
                  "height":32,
                  "id":732,
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{ \"treasurePools\" : [ \"celureus_cache\" ] }"
+                     "parameters":"{ \"treasurePools\" : [ \"Celureus_Cache\" ] }"
                     },
                  "propertytypes":
                     {
@@ -668,7 +656,7 @@
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{ \"treasurePools\" : [ \"celureus_cache\" ] }"
+                     "parameters":"{ \"treasurePools\" : [ \"Celureus_Cache\" ] }"
                     },
                  "propertytypes":
                     {
@@ -688,7 +676,7 @@
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{ \"treasurePools\" : [ \"celureus_cache\" ] }"
+                     "parameters":"{ \"treasurePools\" : [ \"Celureus_Cache\" ] }"
                     },
                  "propertytypes":
                     {
@@ -708,7 +696,7 @@
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{ \"treasurePools\" : [ \"celureus_cache\" ] }"
+                     "parameters":"{ \"treasurePools\" : [ \"Celureus_Cache\" ] }"
                     },
                  "propertytypes":
                     {
@@ -728,7 +716,7 @@
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{ \"treasurePools\" : [ \"Dungeontreasure\" ] }"
+                     "parameters":"{ \"treasurePools\" : [ \"Starknight_AirShiploot\" ] }"
                     },
                  "propertytypes":
                     {
