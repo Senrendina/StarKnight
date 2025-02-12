@@ -1,0 +1,28 @@
+{
+	"Starknight_AirShiploot" : [
+    [1, {
+	  "fill" : [
+		{"item" : ["money", 250]},
+		{"pool" : "CSK_item" },
+		{"pool" : "CSK_item" }
+      ]
+    } ]
+  ],
+  
+  "Starknight_Air_Ship_Item" : [
+    [1, {
+      "poolRounds" : [
+        [0.70, 1],
+        [0.05, 3],
+        [0.02, 5]
+      ],
+	  "pool" : [
+		{"weight" : 0.5, "item" : ["CSK_SolidIngot", 5]},
+		{"weight" : 0.2, "item" : ["CSK_TechUSB", 1]},
+		{"weight" : 0.1, "item" : ["CSK_SynergicTransmitter", 2]},
+		{"weight" : 0.2, "item" : ["CSK_CrystalCore", 1]},
+		{"weight" : 0.050, "item" : ["SK_BaseTeleporterCore", 1]}		
+      ]
+    } ]
+  ]
+}

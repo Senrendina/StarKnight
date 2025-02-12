@@ -1,0 +1,10 @@
+{
+  "itemName" : "SK_BaseTeleporterCore",
+  "price" : 50,
+  "rarity" : "Essential",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "SK_BaseTeleporterCore.png",
+  "description" : "The main Core used to craft one of important building of Starknight.",
+  "shortdescription" : "Base / Outpost Teleporter Core",
+  "itemTags" : [ "reagent" ]
+}

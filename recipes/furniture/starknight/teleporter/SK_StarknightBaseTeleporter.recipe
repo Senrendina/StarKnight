@@ -1,0 +1,16 @@
+{
+    "input": [
+	{"item": "SK_BaseTeleporterCore", "count": 1},
+    {"item": "CSK_SolidIngot", "count": 100},
+	{"item": "CSK_CrystalCore", "count": 20},
+	{"item": "CSK_TechUSB", "count": 1},
+	{"item": "CSK_SynergicTransmitter", "count": 1}	
+
+    ],
+    "output": {
+        "item": "SK_StarknightBaseTeleporter",
+        "count": 1
+    },
+    "duration": 0.5,
+    "groups": ["metalstarbench", "sensors", "all"]
+}
