@@ -7,7 +7,7 @@
     "config" : "/interface/windowconfig/togetherbench.config",
     "paneLayoutOverride" : {
       "windowtitle" : {
-        "title" : "  StarKnight Workbench",
+        "title" : "  All Together Workbench",
         "subtitle" : " Crafting...",
         "icon" : {
           "file" : "/objects/starknight/crafting/SK_TogetherBench/SK_TogetherBenchicon.png"
@@ -17,7 +17,7 @@
     "filter" : [ "metalstarbench", "CelureusCraftRemake", "SO_Crafting" ]
   },
   "printable" : false,
-  "description" : "The ultimate crafting station the station that make you able to crafting Solarian / Starknight & Celureus props !",
+  "description" : "The ultimate crafting station enables you to craft Solarian, Starknight, and Celureus props!",
   "shortdescription" : "All-Together Bench",
   "race" : "generic",
   "category" : "crafting",
