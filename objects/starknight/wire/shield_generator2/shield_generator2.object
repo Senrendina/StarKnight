@@ -21,7 +21,7 @@
       "image": "Shield_Generator2.png:<color>.<frame>",
       "flipImages": true,
       "direction": "left",
-      "imagePosition": [-80, 0],
+      "imagePosition": [0, 0],
       "frames": 3,
       "animationCycle": 1,
       "lightPosition": [-2, 2],
@@ -31,7 +31,7 @@
     {
       "image": "Shield_Generator2.png:<color>.<frame>",
       "direction": "right",
-      "imagePosition": [-80, 0],
+      "imagePosition": [0, 0],
       "frames": 3,
       "animationCycle": 1,
       "lightPosition": [1, 2],
@@ -50,7 +50,7 @@
     "bg": "Shield_Generator2.png",
     "fg": "Shield_Generator2lit.png"
   },
-  "animationPosition": [-80, 0],
+  "animationPosition": [0, 0],
   "smashable": true,
   "smashSounds": ["/sfx/melee/kill_robotic1.ogg"],
   "health": 50,

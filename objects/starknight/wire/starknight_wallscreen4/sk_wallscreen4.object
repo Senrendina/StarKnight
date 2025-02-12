@@ -15,7 +15,7 @@
       "flipImages": true,
       "direction": "left",
       "lightPosition": [0, 1],
-      "imagePosition": [-16, 0],
+      "imagePosition": [0, 0],
       "frames": 3,
       "animationCycle": 1,
       "spaceScan": 0.1,
@@ -25,7 +25,7 @@
       "image": "SK_wallscreen4.png:<color>.on",
       "direction": "right",
       "lightPosition": [0, 1],
-      "imagePosition": [-16, 0],
+      "imagePosition": [0, 0],
       "frames": 3,
       "animationCycle": 1,
       "spaceScan": 0.1,
@@ -39,7 +39,7 @@
     "bg" : "SK_wallscreen4.png",
     "fg" : "SK_wallscreen4lit.png"
   },
-  "animationPosition" : [-16, 0],
+  "animationPosition" : [0, 0],
 
   "scripts" : [ "/objects/wired/light/light.lua" ],
   "scriptDelta" : 60,

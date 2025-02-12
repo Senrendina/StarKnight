@@ -14,7 +14,7 @@
       "flipImages": true,
       "direction": "left",
       "lightPosition": [0, 1],
-      "imagePosition": [-16, 0],
+      "imagePosition": [0, 0],
       "frames": 3,
       "animationCycle": 1,
       "spaceScan": 0.1,
@@ -24,7 +24,7 @@
       "image": "SK_console.png:<color>.on",
       "direction": "right",
       "lightPosition": [0, 1],
-      "imagePosition": [-16, 0],
+      "imagePosition": [0, 0],
       "frames": 3,
       "animationCycle": 1,
       "spaceScan": 0.1,
@@ -44,7 +44,7 @@
     "bg": "SK_console.png",
     "fg": "SK_consolelit.png"
   },
-  "animationPosition": [-16, 0],
+  "animationPosition": [0, 0],
   "outputNodes": [[0, 0]],
   "npcToy": {
 	"ownerOnly" : true,
