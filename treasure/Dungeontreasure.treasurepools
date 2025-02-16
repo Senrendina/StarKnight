@@ -20,8 +20,7 @@
 		{"weight" : 0.5, "item" : ["CSK_SolidIngot", 5]},
 		{"weight" : 0.2, "item" : ["CSK_TechUSB", 1]},
 		{"weight" : 0.1, "item" : ["CSK_SynergicTransmitter", 2]},
-		{"weight" : 0.2, "item" : ["CSK_CrystalCore", 2]},		
-		{"weight" : 0.050, "item" : ["SK_BaseTeleporterCore", 1]}		
+		{"weight" : 0.2, "item" : ["CSK_CrystalCore", 2]}	
       ]
     } ]
   ],
