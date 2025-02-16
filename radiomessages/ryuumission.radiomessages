@@ -109,42 +109,42 @@
     "type" : "mission",
     "senderName" : "Ryoko",
     "portraitImage" : "/interface/chatbubbles/Kal'Thar.png:<frame>",	
-    "text" : "You have arrived."			
+    "text" : "You've arrived at the destination of the strange signal."			
   },
   "Starknightmission3-2" : {
     "important" : true,
     "type" : "mission",
     "senderName" : "Ryoko",
     "portraitImage" : "/interface/chatbubbles/Kal'TharSurprised.png:<frame>",	
-    "text" : "This is my first time seeing this kind of structure. Are those... traps?"			
+    "text" : "This is my first time seeing this kind of structure. Are those...traps? Why?!"			
   },
   "Starknightmission3-3" : {
     "important" : true,
     "type" : "mission",
     "senderName" : "Ryoko",
     "portraitImage" : "/interface/chatbubbles/Kal'Thar.png:<frame>",	
-    "text" : "We can't help you with this one, all we can do is tell you where to go."			
+    "text" : "We can't help you with this one, all we can do is hope for your safe passage."			
   },
   "Starknightmission3-4" : {
     "important" : true,
     "type" : "mission",
     "senderName" : "Ryoko",
     "portraitImage" : "/interface/chatbubbles/Kal'Thar.png:<frame>",	
-    "text" : "From the data gathered we've concluded this facility has been built by one of our long-range science departments, they call themselves ^orange;the Solas^reset;"			
+    "text" : "From the data gathered we've concluded this facility has been built by one of our long-range science departments, they call themselves ^orange;The Solas^reset;."			
   },
   "Starknightmission3-5" : {
     "important" : true,
     "type" : "mission",
     "senderName" : "Ryoko",
     "portraitImage" : "/interface/chatbubbles/Kal'Thar.png:<frame>",	
-    "text" : "As per their name, most of their buildings are filled with Solarium ore. It's a pretty interesting material, easy to mine but hard to use."			
+    "text" : "Like their namesake, most of their buildings are constructed from Solarium ore. It's a pretty interesting material, easy enough to mine but hard to use in most practical applications."			
   },
   "Starknightmission3-6" : {
     "important" : true,
     "type" : "mission",
     "senderName" : "Ryoko",
     "portraitImage" : "/interface/chatbubbles/Kal'TharSurprised.png:<frame>",	
-    "text" : "On to more pressing matters: Why is the signal coming from this facility?"			
+    "text" : "On to more pressing matters: Why is that strange signal coming from this facility?"			
   },
   "Starknightmission3-7" : {
     "important" : true,
@@ -158,56 +158,56 @@
     "type" : "mission",
     "senderName" : "Ryoko",
     "portraitImage" : "/interface/chatbubbles/Kal'Thar.png:<frame>",	
-    "text" : "You're about halfway there."			
+    "text" : "You're about halfway there. Keep it up!"			
   },
   "Starknightmission3-9" : {
     "important" : true,
     "type" : "mission",
     "senderName" : "Ryoko",
     "portraitImage" : "/interface/chatbubbles/Kal'TharHappy.png:<frame>",	
-    "text" : "^orange;Solar^reset; used this as a testing facility to test our latent abilities."			
+    "text" : "It seems ^orange;The Solas^reset; used this place as a testing facility to study our latent abilities."			
   },
   "Starknightmission3-10" : {
     "important" : true,
     "type" : "mission",
     "senderName" : "Ryoko",
     "portraitImage" : "/interface/chatbubbles/Kal'Thar.png:<frame>",	
-    "text" : "It's thanks to their help that we have the technology we have now. But they alone don't take all the credit, so perhaps you might see some similarities if you've encountered our other benefactors."			
+    "text" : "It's thanks to their help that we have the technology we have now. But they alone don't get all the credit.  Perhaps you might see some similar advancements from our other benefactors."			
   },
   "Starknightmission3-11" : {
     "important" : true,
     "type" : "mission",
     "senderName" : "Ryoko",
     "portraitImage" : "/interface/chatbubbles/Kal'TharHappy.png:<frame>",	
-    "text" : "This box isn't here for nothing. Better check it out."			
+    "text" : "This container seems to be in a strange location. Better check it out."			
   },
   "Starknightmission3-12" : {
     "important" : true,
     "type" : "mission",
     "senderName" : "Ryoko",
     "portraitImage" : "/interface/chatbubbles/Kal'TharHappy.png:<frame>",	
-    "text" : "oh wow, you get used to it don't you ?"			
+    "text" : "Oh wow! That looked dangerous! But you got the hang of it didn't you?"			
   },
   "starknight_SourceFound" : {
     "important" : true,
     "type" : "mission",
     "senderName" : "Ryoko",
     "portraitImage" : "/interface/chatbubbles/Kal'TharSurprised.png:<frame>",	
-    "text" : "The signal come straight from this... Bench ?"		
+    "text" : "The signal is emitting straight from this...^cyan;workbench^reset;?"		
   },
   "starknight_SourceFound2" : {
     "important" : true,
     "type" : "mission",
     "senderName" : "Ryoko",
     "portraitImage" : "/interface/chatbubbles/Kal'TharSurprised.png:<frame>",	
-    "text" : "This is the first time I've seen a bench like this! But how and why?"		
+    "text" : "This is the first time I've seen a ^cyan;bench^reset; like this! But how does it work? Why is it here?"		
   },
   "starknight_SourceFound3" : {
     "important" : true,
     "type" : "mission",
     "senderName" : "Ryoko",
     "portraitImage" : "/interface/chatbubbles/Kal'TharSurprised.png:<frame>",	
-    "text" : "I don't think we can gather any more information on that. Let's head back."		
+    "text" : "Whatever. I don't think we can learn anything else here. Activate that console and head on back with the teleporter upstairs. We'll look more into this on our end. Thanks for your hard work."		
   }		
 }  
 

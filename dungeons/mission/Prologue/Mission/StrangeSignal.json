@@ -84,7 +84,7 @@
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{ \"radioMessages\" : [\"Starknightmission3-10\", \"Starknightmission3-9\", \"Starknightmission3-8\"] }",
+                     "parameters":"{ \"radioMessages\" : [\"Starknightmission3-10\"}",
                      "stagehand":"radiomessage"
                     },
                  "propertytypes":
@@ -142,7 +142,7 @@
                  "y":2152
                 }, 
                 {
-                 "height":56,
+                 "height":184,
                  "id":2380,
                  "name":"",
                  "properties":
@@ -160,7 +160,7 @@
                  "visible":true,
                  "width":72,
                  "x":3856,
-                 "y":1704
+                 "y":1576
                 }, 
                 {
                  "height":184,
@@ -182,6 +182,27 @@
                  "width":232,
                  "x":4720,
                  "y":1576
+                }, 
+                {
+                 "height":224,
+                 "id":2437,
+                 "name":"",
+                 "properties":
+                    {
+                     "parameters":"{ \"radioMessages\" : [\"Starknightmission3-9\", \"Starknightmission3-8\", \"Starknightmission3-7\"] }",
+                     "stagehand":"radiomessage"
+                    },
+                 "propertytypes":
+                    {
+                     "parameters":"string",
+                     "stagehand":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":664,
+                 "x":2120,
+                 "y":1640
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -3616,18 +3637,6 @@
                  "y":1760
                 }, 
                 {
-                 "gid":2147490960,
-                 "height":16,
-                 "id":2383,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":4952,
-                 "y":1760
-                }, 
-                {
                  "gid":7720,
                  "height":16,
                  "id":2385,
@@ -4720,26 +4729,6 @@
                  "y":2224
                 }, 
                 {
-                 "height":0,
-                 "id":2384,
-                 "name":"",
-                 "polyline":[
-                        {
-                         "x":0,
-                         "y":0
-                        }, 
-                        {
-                         "x":56,
-                         "y":-16
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":4968,
-                 "y":1752
-                }, 
-                {
                  "gid":5877,
                  "height":40,
                  "id":2417,
@@ -4907,7 +4896,7 @@
          "y":0
         }],
  "nextlayerid":12,
- "nextobjectid":2437,
+ "nextobjectid":2438,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.10.2",
