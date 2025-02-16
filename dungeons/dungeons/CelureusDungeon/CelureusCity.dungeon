@@ -1,11 +1,11 @@
 {
   "metadata" : {
-    "name" : "StarknightOutpost",
+    "name" : "CelureusCity",
     "species" : "generic",
     "rules" : [
     ],
 
-    "anchor" : [ "Starknight_Outpost"],
+    "anchor" : [ "CelureusCity"],
 
     "gravity" : 80,
     "maxRadius" : 1000000,
@@ -15,11 +15,11 @@
 
   "parts" : [
     {
-      "name" : "Starknight_Outpost",
+      "name" : "CelureusCity",
       "rules" : [
         [ "maxSpawnCount", [1] ]
       ],
-      "def" : [ "tmx", "Starknight_Outpost.json" ]
+      "def" : [ "tmx", "CelureusCity.json" ]
     }
   ]
 }
