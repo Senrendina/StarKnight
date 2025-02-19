@@ -176,7 +176,7 @@
         },
      "3":
         {
-         "imagePositionX":"0",
+         "imagePositionX":"-24",
          "imagePostionY":"0",
          "object":"SK_lowerteleporter",
          "tilsetdirection":"right"

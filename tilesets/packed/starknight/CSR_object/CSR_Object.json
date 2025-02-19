@@ -8,7 +8,7 @@
  "margin":0,
  "name":"CSR_Object",
  "spacing":0,
- "tilecount":18,
+ "tilecount":20,
  "tiledversion":"1.10.2",
  "tileheight":72,
  "tileproperties":
@@ -81,6 +81,20 @@
          "imagePositionX":"0",
          "imagePositionY":"0",
          "object":"CSR_Locker",
+         "tilesetdirection":"right"
+        },
+     "18":
+        {
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"CSR_Chair",
+         "tilesetdirection":"right"
+        },
+     "19":
+        {
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"CSR_Couch",
          "tilesetdirection":"right"
         },
      "2":
@@ -212,6 +226,20 @@
          "object":"string",
          "tilesetdirection":"string"
         },
+     "18":
+        {
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetdirection":"string"
+        },
+     "19":
+        {
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetdirection":"string"
+        },
      "2":
         {
          "imagePositionX":"string",
@@ -329,6 +357,18 @@
         {
          "image":"CSR_Locker.png",
          "imageheight":48,
+         "imagewidth":32
+        },
+     "18":
+        {
+         "image":"CSR_Chair.png",
+         "imageheight":16,
+         "imagewidth":24
+        },
+     "19":
+        {
+         "image":"CSR_Couch.png",
+         "imageheight":16,
          "imagewidth":32
         },
      "2":

@@ -7,9 +7,9 @@
           "path": "/displayDungeons"
       },
  
-    {"op" : "add", "path" : "/wordsList/sk_eldora_biome", "value" : {"word" : "sk_eldora_biome","friendlyWord" : "Eldora Biome"}}, 
-    {"op" : "add", "path" : "/wordsList/bd_eldora_biome", "value" : {"word" : "bd_eldora_biome","friendlyWord" : "Banished Biome"}}, 
-    {"op" : "add", "path" : "/wordsList/sk_eldora_core", "value" : {"word" : "sk_eldora_core","friendlyWord" : "Eldora Core"}}, 		  
+    {"op" : "add", "path" : "/wordsList/sk_eldora_biome", "value" : {"word" : "Eldora Core","friendlyWord" : "Eldora Biome"}}, 
+    {"op" : "add", "path" : "/wordsList/bd_eldora_biome", "value" : {"word" : "Eldora Core","friendlyWord" : "Banished Biome"}}, 
+    {"op" : "add", "path" : "/wordsList/sk_eldora_core", "value" : {"word" : "Eldora Core","friendlyWord" : "Eldora Core"}}, 		  
 
       {
           "op": "add",
@@ -20,7 +20,34 @@
           }
       }
     ],
-	
+  [
+      {
+          "op": "test",
+          "path": "/displayDungeons"
+      },  
+      {
+          "op": "add",
+          "path": "/displayDungeons/CelureusCity",
+          "value": {
+          "description": "Town of Celureus Detected.",
+          "icon": "/interface/cockpit/dungeons/CelureusCity.png"
+          }
+      }
+    ],
+  [
+      {
+          "op": "test",
+          "path": "/displayDungeons"
+      },  
+      {
+          "op": "add",
+          "path": "/displayDungeons/StarknightDepot",
+          "value": {
+          "description": "Town of Celureus Detected.",
+          "icon": "/interface/cockpit/dungeons/StarknightDepot.png"
+          }
+      }
+    ],		
 [
   {
     "op" : "add",

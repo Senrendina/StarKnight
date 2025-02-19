@@ -11,7 +11,7 @@
   "orientations": [
     {
       "dualImage": "CSR_BGDoor.png:<color>.off",
-      "imagePosition": [-16, 0],
+      "imagePosition": [0, 0],
       "spaceScan": 0.1,
       "anchors": ["bottom"]
     }
@@ -29,6 +29,6 @@
     "switch": "CSR_BGDoor.png",
     "switchlit": "CSR_BGDoorlit.png"
   },
-  "animationPosition": [-16, 0],
+  "animationPosition": [0, 0],
   "outputNodes": [[-2, 2]]
 }
