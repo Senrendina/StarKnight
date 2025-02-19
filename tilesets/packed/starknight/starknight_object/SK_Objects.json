@@ -8,7 +8,7 @@
  "margin":0,
  "name":"SK_Objects",
  "spacing":0,
- "tilecount":30,
+ "tilecount":32,
  "tiledversion":"1.10.2",
  "tileheight":80,
  "tileproperties":
@@ -180,6 +180,20 @@
          "imagePostionY":"0",
          "object":"SK_lowerteleporter",
          "tilsetdirection":"right"
+        },
+     "30":
+        {
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"SK_fence",
+         "tilesetdirection":"right"
+        },
+     "31":
+        {
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"SK_largetable",
+         "tilesetdirection":"right"
         },
      "4":
         {
@@ -394,6 +408,20 @@
          "object":"string",
          "tilsetdirection":"string"
         },
+     "30":
+        {
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetdirection":"string"
+        },
+     "31":
+        {
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetdirection":"string"
+        },
      "4":
         {
          "imagePositionX":"string",
@@ -580,6 +608,18 @@
      "3":
         {
          "image":"starknight_lowerteleporter.png",
+         "imageheight":16,
+         "imagewidth":48
+        },
+     "30":
+        {
+         "image":"sk_fence.png",
+         "imageheight":40,
+         "imagewidth":56
+        },
+     "31":
+        {
+         "image":"sk_largetable.png",
          "imageheight":16,
          "imagewidth":48
         },

@@ -21,7 +21,7 @@
 	  
       "flipImages": true,
       "direction": "left",
-      "imagePosition": [-24, 0],
+      "imagePosition": [0, 0],
       "frames": 1,
       "animationCycle": 1,
       "spaceScan": 0.1,
@@ -32,7 +32,7 @@
       "imageLayers" : [ { "image" : "SK_largetable.png"}, { "image" : "SK_largetablelit.png", "fullbright" : true  }  ],
 	  
       "direction": "right",
-      "imagePosition": [-24, 0],
+      "imagePosition": [0, 0],
       "frames": 1,
       "animationCycle": 1,
       "spaceScan": 0.1,
